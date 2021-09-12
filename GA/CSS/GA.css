@@ -68,10 +68,10 @@ body {
     color: var(--GoogleBlue);
     text-align: center;
     padding: 5px;
-    font-size: 16px;
+    font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .navbar a:hover {
@@ -84,7 +84,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*
