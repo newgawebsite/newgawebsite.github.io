@@ -93,3 +93,18 @@ body {
     width: 8%;
     left: 0;
 }
+
+.navbar-links {
+    float: left;
+    width: 12%;
+}
+
+.navbar-links-row::after {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
