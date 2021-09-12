@@ -67,8 +67,8 @@ body {
     float: left;
     color: var(--GoogleBlue);
     text-align: center;
-    padding: 12px 14px;
-    font-size: 17px;
+    padding: 10px 12px;
+    font-size: 16px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: middle;
@@ -83,8 +83,8 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .3s;
-    font-size: 19px;
+    transition: all .4s;
+    font-size: 18px;
 }
 
 /*
