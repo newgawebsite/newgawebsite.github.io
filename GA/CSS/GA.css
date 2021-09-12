@@ -108,8 +108,9 @@ body {
 
 .navbar-links img:hover {
     height: auto;
-    width: 35%;
+    width: 36%;
     float: left;
+    transition: all .4s;
 }
 
 .navbar-links-row::after {
