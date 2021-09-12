@@ -71,7 +71,7 @@ body {
     font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    vertical-align: bottom;
+    vertical-align: text-bottom;
 }
 
 .navbar a:hover {
