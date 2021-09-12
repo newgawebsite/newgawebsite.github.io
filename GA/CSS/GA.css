@@ -101,6 +101,12 @@ body {
     width: 13%;
 }
 
+.navbar-links img {
+    height: auto;
+    width: 15%;
+    float: left;
+}
+
 .navbar-links-row::after {
     content:"";
     clear:both;
