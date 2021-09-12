@@ -90,7 +90,6 @@ body {
 .navbar img {
     float: left;
     height: auto;
-    display: block;
     width: 8%;
     left: 0;
 }
