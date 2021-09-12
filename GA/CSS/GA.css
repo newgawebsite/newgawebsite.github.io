@@ -67,8 +67,8 @@ body {
     float: left;
     color: var(--GoogleBlue);
     text-align: center;
-    padding: 10px 12px;
-    font-size: 16px;
+    padding: 8px 10px;
+    font-size: 14px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
 }
@@ -83,7 +83,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*
@@ -102,7 +102,7 @@ body {
 
 .navbar-links img {
     height: auto;
-    width: 15%;
+    width: 22%;
     float: left;
 }
 
