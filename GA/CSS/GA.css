@@ -98,7 +98,8 @@ body {
 
 .navbar-links {
     float: left;
-    width: 13%;
+    width: 15%;
+    vertical-align: middle;
 }
 
 .navbar-links img {
