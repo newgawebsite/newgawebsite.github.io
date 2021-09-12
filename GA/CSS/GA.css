@@ -67,7 +67,7 @@ body {
     float: left;
     color: var(--GoogleBlue);
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
@@ -84,19 +84,19 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .3s;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .navbar img {
     float: left;
     height: auto;
-    width: 8%;
+    width: 18%;
     left: 0;
 }
 
 .navbar-links {
     float: left;
-    width: 12%;
+    width: 13%;
 }
 
 .navbar-links-row::after {
