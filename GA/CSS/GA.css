@@ -106,6 +106,12 @@ body {
     float: left;
 }
 
+.navbar-links img:hover {
+    height: auto;
+    width: 35%;
+    float: left;
+}
+
 .navbar-links-row::after {
     content:"";
     clear:both;
