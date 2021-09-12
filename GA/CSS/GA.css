@@ -67,10 +67,11 @@ body {
     float: left;
     color: var(--GoogleBlue);
     text-align: center;
-    padding: 6px 8px;
-    font-size: 14px;
+    padding: 5px;
+    font-size: 16px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
+    vertical-align: middle;
 }
 
 .navbar a:hover {
@@ -83,7 +84,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /*
@@ -108,7 +109,7 @@ body {
 
 .navbar-links img:hover {
     height: auto;
-    width: 36%;
+    width: 39%;
     float: left;
     transition: all .4s;
 }
