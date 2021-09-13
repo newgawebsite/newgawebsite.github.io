@@ -125,15 +125,14 @@ body {
 
 .navbar-links-img {
     height: auto;
-    width: 32%;
+    width: 10%;
     float: left;
     top:0;
-    background-size: 0% 100%;
 }
 
 .navbar-links-img:hover {
     height: auto;
-    width: 39%;
+    width: 19%;
     float: left;
     transition: all .4s;
 }
