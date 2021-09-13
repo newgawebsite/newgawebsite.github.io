@@ -126,14 +126,14 @@ body {
 
 .navbar-links img {
     height: auto;
-    width: 10%;
+    width: 20%;
     float: left;
     top:0;
 }
 
 .navbar-links img:hover {
     height: auto;
-    width: 19%;
+    width: 30%;
     float: left;
     transition: all .4s;
 }
