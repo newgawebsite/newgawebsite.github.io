@@ -99,7 +99,7 @@ body {
 .navbar-links a {
     float: left;
     width: 15%;
-    vertical-align: middle;
+    vertical-align: bottom;
     color: var(--GAlogo);
     text-align: center;
     padding: 5px;
@@ -147,5 +147,5 @@ body {
 
 .navbar-margin {
     margin-top: 20;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
