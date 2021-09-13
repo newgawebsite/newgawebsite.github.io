@@ -72,8 +72,6 @@ body {
     font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    vertical-align: text-bottom;
-    margin-top: 10px;
 }
 
 .navbar a:hover {
@@ -108,7 +106,6 @@ body {
     font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    margin-top: 10px;
 }
 
 .navbar-links-a:hover {
@@ -146,4 +143,8 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+.navbar-margin {
+    margin-top: 10;
 }
