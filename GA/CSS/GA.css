@@ -93,7 +93,7 @@ body {
     height: auto;
     width: 18%;
     left: 0;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 
@@ -109,7 +109,7 @@ body {
     box-shadow: var(--bsb);
 }
 
-.navbar-links-a:hover {
+.navbar-links a:hover {
     background-color: none;
     color: var(--GAPurple);
     background-image: linear-gradient(transparent calc(100% - 2px), var(--GAPurple) 1px);
@@ -149,4 +149,131 @@ body {
 .navbar-margin {
     margin-top: 20;
     vertical-align: bottom;
+}
+
+/* Slide menu settings */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--NewKRBlue);
+    overflow-y: hidden;
+    margin-top: 70px;
+    transition: 0.4s;
+    left: 0;
+    right: 0;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--White);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    display: block;
+}
+
+.overlay a:hover {
+    background-color: none;
+    color: var(--NewKRYellow);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--NewKRYellow) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+#myNav {
+    height: 0%;
+}
+
+#myNav.open {
+    height: 90%;
+}
+
+@media screen and (min-width: 400px) {
+    .overlay {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .overlay {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .overlay {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .overlay {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .overlay {
+        margin-top: 135px;
+    }
+}
+
+.fixed-navbar-icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .fixed-navbar-icon {
+       display: block;
+       float: right;
+       position: absolute;
+       right: 0;
+       top: 0;
+       text-align: center;
+       color: var(--GAlogo);
+       padding: 10px 12px;
+       text-decoration: none;
+       font-size: 17px;
+       background-size: 0% 100%;
+       box-shadow: var(--bsb);
+       border: 2px solid var(--GAlogo);
+       border-radius: 15px;
+    }
+
+    .fixed-navbar-icon:hover {
+    background-color: none;
+    color: var(--GAPurple);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--GAPurple) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    border: 2px solid var(--GAPurple);
+    border-radius: 15px;
+    }
+
+    .navbar-links-row::after {
+        display: none;
+    }
 }
