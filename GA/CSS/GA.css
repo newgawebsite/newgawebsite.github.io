@@ -72,10 +72,10 @@ body {
 }
 
 .navbar-right {
-    display: inline-block;
+    display: none;
     width: 10%;
     color: var(--GAlogo);
-    text-align: center;
+    text-align: left;
     padding: 5px;
     font-size: 17px;
     background-size: 0% 100%;
@@ -305,9 +305,6 @@ body {
     border-radius: 15px;
     }
 
-    .navbar-right {
-        display: none;
-    }
 }
 
 .logo-display {
@@ -343,6 +340,11 @@ body {
     }
 }
 
+@media screen and (min-width: 700px) {
+    .navbar-right {
+        display: inline-block;
+    }
+}
 /* For desktop, tablets, and anything bigger than 768px */
 .col-1 {
     width: 8.33%;
