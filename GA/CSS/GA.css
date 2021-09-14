@@ -82,7 +82,6 @@ body {
     font-size: 16px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    vertical-align: middle;
     top: 15;
 }
 
@@ -277,7 +276,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
     .fixed-navbar-icon {
        display: block;
        float: right;
@@ -344,7 +343,7 @@ body {
     }
 }
 
-@media screen and (min-width: 715px) {
+@media screen and (min-width: 735px) {
     .navbar-right {
         display: inline-block;
     }
