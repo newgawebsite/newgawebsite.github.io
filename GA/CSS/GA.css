@@ -83,6 +83,7 @@ body {
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: middle;
+    top: 15;
 }
 
 .navbar-right:hover {
