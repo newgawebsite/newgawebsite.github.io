@@ -63,7 +63,39 @@ body {
     z-index: 2;
 }
 
+.navbar-left {
+    display: inline-block;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 20%;
+}
 
+.navbar-right {
+    display: inline-block;
+    width: 10%;
+    color: var(--GAlogo);
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+}
+
+.navbar-right:hover {
+    background-color: none;
+    color: var(--GAPurple);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--GAPurple) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .4s;
+    font-size: 20px;
+}
+
+/*
 .navbar a {
     float: left;
     color: var(--GAlogo);
@@ -157,9 +189,9 @@ body {
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: var(--NewKRBlue);
+    background-color: var(--GAlogobg);
     overflow-y: hidden;
-    margin-top: 70px;
+    margin-top: 20px;
     transition: 0.4s;
     left: 0;
     right: 0;
@@ -170,14 +202,14 @@ body {
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
     text-align: center;
-    color: var(--White);
+    color: var(--GAlogo);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -188,8 +220,8 @@ body {
 
 .overlay a:hover {
     background-color: none;
-    color: var(--NewKRYellow);
-    background-image: linear-gradient(transparent calc(100% - 2px), var(--NewKRYellow) 1px);
+    color: var(--GAPurple);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--GAPurple) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
@@ -204,7 +236,7 @@ body {
 }
 
 #myNav.open {
-    height: 90%;
+    height: 60%;
 }
 
 @media screen and (min-width: 400px) {
@@ -273,7 +305,7 @@ body {
     border-radius: 15px;
     }
 
-    .navbar-links-row::after {
+    .navbar-right {
         display: none;
     }
 }
