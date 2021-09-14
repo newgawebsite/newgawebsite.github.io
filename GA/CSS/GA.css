@@ -75,7 +75,7 @@ body {
 
 .navbar-right {
     display: none;
-    width: 10%;
+    width: 40%;
     color: var(--GAlogo);
     text-align: center;
     padding: 5px;
