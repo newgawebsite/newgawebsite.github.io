@@ -81,8 +81,10 @@ body {
 @media screen and (min-width: 700px) {
     .navbar-left {
         left: 6;
-        text-align: left;
         margin-right: auto;
+        margin-right: auto;
+        display: inline-block;
+        text-align: center;
     }
 }
 
