@@ -55,7 +55,7 @@ body {
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
-    background-color: var(--GAlogobg);
+    background-color: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,13 +92,15 @@ body {
 .navbar-right {
     display: none;
     color: var(--GAlogo);
+    background-color: var(--GAlogobg);
     text-align: center;
     padding: 18px;
     font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     float: left;
-    top: 25;
+    top: 55;
+    border-radius: 5px;
 }
 
 .navbar-right:hover {
