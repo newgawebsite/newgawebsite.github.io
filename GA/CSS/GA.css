@@ -61,17 +61,15 @@ body {
     left: 0;
     width: 100%;
     z-index: 2;
-    content:"";
-    display:table;
-    clear:both;
+    display:inline-block;
 }
 
 .navbar-left {
     display: inline-block;
-    left: 0;
     height: auto;
     width: 10%;
     opacity: 0.75;
+    text-align: center;
 }
 
 
@@ -354,7 +352,7 @@ body {
 
 @media screen and (min-width: 735px) {
     .navbar-right {
-        display: table;
+        display: inline-block;
     }
 }
 /* For desktop, tablets, and anything bigger than 768px */
