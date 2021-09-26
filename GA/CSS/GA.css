@@ -81,9 +81,10 @@ body {
     .navbar-left {
         margin-right: auto;
         margin-right: auto;
-        display: inline-block;
+        display: block;
         text-align: center;
         width: 15%;
+        float: left;
     }
 }
 
