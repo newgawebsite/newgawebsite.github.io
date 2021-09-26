@@ -73,6 +73,13 @@ body {
     border-radius: 5px;
 }
 
+@media screen and (min-width: 700px) {
+    .navbar-left {
+        left: 10;
+        text-align: left;
+    }
+}
+
 
 .navbar-right {
     display: none;
