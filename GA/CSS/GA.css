@@ -105,9 +105,8 @@ body {
 }
 
 .navbar-right-position {
-    top:10%;
+    top:20%;
     background-color: var(--GAGrey);
-    bottom: 10%;
     left:25%;
 
 }
