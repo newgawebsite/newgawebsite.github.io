@@ -94,18 +94,17 @@ body {
     color: var(--GAlogo);
     background-color: var(--GAlogobg);
     text-align: center;
-    padding: 17px;
+    padding: 15px;
     font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    float: left;
     top: 60;
-    border-radius: 20px;
+    border-radius: 18px;
 }
 
 .navbar-right-position {
     top:60;
-    
+
 }
 
 .navbar-right:hover {
