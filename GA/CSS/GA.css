@@ -94,12 +94,12 @@ body {
     color: var(--GAlogo);
     background-color: var(--GAlogobg);
     text-align: center;
-    padding: 15px;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 28px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    top: 60;
-    border-radius: 18px;
+    top: 10%;
+    border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
