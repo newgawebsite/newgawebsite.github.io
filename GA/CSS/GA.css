@@ -103,6 +103,11 @@ body {
     border-radius: 20px;
 }
 
+.navbar-right-position {
+    top:60;
+    
+}
+
 .navbar-right:hover {
     background-color: none;
     color: var(--GAPurple);
