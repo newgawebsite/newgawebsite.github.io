@@ -98,7 +98,7 @@ body {
     font-size: 28px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
-    top: 10%;
+    top: 17%;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +120,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .navbar-container {
