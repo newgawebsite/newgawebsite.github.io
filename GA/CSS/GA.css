@@ -33,6 +33,7 @@
     --GAlogobg:#faf2e5;
     --GAlogo:#024eac;
     --GAPurple:#5f02ac;
+    --GAGrey:#dbd5cd;
 
 }
 
@@ -107,6 +108,7 @@ body {
 
 .navbar-right-position {
     top:60;
+    background-color: var(--GAGrey);
 
 }
 
