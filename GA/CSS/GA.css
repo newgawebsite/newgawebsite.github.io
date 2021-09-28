@@ -70,6 +70,7 @@ body {
 .navbar-left {
     display: inline-block;
     height: auto;
+    width: 30%;
     text-align: center;
     border-radius: 5px;
     margin-left: auto;
@@ -96,13 +97,22 @@ body {
     display: inline-block;
 }
 
+@media screen and (max-width: 699px) {
+    .navbar-logo {
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--GAGrey);
+    }
+}
+
 
 .navbar-right {
     display: none;
     color: var(--GAlogo);
     text-align: center;
     padding: 14px;
-    font-size: 24px;
+    font-size: 20px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     top: 17%;
@@ -129,7 +139,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .navbar-container {
