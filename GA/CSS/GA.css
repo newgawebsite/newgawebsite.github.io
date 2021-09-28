@@ -60,7 +60,7 @@ body {
     position: fixed;
     top: 0;
     left: 25%;
-    width: 60%;
+    width: 65%;
     z-index: 2;
     display:inline-block;
     text-align: left;
@@ -83,7 +83,7 @@ body {
         margin-right: auto;
         display: block;
         text-align: center;
-        width: 12%;
+        width: 22%;
         float: left;
     }
 }
@@ -91,7 +91,7 @@ body {
 .navbar-logo {
     top: 5px;
     left: 5px;
-    width: 10%;
+    width: 20%;
     display: inline-block;
 }
 
