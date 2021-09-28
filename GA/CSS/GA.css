@@ -59,8 +59,8 @@ body {
     background-color: none;
     position: fixed;
     top: 10%;
-    left: 20%;
-    width: 85%;
+    left: 15%;
+    width: 95%;
     z-index: 2;
     display:inline-block;
     text-align: left;
@@ -92,7 +92,7 @@ body {
 .navbar-logo {
     top: 5px;
     left: 5px;
-    width: 40%;
+    width: 35%;
     display: inline-block;
 }
 
