@@ -93,9 +93,10 @@ body {
 .navbar-logo {
     top: 5px;
     left: 5px;
-    width: 35%;
+    width: 30%;
     display: inline-block;
     position: fixed;
+    background-color: none;
 }
 
 @media screen and (max-width: 699px) {
