@@ -70,7 +70,6 @@ body {
 .navbar-left {
     display: inline-block;
     height: auto;
-    left: 0;
     width: 15%;
     text-align: center;
     border-radius: 5px;
@@ -94,10 +93,9 @@ body {
 .navbar-logo {
     top: 0;
     left: 0;
-    width: 20%;
     display: inline-block;
     background-color: none;
-    z-index: 3;
+    z-index: 2;
 }
 
 @media screen and (max-width: 699px) {
