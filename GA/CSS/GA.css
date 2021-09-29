@@ -95,6 +95,7 @@ body {
     left: 5px;
     width: 35%;
     display: inline-block;
+    background-color: var(--GAGrey);
 }
 
 @media screen and (max-width: 699px) {
