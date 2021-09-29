@@ -59,7 +59,7 @@ body {
     background-color: var(--GAGrey);
     position: fixed;
     top: 0;
-    left: 15%;
+    left: 5%;
     width: 100%;
     z-index: 2;
     display:inline-block;
@@ -91,9 +91,9 @@ body {
 }
 
 .navbar-logo {
-    top: 5px;
-    left: 5px;
-    width: 30%;
+    top: 0;
+    left: 0;
+    width: 25%;
     display: inline-block;
     position: fixed;
     background-color: none;
