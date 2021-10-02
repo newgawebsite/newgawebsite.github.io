@@ -105,6 +105,19 @@ body {
     float: left;
 }
 
+.navbar-name:hover {
+    background-color: none;
+    color: var(--GAPurple);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--GAPurple) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .4s;
+    font-size: 24px;
+}
+
 .navbar-logo {
     top: 0;
     left: 0;
