@@ -88,6 +88,23 @@ body {
     }
 }
 
+.navbar-name {
+    text-decoration: none;
+    display: none;
+    color: var(--GAlogo);
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    top: 15%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    float: left;
+}
+
 .navbar-logo {
     top: 0;
     left: 0;
