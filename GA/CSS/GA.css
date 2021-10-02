@@ -99,8 +99,7 @@ body {
     box-shadow: var(--bsb);
     top: 15%;
     border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 15%;
     height: auto;
     float: left;
 }
