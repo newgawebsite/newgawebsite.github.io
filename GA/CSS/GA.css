@@ -90,7 +90,7 @@ body {
 
 .navbar-name {
     text-decoration: none;
-    display: none;
+    display: block;
     color: var(--GAlogo);
     text-align: center;
     padding: 14px;
