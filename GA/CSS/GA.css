@@ -100,6 +100,7 @@ body {
     border-radius: 15px;
     left: 5%;
     height: auto;
+    width: 30%;
 }
 
 .navbar-name:hover {
@@ -112,7 +113,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .4s;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .navbar-name-position {
