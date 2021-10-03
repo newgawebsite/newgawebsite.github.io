@@ -92,13 +92,13 @@ body {
     text-decoration: none;
     display: inline-block;
     color: var(--GAlogo);
-    padding: 14px;
+    padding: 12px;
     font-size: 20px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     top: 15%;
     border-radius: 15px;
-    left: 10%;
+    left: 5%;
     height: auto;
 }
 
