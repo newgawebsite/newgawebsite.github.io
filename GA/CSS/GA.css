@@ -90,7 +90,7 @@ body {
 
 .navbar-name {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     color: var(--GAlogo);
     padding: 14px;
     font-size: 20px;
@@ -100,7 +100,6 @@ body {
     border-radius: 15px;
     left: 10%;
     height: auto;
-    float: left;
 }
 
 .navbar-name:hover {
