@@ -332,31 +332,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 13.25%;
+        margin-top: 14.25%;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 13.75%;
+        margin-top: 14.75%;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 14%;
+        margin-top: 15%;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 14.75%;
+        margin-top: 15.75%;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 15%;
+        margin-top: 16%;
     }
 }
 
