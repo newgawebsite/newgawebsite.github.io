@@ -337,19 +337,19 @@ body {
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 12%;
+        margin-top: 11%;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 12%;
+        margin-top: 11.5%;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 13%;
+        margin-top: 12.5%;
     }
 }
 
