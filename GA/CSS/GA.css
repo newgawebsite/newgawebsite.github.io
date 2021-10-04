@@ -292,7 +292,7 @@ body {
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .overlay a {
@@ -331,31 +331,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 25px;
+        margin-top: 22px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 30px;
+        margin-top: 27px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 35px;
+        margin-top: 32px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 40px;
+        margin-top: 37px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 45px;
+        margin-top: 42px;
     }
 }
 
