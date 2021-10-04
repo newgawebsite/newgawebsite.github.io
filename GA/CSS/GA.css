@@ -70,7 +70,7 @@ body {
 .navbar-left {
     display: inline-block;
     height: auto;
-    width: 15%;
+    width: 25%;
     border-radius: 5px;
     left: 0;
     z-index: 3;
@@ -349,13 +349,13 @@ body {
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 37px;
+        margin-top: 35px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 42px;
+        margin-top: 40px;
     }
 }
 
