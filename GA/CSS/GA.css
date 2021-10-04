@@ -349,13 +349,13 @@ body {
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 64px;
+        margin-top: 62px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 70px;
+        margin-top: 68px;
     }
 }
 
