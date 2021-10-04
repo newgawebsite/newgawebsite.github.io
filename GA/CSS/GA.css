@@ -343,13 +343,13 @@ body {
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 13%;
+        margin-top: 12%;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 14%;
+        margin-top: 13%;
     }
 }
 
