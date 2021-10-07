@@ -378,9 +378,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    top: 0;
 }
 
-
+/*
 @media screen and (min-width: 400px) {
     .background-picture {
         margin-top: 5px;
@@ -410,7 +411,7 @@ body {
         top: 15px;
     }
 }
-
+*/
 
 .sw-text {
     text-align: center;
