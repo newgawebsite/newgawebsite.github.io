@@ -328,7 +328,7 @@ body {
 }
 
 #myNav.open {
-    height: 60%;
+    height: 50%;
 }
 
 @media screen and (min-width: 400px) {
