@@ -50,20 +50,19 @@ a {
 
 /* Background Settings */
 body {
+    background-color: var(--NewKRTeal);
     font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
-    background-color: var(--GAGrey);
+    background-color: var(--NewKRBlue);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-    display:inline-block;
-    text-align: center;
+    z-index: 2;
     border-radius: 5px;
 }
 
@@ -275,6 +274,94 @@ body {
 }
 
 /* Slide menu settings */
+
+/* Slide menu settings */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--NewKRBlue);
+    overflow-y: hidden;
+    margin-top: 70px;
+    transition: 0.4s;
+    left: 0;
+    right: 0;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--White);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    display: block;
+}
+
+.overlay a:hover {
+    background-color: none;
+    color: var(--NewKRYellow);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--NewKRYellow) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+#myNav {
+    height: 0%;
+}
+
+#myNav.open {
+    height: 90%;
+}
+
+@media screen and (min-width: 400px) {
+    .overlay {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .overlay {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .overlay {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .overlay {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .overlay {
+        margin-top: 135px;
+    }
+}
+
+/*
 .overlay {
     height: 0%;
     width: 100%;
@@ -360,6 +447,7 @@ body {
     }
 }
 
+*/
 .fixed-navbar-icon {
     display: none;
 }
@@ -436,6 +524,38 @@ body {
         display: inline-block;
     }
 }
+
+.fixed-navbar-items {
+    float: left;
+    text-align: center;
+    color: var(--White);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    vertical-align: bottom;
+}
+
+.fixed-navbar-items:hover {
+    background-color: none;
+    color: var(--NewKRYellow);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--NewKRYellow) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+@media scree and (max-width: 700px) {
+    .fixed-navbar-items {
+        display: none;
+    }
+}
+
 /* For desktop, tablets, and anything bigger than 768px */
 .col-1 {
     width: 8.33%;
