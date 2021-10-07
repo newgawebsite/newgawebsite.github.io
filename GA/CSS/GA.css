@@ -328,7 +328,7 @@ body {
 }
 
 #myNav.open {
-    height: 90%;
+    height: 60%;
 }
 
 @media screen and (min-width: 400px) {
@@ -358,6 +358,12 @@ body {
 @media screen and (min-width: 500px) {
     .overlay {
         margin-top: 135px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .overlay {
+        display: none;
     }
 }
 
