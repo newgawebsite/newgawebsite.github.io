@@ -378,7 +378,7 @@ body {
 
 .sw-text {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: var(--White);
     text-shadow: var(--Black) 2px 2px 2px;
     margin-left: auto;
