@@ -382,31 +382,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .background-picture {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .background-picture {
-        margin-top: 70px;
+        margin-top: 50px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .background-picture {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .background-picture {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .background-picture {
-        margin-top: 95px;
+        margin-top: 75px;
     }
 }
 
