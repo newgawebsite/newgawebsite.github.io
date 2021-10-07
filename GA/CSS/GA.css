@@ -374,11 +374,14 @@ body {
     background-size: contain;
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sw-text {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--White);
     text-shadow: var(--Black) 2px 2px 2px;
     margin-left: auto;
@@ -391,7 +394,7 @@ body {
 
 @media screen and (max-width: 750px) {
     .sw-text {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
