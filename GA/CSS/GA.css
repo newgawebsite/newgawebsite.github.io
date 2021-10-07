@@ -388,25 +388,25 @@ body {
 
 @media screen and (min-width: 430px) {
     .background-picture {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .background-picture {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .background-picture {
-        margin-top: 35px;
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .background-picture {
-        margin-top: 40px;
+        margin-top: 35px;
     }
 }
 
