@@ -374,7 +374,7 @@ body {
     background-size: contain;
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
-    height: 800px;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -382,31 +382,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .background-picture {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .background-picture {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .background-picture {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .background-picture {
-        margin-top: 110px;
+        margin-top: 90px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .background-picture {
-        margin-top: 115px;
+        margin-top: 95px;
     }
 }
 
