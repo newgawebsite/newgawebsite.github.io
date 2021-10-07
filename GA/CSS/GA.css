@@ -367,6 +367,41 @@ body {
     }
 }
 
+/* Scrolling words settings */
+.background-picture {
+    background-image: url("../IMG/GA_Building.jpg");
+    background-position: center;
+    background-size: auto;
+    /*background-color: var(--NewKRTeal);*/
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.sw-text {
+    text-align: center;
+    font-size: 60px;
+    color: var(--White);
+    text-shadow: var(--Black) 2px 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    z-index: -1;
+}
+
+.mySlides {
+    display:none;
+    overflow: hidden;
+}
+
+.mySlides.p {
+    z-index:-1;
+}
+
+
 /*
 .overlay {
     height: 0%;
