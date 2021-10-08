@@ -333,35 +333,35 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 70px;
+        margin-top: 50px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 105px;
+        margin-top: 85px;
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
     .overlay {
         display: none;
     }
