@@ -398,6 +398,7 @@ body {
     border-radius: 6px;
 }
 
+/*
 @media screen and (min-width: 400px) {
     .background-picture {
         margin-top: 5px;
@@ -427,7 +428,7 @@ body {
         top: 15px;
     }
 }
-
+*/
 .sw-text {
     text-align: center;
     font-size: 40px;
@@ -441,6 +442,7 @@ body {
     z-index: -1;
 }
 
+/*
 @media screen and (min-width: 400px) {
     .sw-text {
         margin-top: 200px;
@@ -470,6 +472,7 @@ body {
         margin-top: 235px;
     }
 }
+*/
 
 @media screen and (max-width: 750px) {
     .sw-text {
