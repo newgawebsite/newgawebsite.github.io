@@ -333,31 +333,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 110px;
+        margin-top: 100px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 120px;
+        margin-top: 110px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 130px;
+        margin-top: 120px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 135px;
+        margin-top: 125px;
     }
 }
 
@@ -659,7 +659,7 @@ body {
     border-radius: 7px;
     height: auto;
     float: left;
-    width: 28%;
+    width: 25%;
     position: relative;
     margin-right: auto;
     margin-left: auto;
