@@ -372,7 +372,7 @@ body {
 .background-picture {
     background-image: url("../IMG/GA_Building.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: auto;
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
     height: 1200px;
@@ -380,6 +380,13 @@ body {
     margin-right: auto;
     width: 100%;
     top: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .background-picture {
+        background-image: url("../IMG/GA_Building2.jpg");
+        height: 1200px;
+    }
 }
 
 .display {
