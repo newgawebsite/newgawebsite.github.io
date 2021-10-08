@@ -673,11 +673,24 @@ body {
         height: auto;
         text-align: center;
         display: block;
-        width: 40%;
+        width: 35%;
         float: none;
         border-radius: 7px;
         position: relative;
     }
+
+    @media screen and (max-width: 600px) {
+        .logo-display {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: block;
+            width: 30%;
+            float: none;
+            border-radius: 7px;
+            position: relative;
+        }
 
     .active {
         margin-left: auto;
