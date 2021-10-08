@@ -397,7 +397,6 @@ body {
     border-radius: 6px;
 }
 
-/*
 @media screen and (min-width: 400px) {
     .background-picture {
         margin-top: 5px;
@@ -427,7 +426,6 @@ body {
         top: 15px;
     }
 }
-*/
 
 .sw-text {
     text-align: center;
