@@ -367,6 +367,7 @@ body {
     }
 }
 
+
 /* Scrolling words settings */
 .background-picture {
     background-image: url("../IMG/GA_Building.jpg");
@@ -379,6 +380,15 @@ body {
     margin-right: auto;
     width: 100%;
     top: 0;
+}
+
+.display {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    height: auto;
+    border-radius: 6px;
 }
 
 /*
@@ -466,6 +476,10 @@ body {
 .mySlides {
     display:none;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mySlides.p {
@@ -702,7 +716,7 @@ body {
     font-size: 20px;
 }
 
-@media scree and (max-width: 750px) {
+@media screen and (max-width: 750px) {
     .fixed-navbar-items {
         display: none;
     }
