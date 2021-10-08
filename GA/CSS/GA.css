@@ -445,31 +445,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .sw-text {
-        margin-top: 90px;
+        margin-top: 85px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .sw-text {
-        margin-top: 92px;
+        margin-top: 87px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .sw-text {
-        margin-top: 94px;
+        margin-top: 89px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .sw-text {
-        margin-top: 96px;
+        margin-top: 91px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .sw-text {
-        margin-top: 100px;
+        margin-top: 95px;
     }
 }
 
