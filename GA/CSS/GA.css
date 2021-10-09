@@ -50,14 +50,14 @@ a {
 
 /* Background Settings */
 body {
-    background-color: var(--NewKRTeal);
+    background-color: var(--GAGrey);
     font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
-    background-color: var(--NewKRBlue);
+    background-color: var(--GAPurple);
     position: fixed;
     top: 0;
     left: 0;
@@ -282,7 +282,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: var(--NewKRBlue);
+    background-color: var(--GAPurple);
     overflow-y: hidden;
     margin-top: 5px;
     transition: 0.4s;
@@ -384,7 +384,7 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .background-picture {
         background-image: url("../IMG/GA_Backlot2.jpg");
         height: 550px;
@@ -658,7 +658,7 @@ body {
 }
 */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 .logo-display {
     border-radius: 7px;
     height: auto;
@@ -670,7 +670,7 @@ body {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 768px) {
     .logo-display {
         margin-left: auto;
         margin-right: auto;
@@ -694,7 +694,7 @@ body {
 }
 
 
-@media screen and (min-width: 100px) {
+@media screen and (max-width: 700px) {
     .logo-display {
         margin-left: auto;
         margin-right: auto;
