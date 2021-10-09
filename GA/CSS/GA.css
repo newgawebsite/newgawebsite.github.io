@@ -395,6 +395,7 @@ body {
     background-color: var(--GAPurple);
     overflow: auto;
     white-space: nowrap;
+    border-radius: 5px;
 }
 
 .horizontal-scroll-menu a {
