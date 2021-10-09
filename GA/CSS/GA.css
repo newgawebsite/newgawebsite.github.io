@@ -679,12 +679,6 @@ body {
         position: relative;
     }
 
-    @media screen and (max-width: 600px) {
-        .logo-display {
-            width: 40%;
-        }
-    }
-
     .active {
         margin-left: auto;
         margin-right: auto;
@@ -692,6 +686,12 @@ body {
         text-align: center;
         display: block;
         font-size: 45px;    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo-display {
+        width: 40%;
     }
 }
 
