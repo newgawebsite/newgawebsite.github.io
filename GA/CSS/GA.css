@@ -423,6 +423,20 @@ body {
     font-size: 20px;
 }
 
+/* Mission Statement */
+.mission-statement {
+    background-color: var(--GAPurple);
+    color: var(--White);
+    text-align: center;
+    font-size: 40px;
+    color: var(--White);
+    text-shadow: var(--Black) 2px 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    vertical-align: middle;
+
+}
 
 .display {
     margin-left: auto;
