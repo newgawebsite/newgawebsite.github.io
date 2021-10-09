@@ -333,31 +333,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 35px;
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 45px;
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 50px;
+        margin-top: 45px;
     }
 }
 
