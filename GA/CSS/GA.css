@@ -64,6 +64,7 @@ body {
     width: 100%;
     z-index: 2;
     border-radius: 5px;
+    text-align: center;
 }
 
 .navbar-left {
