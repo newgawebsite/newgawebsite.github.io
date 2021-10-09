@@ -287,12 +287,12 @@ body {
     transition: 0.4s;
     left: 0;
     right: 0;
-    top: 50px;
+    top: 45px;
 }
 
 .overlay-content {
     position: relative;
-    top: 10%;
+    top: 8%;
     width: 100%;
     text-align: center;
     margin-top: 5px;
