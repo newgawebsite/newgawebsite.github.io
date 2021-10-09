@@ -333,31 +333,31 @@ body {
 
 @media screen and (min-width: 400px) {
     .overlay {
-        margin-top: 50px;
+        margin-top: 25px;
     }
 }
 
 @media screen and (min-width: 430px) {
     .overlay {
-        margin-top: 60px;
+        margin-top: 35px;
     }
 }
 
 @media screen and (min-width: 460px) {
     .overlay {
-        margin-top: 70px;
+        margin-top: 45px;
     }
 }
 
 @media screen and (min-width: 490px) {
     .overlay {
-        margin-top: 80px;
+        margin-top: 55px;
     }
 }
 
 @media screen and (min-width: 500px) {
     .overlay {
-        margin-top: 85px;
+        margin-top: 60px;
     }
 }
 
@@ -384,7 +384,7 @@ body {
 
 @media screen and (max-width: 700px) {
     .background-picture {
-        background-image: url("../IMG/GA_Building2.jpg");
+        background-image: url("../IMG/GA_Backlot2.jpg");
         height: 550px;
     }
 }
