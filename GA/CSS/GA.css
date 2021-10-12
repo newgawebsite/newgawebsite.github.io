@@ -435,6 +435,14 @@ body {
     font-size: 21px;
 }
 
+.horizontal-scroll-img {
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Mission Statement */
 .mission-statement {
     background-color: var(--NewGWBlue);
