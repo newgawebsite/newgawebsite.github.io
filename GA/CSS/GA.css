@@ -396,7 +396,7 @@ body {
 
 /* Horizontal Scroll Menu */
 .horizontal-scroll-menu {
-    background-color: var(--NewKRBlue);
+    background-color: var(--NewGWBlue);
     overflow: auto;
     white-space: nowrap;
     border-radius: 5px;
@@ -436,7 +436,7 @@ body {
 
 /* Mission Statement */
 .mission-statement {
-    background-color: var(--NewKRBlue);
+    background-color: var(--NewGWBlue);
     color: var(--White);
     text-align: center;
     font-size: 35px;
@@ -650,8 +650,8 @@ body {
        display: block;
        float: right;
        position: absolute;
-       right: 1;
-       top: 1;
+       right: 0;
+       top: 0;
        text-align: center;
        color: var(--White);
        padding: 10px 12px;
