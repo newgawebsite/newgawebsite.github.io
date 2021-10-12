@@ -419,6 +419,7 @@ body {
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
+    cursor: pointer;
 }
 
 .horizontal-scroll-menu a:hover {
