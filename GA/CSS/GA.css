@@ -439,7 +439,7 @@ body {
 }
 
 .horizontal-scroll-img {
-    width: 28%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -448,7 +448,7 @@ body {
 }
 
 .horizontal-scroll-img:hover {
-    width: 30%;
+    width: 27%;
     transition: all .3s;
 }
 
@@ -469,6 +469,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
+    width: 20%;
 }
 
 .new-menu-text {
