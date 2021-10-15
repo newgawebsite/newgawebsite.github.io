@@ -412,19 +412,19 @@ body {
     }
 
     .hz-container {
-        width: 48%;
+        width: 49%;
     }
 
     .horizontal-scroll-img {
-        width: 48%;
+        width: 49%;
     }
 
     .horizontal-scroll-img:hover {
-        width: 50%;
+        width: 51%;
     }
 
     .centered-text {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
