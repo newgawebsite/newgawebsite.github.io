@@ -454,6 +454,7 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    display: inline-block;
   }
 
 .centered-text {
