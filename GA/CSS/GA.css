@@ -439,7 +439,7 @@ body {
 }
 
 .horizontal-scroll-img {
-    width: 35%;
+    width: 36%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -448,7 +448,7 @@ body {
 }
 
 .horizontal-scroll-img:hover {
-    width: 37%;
+    width: 38%;
     transition: all .3s;
 }
 
@@ -459,7 +459,7 @@ body {
     box-shadow: var(--bsb);
     text-shadow: var(--bsb);
     display: inline-block;
-    width: 31%;
+    width: 32%;
     height: auto;
   }
 
