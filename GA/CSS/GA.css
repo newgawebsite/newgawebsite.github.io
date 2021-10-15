@@ -425,6 +425,7 @@ body {
 
     .centered-text {
         font-size: 9px;
+        width: 11%
     }
 }
 
@@ -455,7 +456,7 @@ body {
 }
 
 .horizontal-scroll-img {
-    width: 37%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -464,7 +465,7 @@ body {
 }
 
 .horizontal-scroll-img:hover {
-    width: 39%;
+    width: 42%;
     transition: all .3s;
 }
 
@@ -475,7 +476,7 @@ body {
     box-shadow: var(--bsb);
     text-shadow: var(--bsb);
     display: inline-block;
-    width: 33%;
+    width: 36%;
     height: auto;
   }
 
