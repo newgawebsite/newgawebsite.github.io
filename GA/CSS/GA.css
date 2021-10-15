@@ -412,15 +412,15 @@ body {
     }
 
     .hz-container {
-        width: 40%;
+        width: 42%;
     }
 
     .horizontal-scroll-img {
-        width: 40%;
+        width: 42%;
     }
 
     .horizontal-scroll-img:hover {
-        width: 42%;
+        width: 44%;
     }
 }
 
@@ -451,7 +451,7 @@ body {
 }
 
 .horizontal-scroll-img {
-    width: 36%;
+    width: 37%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -460,7 +460,7 @@ body {
 }
 
 .horizontal-scroll-img:hover {
-    width: 38%;
+    width: 39%;
     transition: all .3s;
 }
 
@@ -471,7 +471,7 @@ body {
     box-shadow: var(--bsb);
     text-shadow: var(--bsb);
     display: inline-block;
-    width: 32%;
+    width: 33%;
     height: auto;
   }
 
