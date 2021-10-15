@@ -408,6 +408,7 @@ body {
     .horizontal-scroll-menu {
         overflow: hidden;
         white-space: normal;
+        display: inline-block;
     }
 }
 
