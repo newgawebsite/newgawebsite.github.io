@@ -459,6 +459,8 @@ body {
     box-shadow: var(--bsb);
     text-shadow: var(--bsb);
     display: inline-block;
+    width: 25%;
+    height: auto;
   }
 
 .centered-text {
