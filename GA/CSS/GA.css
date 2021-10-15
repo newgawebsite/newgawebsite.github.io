@@ -414,6 +414,14 @@ body {
     .hz-container {
         width: 40%;
     }
+
+    .horizontal-scroll-img {
+        width: 40%;
+    }
+
+    .horizontal-scroll-img:hover {
+        width: 42%;
+    }
 }
 
 .horizontal-scroll-menu a {
