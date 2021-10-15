@@ -400,7 +400,6 @@ body {
     overflow: auto;
     white-space: nowrap;
     border-radius: 5px;
-    display: inline-block;
 
 }
 
@@ -408,7 +407,6 @@ body {
     .horizontal-scroll-menu {
         overflow: hidden;
         white-space: normal;
-        display: inline-block;
     }
 
     .hz-container {
