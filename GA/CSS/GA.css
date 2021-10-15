@@ -439,7 +439,7 @@ body {
 }
 
 .horizontal-scroll-img {
-    width: 26%;
+    width: 27%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -448,7 +448,7 @@ body {
 }
 
 .horizontal-scroll-img:hover {
-    width: 28%;
+    width: 29%;
     transition: all .3s;
 }
 
@@ -459,7 +459,7 @@ body {
     box-shadow: var(--bsb);
     text-shadow: var(--bsb);
     display: inline-block;
-    width: 26%;
+    width: 27%;
     height: auto;
   }
 
@@ -468,9 +468,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 16px;
-    width: 15%;
-    text-shadow: 1px var(--bsb);
+    font-size: 14px;
+    width: 10%;
+    text-shadow: 1px 2px var(--bsb);
 }
 
 .new-menu-text {
