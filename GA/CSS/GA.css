@@ -410,6 +410,10 @@ body {
         white-space: normal;
         display: inline-block;
     }
+
+    .hz-container {
+        width: 40%;
+    }
 }
 
 .horizontal-scroll-menu a {
