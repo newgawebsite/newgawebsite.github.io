@@ -442,6 +442,7 @@ body {
     margin-right: auto;
     height: auto;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .new-menu-text {
