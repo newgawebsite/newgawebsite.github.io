@@ -455,7 +455,8 @@ body {
     position: relative;
     text-align: center;
     color: white;
-    display: inline-block;
+    box-shadow: var(--bsb);
+    text-shadow: var(--bsb);
   }
 
 .centered-text {
