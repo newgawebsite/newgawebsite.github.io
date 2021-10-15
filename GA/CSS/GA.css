@@ -445,6 +445,25 @@ body {
     display: inline-block;
 }
 
+.horizontal-scroll-img:hover {
+    width: 30%;
+    transition: all .3s;
+}
+
+.hz-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
 .new-menu-text {
     text-align: center;
     background-color: var(--White);
