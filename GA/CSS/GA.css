@@ -432,7 +432,7 @@ body {
     color: var(--White);
     padding: 8px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
@@ -451,7 +451,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .3s;
-    font-size: 21px;
+    font-size: 20px;
     border: 2px solid var(--NewGWYellow);
 }
 
