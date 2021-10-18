@@ -387,9 +387,9 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1284px) {
     .background-picture {
-        background-image: url("../IMG/GA_Backlot2.jpg");
+        background-image: url("../IMG/GA_Front.jpg");
         height: 550px;
     }
 }
@@ -438,6 +438,8 @@ body {
     box-shadow: var(--bsb);
     display: inline-block;
     cursor: pointer;
+    border: 2px solid var(--White);
+    border-radius: 5px;
 }
 
 .horizontal-scroll-menu a:hover {
@@ -451,6 +453,7 @@ body {
     background-repeat: no-repeat;
     transition: all .3s;
     font-size: 21px;
+    border: 2px solid var(--NewGWYellow);
 }
 
 .horizontal-scroll-img {
