@@ -801,6 +801,10 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .logo-display:hover {
+      width: 25%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -814,6 +818,10 @@ body {
         float: none;
         border-radius: 7px;
         position: relative;
+    }
+
+    .logo-display:hover {
+        width: 34%;
     }
 
     .active {
