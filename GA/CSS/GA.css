@@ -804,6 +804,7 @@ body {
 
   .logo-display:hover {
       width: 25%;
+      transition: all .3s;
   }
 }
 
@@ -822,6 +823,7 @@ body {
 
     .logo-display:hover {
         width: 34%;
+        transition: all .3s;
     }
 
     .active {
