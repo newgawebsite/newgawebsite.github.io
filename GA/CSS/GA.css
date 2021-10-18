@@ -430,15 +430,15 @@ body {
 .horizontal-scroll-menu a {
     text-align: center;
     color: var(--White);
-    padding: 12px 14px;
+    padding: 11px 13px;
     text-decoration: none;
     font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
     cursor: pointer;
-    border: 2px solid var(--White);
-    border-radius: 7px;
+    border: 3px solid var(--White);
+    border-radius: 8px;
 }
 
 .horizontal-scroll-menu a:hover {
