@@ -428,10 +428,10 @@ body {
 }
 
 .horizontal-scroll-menu a {
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     color: var(--White);
-    padding: 14px 16px;
+    padding: 13px 15px;
     text-decoration: none;
     font-size: 18px;
     background-size: 0% 100%;
@@ -439,7 +439,7 @@ body {
     display: inline-block;
     cursor: pointer;
     border: 2px solid var(--White);
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .horizontal-scroll-menu a:hover {
