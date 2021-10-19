@@ -470,6 +470,71 @@ body {
     transition: all .3s;
 }
 
+/* Modal Settings */
+.hz-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: var(--Black);
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+.hz-modal-img {
+    margin-left: auto;
+    margin-left: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.hz-modal-sun {
+    position: relative;
+    background-color: var(--NewGWBlue);
+    margin: auto;
+    padding: 0;
+    border: 1px solid var(--NewGWGrey);
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hz-close {
+    color: var(--White);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hz-close:hover,
+.hz-close:focus {
+    color: var(--Black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hz-modal-text {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    color: var(--White);
+    text-align: center;
+    text-shadow: 1px 2px var(--Black);
+    font-size: 17px;
+    width: 40%;
+}
+
+.hz-modal-body {
+    padding: 2px 16px;
+}
+
 .hz-container {
     position: relative;
     text-align: center;

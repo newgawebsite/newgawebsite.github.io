@@ -35,6 +35,38 @@ function openSlideMenu() {
     document.getElementById('myNav').classList.toggle("open");
 }
 
+/* Sunday Morning Modal */
+var sunModal = document.getElementById("sunModal");
+
+var sunNav = document.getElementById("sunNav");
+
+var sunSpan = document.getElementsByClassName("close")[0];
+
+/* Open modal on button click */
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal */
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == sunModal) {
+        document.getElementsByClassName("hz-modal").style.display = "none";
+        document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+    }
+}
+
+
+
+
+
+
+
 /* W3 Menu
 function openMenu(evt, menuName) {
     var i, x, tablinks;
