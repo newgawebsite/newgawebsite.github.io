@@ -68,6 +68,7 @@ function openSun() {
 */
 sNav.onclick = function() {
     sModal.style.display = "block";
+    document.getElementById("sunModal").className = "hz-modal";
     document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
 }
 
