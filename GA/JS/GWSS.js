@@ -68,7 +68,7 @@ function openSun() {
 */
 sNav.onclick = function() {
     sModal.style.display = "block";
-    document.getElementById("sunModal").className = "hz-modal animate__animated animate__fadeInUpBig";
+    document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
 }
 
 /* Close the modal if users clicks the "X", or anywhere outside the modal
@@ -80,12 +80,12 @@ function closeSun() {
 
 sSpan.onclick = function() {
     sModal.style.display = "none";
-    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+    document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
 }
 
 window.onclick = function(event) {
     if (event.target == sModal) {
         sModal.style.display = "none";
-        document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+        document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
     }
 }
