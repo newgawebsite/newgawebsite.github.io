@@ -456,7 +456,7 @@ body {
     border: 2px solid var(--NewGWYellow);
 }
 
-.horizontal-scroll-menu button {
+.horizontal-scroll-menu-button {
     text-align: center;
     color: var(--White);
     padding: 7px;
@@ -470,7 +470,7 @@ body {
     border-radius: 8px;
 }
 
-.horizontal-scroll-menu button:hover {
+.horizontal-scroll-menu-button:hover {
     background-color: none;
     color: var(--NewGWYellow);
     background-image: linear-gradient(transparent calc(100% - 2px), var(--NewGWYellow) 1px);
