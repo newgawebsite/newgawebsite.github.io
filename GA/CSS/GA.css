@@ -531,7 +531,11 @@ body {
 .hz-modal-sun {
     position: relative;
     background-color: var(--NewGWBlue);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    height: auto;
     padding: 0;
     border: 1px solid var(--NewGWGrey);
     width: 80%;
