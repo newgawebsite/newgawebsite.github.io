@@ -456,6 +456,34 @@ body {
     border: 2px solid var(--NewGWYellow);
 }
 
+.horizontal-scroll-menu button {
+    text-align: center;
+    color: var(--White);
+    padding: 7px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid var(--White);
+    border-radius: 8px;
+}
+
+.horizontal-scroll-menu button:hover {
+    background-color: none;
+    color: var(--NewGWYellow);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--NewGWYellow) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    font-size: 19px;
+    border: 2px solid var(--NewGWYellow);
+}
+
 .horizontal-scroll-img {
     width: 40%;
     margin-left: auto;
