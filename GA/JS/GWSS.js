@@ -60,21 +60,32 @@ var sNav = document.getElementById("sunNav");
 
 var sSpan = document.getElementsByClassName("close")[0];
 
-/* Open modal on button click */
+/* Open modal on button click 
 function openSun() {
     document.getElementsByClassName("hz-modal").style.display = "block";
     document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
 }
+*/
+sNav.onclick = function() {
+    sModal.style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
 
-/* Close the modal if users clicks the "X", or anywhere outside the modal */
+/* Close the modal if users clicks the "X", or anywhere outside the modal
 function closeSun() {
     document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+sSpan.onclick = function() {
+    sModal.style.display = "none";
     document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
 }
 
 window.onclick = function(event) {
     if (event.target == sModal) {
-        document.getElementsByClassName("hz-modal").style.display = "none";
+        sModal.style.display = "none";
         document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
     }
 }
