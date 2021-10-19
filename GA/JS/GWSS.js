@@ -68,7 +68,7 @@ function openSun() {
 */
 sNav.onclick = function() {
     sModal.style.display = "block";
-    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+    document.getElementById("sunModal").className = "hz-modal animate__animated animate__fadeInUpBig";
 }
 
 /* Close the modal if users clicks the "X", or anywhere outside the modal
