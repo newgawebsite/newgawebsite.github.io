@@ -58,7 +58,7 @@ var sModal = document.getElementById("sunModal");
 
 var sNav = document.getElementById("sunNav");
 
-var sSpan = document.getElementsByClassName("close")[0];
+var sSpan = document.getElementsByClassName("hz-close")[0];
 
 /* Open modal on button click 
 function openSun() {
