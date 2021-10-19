@@ -13,12 +13,12 @@ function Condense() {
     }
 }
 
-/* On-scroll functions */
+/* On-scroll functions
 window.onscroll = function() {
     menuAppearance()
 };
 
-/*
+
 function menuAppearance() {
     if (document.documentElement.scrollTop > 150) {
         document.getElementById("myTopnav").className = "topnav";
