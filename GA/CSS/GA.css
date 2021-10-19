@@ -499,8 +499,12 @@ body {
 }
 
 /* Modal Settings */
-.hz-modal {
+#sunModal {
     display: none;
+}
+
+.hz-modal {
+    display: block;
     position: fixed;
     z-index: 3;
     padding-top: 50%;
