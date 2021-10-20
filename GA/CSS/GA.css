@@ -507,7 +507,7 @@ body {
     display: block;
     position: fixed;
     z-index: 3;
-    padding-top: 10%;
+    padding-top: 5%;
     left: 0;
     top: 0;
     height: 100%;
@@ -526,6 +526,7 @@ body {
     text-align: center;
     border-radius: 5px;
     float: none;
+    padding: 5px;
 }
 
 .hz-modal-sun {
