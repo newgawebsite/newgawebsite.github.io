@@ -549,6 +549,7 @@ body {
     top: 1;
     right: 1;
     position: absolute;
+    float: right;
     font-size: 28px;
     font-weight: bold;
 }
