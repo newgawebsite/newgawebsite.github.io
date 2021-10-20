@@ -547,7 +547,7 @@ body {
 .hz-close {
     color: var(--White);
     top: 1;
-    right: 1;
+    right: 10;
     float: right;
     font-size: 28px;
     font-weight: bold;
