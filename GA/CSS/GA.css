@@ -561,6 +561,11 @@ body {
     cursor: pointer;
 }
 
+.hz-close::after {
+    content: "";
+    clear:both;
+}
+
 .hz-modal-text {
     margin-left: auto;
     margin-right: auto;
