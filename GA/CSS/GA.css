@@ -527,6 +527,7 @@ body {
     border-radius: 5px;
     float: none;
     padding: 5px;
+    width: 75%;
 }
 
 .hz-modal-sun {
