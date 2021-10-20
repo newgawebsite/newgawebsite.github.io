@@ -549,7 +549,7 @@ body {
 .hz-close {
     color: var(--White);
     top: 1;
-    right: 10;
+    right: 12;
     float: right;
     font-size: 28px;
     font-weight: bold;
