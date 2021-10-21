@@ -389,7 +389,7 @@ body {
 
 @media screen and (max-width: 1284px) {
     .background-picture {
-        background-image: url("../IMG/GA_Front.jpg");
+        background-image: url("../IMG/GA_Backlot2.jpg");
         height: 550px;
     }
 }
@@ -531,7 +531,7 @@ body {
     border-radius: 5px;
     float: none;
     padding: 5px;
-    width: 88%;
+    width: 91.5%;
 }
 
 .hz-modal-sun {
