@@ -568,6 +568,27 @@ body {
     clear:both;
 }
 
+.hz-close-wed {
+    color: var(--White);
+    top: 1;
+    right: 1;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hz-close-wed:hover,
+.hz-close-wed:focus {
+    color: var(--Black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hz-close-wed::after {
+    content: "";
+    clear:both;
+}
+
 .hz-modal-text {
     margin-left: auto;
     margin-right: auto;

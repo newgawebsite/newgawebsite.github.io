@@ -97,7 +97,7 @@ var wModal = document.getElementById("wedModal");
 
 var wNav = document.getElementById("wedNav");
 
-var wSpan = document.getElementsByClassName("hz-close")[0];
+var wSpan = document.getElementsByClassName("hz-close-wed")[0];
 
 /* Open modal on button click 
 function openSun() {
