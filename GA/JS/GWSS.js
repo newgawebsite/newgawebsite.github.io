@@ -91,3 +91,42 @@ window.onclick = function(event) {
         document.getElementById("sm").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
     }
 }
+
+/* Sunday Morning Modal */
+var wModal = document.getElementById("wedModal");
+
+var wNav = document.getElementById("wedNav");
+
+var wSpan = document.getElementsByClassName("hz-close")[0];
+
+/* Open modal on button click 
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+*/
+wNav.onclick = function() {
+    wModal.style.display = "block";
+    document.getElementById("wedModal").className = "hz-modal";
+    document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+wSpan.onclick = function() {
+    wModal.style.display = "none";
+    document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == wModal) {
+        wModal.style.display = "none";
+        setTimeout(event, 900);
+        document.getElementById("wm").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
+    }
+}
