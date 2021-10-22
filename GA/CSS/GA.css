@@ -507,6 +507,10 @@ body {
     display: none;
 }
 
+#addModal {
+    display: none;
+}
+
 .hz-modal {
     display: block;
     position: fixed;
