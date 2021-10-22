@@ -92,7 +92,7 @@ window.onclick = function(event) {
     }
 }
 
-/* Sunday Morning Modal */
+/* Wednesday Modal */
 var wModal = document.getElementById("wedModal");
 
 var wNav = document.getElementById("wedNav");
@@ -128,5 +128,44 @@ window.onclick = function(event) {
         wModal.style.display = "none";
         setTimeout(event, 900);
         document.getElementById("wm").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
+    }
+}
+
+/* Address Map Modal */
+var aModal = document.getElementById("addModal");
+
+var aNav = document.getElementById("addNav");
+
+var aSpan = document.getElementsByClassName("hz-close-add")[0];
+
+/* Open modal on button click 
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+*/
+aNav.onclick = function() {
+    aModal.style.display = "block";
+    document.getElementById("addModal").className = "hz-modal";
+    document.getElementById("am").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+aSpan.onclick = function() {
+    aModal.style.display = "none";
+    document.getElementById("am").className = "hz-modal-sun animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == aModal) {
+        aModal.style.display = "none";
+        setTimeout(event, 900);
+        document.getElementById("am").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
     }
 }

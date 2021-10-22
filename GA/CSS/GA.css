@@ -551,6 +551,14 @@ body {
     border-radius: 5px;
 }
 
+.hz-modal-map {
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 85%;
+    border: 0;
+}
+
 .hz-close {
     color: var(--White);
     top: 1;
@@ -589,6 +597,27 @@ body {
 }
 
 .hz-close-wed::after {
+    content: "";
+    clear:both;
+}
+
+.hz-close-add {
+    color: var(--White);
+    top: 1;
+    right: 1;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hz-close-add:hover,
+.hz-close-add:focus {
+    color: var(--Black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hz-close-add::after {
     content: "";
     clear:both;
 }
