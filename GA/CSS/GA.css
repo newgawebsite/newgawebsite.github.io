@@ -535,7 +535,7 @@ body {
     border-radius: 5px;
     float: none;
     padding: 5px;
-    width: 91.5%;
+    width: 81.5%;
 }
 
 .hz-modal-sun {
@@ -558,7 +558,7 @@ body {
 .hz-modal-map {
     margin-left: auto;
     margin-right: auto;
-    height: 45%;
+    height: 300px;
     width: 95%;
     border: 0;
 }
