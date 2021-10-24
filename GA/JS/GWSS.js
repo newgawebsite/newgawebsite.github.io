@@ -87,7 +87,6 @@ sSpan.onclick = function() {
 window.onclick = function(event) {
     if (event.target == sModal) {
         sModal.style.display = "none";
-        setTimeout(event, 900);
         document.getElementById("sm").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
     }
 }
@@ -126,7 +125,6 @@ wSpan.onclick = function() {
 window.onclick = function(event) {
     if (event.target == wModal) {
         wModal.style.display = "none";
-        setTimeout(event, 900);
         document.getElementById("wm").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
     }
 }
@@ -165,7 +163,6 @@ aSpan.onclick = function() {
 window.onclick = function(event) {
     if (event.target == aModal) {
         aModal.style.display = "none";
-        setTimeout(event, 900);
         document.getElementById("am").className = " hz-modal-sunanimate__animated animate__fadeOutDown";
     }
 }
