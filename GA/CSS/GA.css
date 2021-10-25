@@ -507,7 +507,7 @@ body {
     text-align: center;
     background-color: var(--NewGWBlue);
     color: var(--White);
-    font-size: 25px;
+    font-size: 35px;
     text-shadow: 1px 1px var(--Black);
     border-radius: 5px;
 }
