@@ -990,14 +990,14 @@ body {
     border-radius: 7px;
     height: auto;
     float: left;
-    width: 23%;
+    width: 22%;
     position: relative;
     margin-right: auto;
     margin-left: auto;
   }
 
   .logo-display:hover {
-      width: 25%;
+      width: 24%;
       transition: all .3s;
   }
 }
@@ -1009,14 +1009,14 @@ body {
         height: auto;
         text-align: center;
         display: block;
-        width: 32%;
+        width: 33%;
         float: none;
         border-radius: 7px;
         position: relative;
     }
 
     .logo-display:hover {
-        width: 34%;
+        width: 35%;
         transition: all .3s;
     }
 
