@@ -577,6 +577,36 @@ body {
     border: 0;
 }
 
+@media screen and (min-height: 1px) {
+    @media screen and (max-height: 200px) {
+        .hz-modal-map {
+            height: 100px;
+        }
+
+    }
+        
+}
+
+@media screen and (min-height: 201px) {
+    @media screen and (max-height: 300px) {
+        .hz-modal-map {
+            height: 200px;
+        }
+
+    }
+        
+}
+
+@media screen and (min-height: 301px) {
+    @media screen and (max-height: 400px) {
+        .hz-modal-map {
+            height: 300px;
+        }
+
+    }
+        
+}
+
 .hz-close {
     color: var(--White);
     top: 1;
