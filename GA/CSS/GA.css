@@ -578,7 +578,7 @@ body {
 }
 
 @media screen and (min-height: 1px) {
-    @media screen and (max-height: 200px) {
+    @media screen and (max-height: 150px) {
         .hz-modal-map {
             height: 50px;
         }
@@ -587,10 +587,10 @@ body {
         
 }
 
-@media screen and (min-height: 201px) {
+@media screen and (min-height: 151px) {
     @media screen and (max-height: 300px) {
         .hz-modal-map {
-            height: 150px;
+            height: 100px;
         }
 
     }
@@ -600,7 +600,7 @@ body {
 @media screen and (min-height: 301px) {
     @media screen and (max-height: 400px) {
         .hz-modal-map {
-            height: 250px;
+            height: 200px;
         }
 
     }
