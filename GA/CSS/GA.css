@@ -607,6 +607,46 @@ body {
         
 }
 
+@media screen and (min-height: 401px) {
+    @media screen and (max-height: 500px) {
+        .hz-modal-map {
+            height: 250px;
+        }
+
+    }
+        
+}
+
+@media screen and (min-height: 501px) {
+    @media screen and (max-height: 600px) {
+        .hz-modal-map {
+            height: 275px;
+        }
+
+    }
+        
+}
+
+@media screen and (min-height: 601px) {
+    @media screen and (max-height: 700px) {
+        .hz-modal-map {
+            height: 300px;
+        }
+
+    }
+        
+}
+
+@media screen and (min-height: 701px) {
+    @media screen and (max-height: 800px) {
+        .hz-modal-map {
+            height: 325px;
+        }
+
+    }
+        
+}
+
 .hz-close {
     color: var(--White);
     top: 1;
