@@ -508,7 +508,7 @@ body {
     text-align: center;
     background-color: var(--NewGWBlue);
     color: var(--White);
-    font-size: 35px;
+    font-size: 45px;
     text-shadow: 1px 1px var(--Black);
     border-radius: 5px;
 }
@@ -519,7 +519,7 @@ body {
     margin-right: auto;
     height: auto;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px var(--Black);
+    box-shadow: 1px 1px 1px 1px var(--bsb);
     width: 18%;
     padding: 10px;
     text-align: center;
