@@ -508,9 +508,9 @@ body {
     text-align: center;
     background-color: var(--NewGWBlue);
     color: var(--White);
-    font-size: 38px;
+    font-size: 36px;
     text-shadow: 1px 1px var(--Black);
-    border-radius: 15%;
+    border-radius: 18%;
 }
 
 .ministries-img {
