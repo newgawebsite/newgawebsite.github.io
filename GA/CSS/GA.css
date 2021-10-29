@@ -518,7 +518,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border-radius: 5px;
+    border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--bsb);
     width: 21%;
     padding: 10px;
