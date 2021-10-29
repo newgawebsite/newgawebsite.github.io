@@ -528,6 +528,7 @@ body {
 
 .ministries-img:hover {
     width: 23%;
+    border-radius: 45%;
     transition: all .4s;
 }
 
