@@ -533,6 +533,18 @@ body {
     transition: all .4s;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 800px) {
+        .ministries-img {
+            width: 20%;
+        }
+
+        .ministries-img:hover {
+            width: 22%;
+        }
+    }
+}
+
 .ministries-container {
     display:inline-block;
     margin-left: auto;
