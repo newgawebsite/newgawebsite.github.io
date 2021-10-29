@@ -526,6 +526,10 @@ body {
     background-color: var(--NewGWGrey);
 }
 
+.ministries-img:hover {
+    width: 23%;
+}
+
 .ministries-container {
     display:inline-block;
     margin-left: auto;
