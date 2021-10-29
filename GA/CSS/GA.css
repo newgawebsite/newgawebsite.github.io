@@ -521,6 +521,7 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px var(--Black);
     width: 18%;
+    padding: 8px;
 }
 
 /* Modal Settings */
