@@ -513,6 +513,16 @@ body {
     border-radius: 5px;
 }
 
+.ministries-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px var(--Black);
+    width: 18%;
+}
+
 /* Modal Settings */
 #sunModal {
     display: none;
