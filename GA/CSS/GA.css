@@ -510,7 +510,8 @@ body {
     color: var(--White);
     font-size: 30px;
     text-shadow: 1px 1px var(--Black);
-    border-radius: 33%;
+    border-radius: 36%;
+    padding: 8px;
 }
 
 .ministries-img {
