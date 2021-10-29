@@ -510,7 +510,7 @@ body {
     color: var(--White);
     font-size: 45px;
     text-shadow: 1px 1px var(--Black);
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .ministries-img {
@@ -537,6 +537,7 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
+    border-radius: 45%;
 }
 
 /* Modal Settings */
