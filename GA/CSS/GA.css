@@ -521,14 +521,14 @@ body {
     height: auto;
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--bsb);
-    width: 19%;
+    width: 17%;
     padding: 15px;
     text-align: center;
     background-color: var(--NewGWGrey);
 }
 
 .ministries-img:hover {
-    width: 21%;
+    width: 19%;
     border-radius: 33%;
     transition: all .4s;
 }
