@@ -519,9 +519,10 @@ body {
     margin-right: auto;
     height: auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px var(--Black);
+    box-shadow: 1px 1px 1px 1px var(--Black);
     width: 18%;
     padding: 10px;
+    text-align: center;
 }
 
 /* Modal Settings */
