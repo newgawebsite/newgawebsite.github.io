@@ -525,6 +525,14 @@ body {
     text-align: center;
 }
 
+.ministries-container {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+}
+
 /* Modal Settings */
 #sunModal {
     display: none;
