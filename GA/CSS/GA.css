@@ -510,7 +510,7 @@ body {
     color: var(--White);
     font-size: 45px;
     text-shadow: 1px 1px var(--Black);
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 .ministries-img {
@@ -528,6 +528,7 @@ body {
 
 .ministries-img:hover {
     width: 23%;
+    transition: all .4s;
 }
 
 .ministries-container {
