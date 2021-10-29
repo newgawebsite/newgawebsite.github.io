@@ -508,7 +508,7 @@ body {
     text-align: center;
     background-color: var(--NewGWBlue);
     color: var(--White);
-    font-size: 36px;
+    font-size: 35px;
     text-shadow: 1px 1px var(--Black);
     border-radius: 18%;
 }
@@ -528,7 +528,7 @@ body {
 
 .ministries-img:hover {
     width: 23%;
-    border-radius: 38%;
+    border-radius: 36%;
     transition: all .4s;
 }
 
