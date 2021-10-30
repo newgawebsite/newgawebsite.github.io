@@ -526,7 +526,7 @@ body {
     background-color: var(--NewGWGrey);
   }
 
-  .ministries-img {
+  .ministries-img:hover {
     border-radius: 35%;
     transition: all .4s;
   }
