@@ -564,13 +564,13 @@ body {
 }
 
 @media screen and (min-width: 1101px) {
-  .ministries-img {
-    width: 16%;
-  }
+    .ministries-img {
+      width: 16%;
+    }
 
-  .ministries-img:hover {
-    width: 18%;
-  }
+    .ministries-img:hover {
+      width: 18%;
+    }
 
 }
 
