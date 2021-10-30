@@ -514,6 +514,18 @@ body {
     padding: 8px;
 }
 
+.ministries-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px var(--bsb);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--NewGWGrey);
+  }
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 500px) {
         .ministries-img {
@@ -549,16 +561,7 @@ body {
 @media screen and (min-width: 1101px) {
     
   .ministries-img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px var(--bsb);
     width: 16%;
-    padding: 10px;
-    text-align: center;
-    background-color: var(--NewGWGrey);
   }
 
   .ministries-img:hover {
