@@ -901,7 +901,7 @@ body {
 }
 
 .mission-statement-img {
-    border-radius: 5px;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
