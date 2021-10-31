@@ -895,24 +895,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    vertical-align: middle;
-    border-radius: 6%;
+    border-radius: 9%;
     padding: 8px;
     display: block;
 }
 
 .mission-statement-img {
-    border-radius: 5%;
+    border-radius: 9%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     text-align: center;
-    display: inline-block;
+    display: block;
     padding: 8px;
 }
 
 .mission-statement-text {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -922,7 +921,6 @@ body {
     text-shadow: 1px 1px 1px 1px var(--Black);
     background-color: var(--NewGWGreen);
     padding: 6px;
-    border-radius: 8%;
 }
 
 .display-none {
