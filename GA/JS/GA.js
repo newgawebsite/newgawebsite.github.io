@@ -26,6 +26,22 @@ function menuAppearance() {
 }
 */
 
+window.onscroll = function() {
+    missionStatement()
+};
+
+var msa = window.matchMedia("(min-height: 1px) and (max-height: 700px)");
+
+function missionStatement(msa) {
+    if (msa.matches) {
+        if (document.documentElement.scrollTop > 650) {
+            document.getElementById("MS").className = "mission-statement-img col-6 animate__animated animate__fadeInRight";
+        }
+    }
+}
+
+/* msa.addEventListener(missionStatement) */
+
 /* Fixed Menu Settings */
 function fixedMenu(x) {
     x.classList.toggle("change");
