@@ -34,7 +34,7 @@ var msa = window.matchMedia("(min-height: 1px) and (max-height: 800px)");
 
 function missionStatement() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 500) {
+        if (document.documentElement.scrollTop > 650) {
             document.getElementById("MS").className = "mission-statement-img col-6 animate__animated animate__fadeInRight";
         }
     }
