@@ -898,7 +898,7 @@ body {
     vertical-align: middle;
     border-radius: 6%;
     padding: 8px;
-    display: inline-block;
+    display: block;
 }
 
 .mission-statement-img {
