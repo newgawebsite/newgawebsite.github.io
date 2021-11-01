@@ -40,7 +40,7 @@ var msb = window.matchMedia("(min-width: 769px");
 function missionStatement() {
     if (msa.matches) {
         if (document.documentElement.scrollTop > 150) {
-            document.getElementById("MS").className = "mission-statement col-8 animate__animated animate__fadeInRight";
+            document.getElementById("MS").className = "mission-statement col-12 animate__animated animate__fadeInRight";
         }
     }
 }
@@ -56,7 +56,7 @@ function ministries() {
 function msBig() {
     if (msb.matches) {
         if (document.documentElement.scrollTop > 200) {
-            document.getElementById("MS").className = "mission-statement col-8 animate__animated animate__fadeInRight";
+            document.getElementById("MS").className = "mission-statement col-12 animate__animated animate__fadeInRight";
         }
     }
 }
