@@ -43,7 +43,7 @@ function missionStatement() {
 
 function ministries() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 600) {
+        if (document.documentElement.scrollTop > 575) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
     }
