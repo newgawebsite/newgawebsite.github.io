@@ -35,7 +35,7 @@ var msa = window.matchMedia("(min-height: 1px) and (max-height: 1100px)");
 
 function missionStatement() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 250) {
+        if (document.documentElement.scrollTop > 230) {
             document.getElementById("MS").className = "mission-statement col-9 animate__animated animate__fadeInRight";
         }
     }
@@ -43,7 +43,7 @@ function missionStatement() {
 
 function ministries() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 750) {
+        if (document.documentElement.scrollTop > 720) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
     }
