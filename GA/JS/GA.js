@@ -29,9 +29,13 @@ function menuAppearance() {
 window.onscroll = function() {
     missionStatement()
     ministries()
+    msBig()
+    ministriesBig()
 };
 
-var msa = window.matchMedia("(min-height: 1px) and (max-height: 1100px)");
+var msa = window.matchMedia("(min-width: 1px) and (max-width: 768px)");
+
+var msb = window.matchMedia("(min-width: 769px");
 
 function missionStatement() {
     if (msa.matches) {
@@ -44,6 +48,22 @@ function missionStatement() {
 function ministries() {
     if (msa.matches) {
         if (document.documentElement.scrollTop > 575) {
+            document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
+        }
+    }
+}
+
+function msBig() {
+    if (msa.matches) {
+        if (document.documentElement.scrollTop > 200) {
+            document.getElementById("MS").className = "mission-statement col-8 animate__animated animate__fadeInRight";
+        }
+    }
+}
+
+function ministriesBig() {
+    if (msa.matches) {
+        if (document.documentElement.scrollTop > 625) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
     }
