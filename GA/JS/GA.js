@@ -54,7 +54,7 @@ function ministries() {
 }
 
 function msBig() {
-    if (msa.matches) {
+    if (msb.matches) {
         if (document.documentElement.scrollTop > 200) {
             document.getElementById("MS").className = "mission-statement col-8 animate__animated animate__fadeInRight";
         }
@@ -62,7 +62,7 @@ function msBig() {
 }
 
 function ministriesBig() {
-    if (msa.matches) {
+    if (msb.matches) {
         if (document.documentElement.scrollTop > 625) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
