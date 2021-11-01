@@ -38,6 +38,7 @@
     --NewGWYellow:#fee440;
     --NewGWBlue:#00bbf9;
     --NewGWGreen:#00f5d4;
+    --NewGWAGreen: rgba(130, 245, 212, 0.897);
 
 }
 
@@ -886,7 +887,7 @@ body {
 
 /* Mission Statement */
 .mission-statement {
-    background-color: var(--NewGWGreen);
+    background-color: var(--NewGWAGreen);
     color: var(--White);
     text-align: center;
     font-size: 35px;
@@ -895,7 +896,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border-radius: 11%;
+    border-radius: 11% 31% 31% 11% / 11% 11% 31% 31%;
     padding: 8px;
     display: block;
 }
