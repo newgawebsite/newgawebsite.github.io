@@ -899,14 +899,14 @@ body {
 }
 
 .mission-statement-img {
-    border-radius: 9%;
+    border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     text-align: center;
     display: block;
     padding: 8px;
-    width: 23%;
+    width: 28%;
 }
 
 .mission-statement-text {
