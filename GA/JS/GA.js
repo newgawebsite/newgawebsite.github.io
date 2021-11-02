@@ -35,7 +35,7 @@ window.onscroll = function() {
 
 var msa = window.matchMedia("(min-width: 1px) and (max-width: 768px)");
 
-var msb = window.matchMedia("(min-width: 769px");
+var msb = window.matchMedia("(min-width: 769px)");
 
 function missionStatement() {
     if (msa.matches) {
