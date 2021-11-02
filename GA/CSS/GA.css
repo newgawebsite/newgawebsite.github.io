@@ -887,8 +887,6 @@ body {
 
 /* Mission Statement */
 .mission-statement {
-    background-color: var(--NewGWAGreen);
-    color: var(--White);
     text-align: center;
     font-size: 20px;
     color: var(--White);
@@ -896,7 +894,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border-radius: 26% 46% 46% 26% / 26% 26% 46% 46%;
     padding: 8px;
     display: block;
 }
@@ -922,6 +919,14 @@ body {
     font-size: 30px;
     text-shadow: 1px 1px 1px 1px var(--Black);
     padding: 6px;
+}
+
+.mission-statement-bg {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+    text-align: center;
 }
 
 .display-none {
