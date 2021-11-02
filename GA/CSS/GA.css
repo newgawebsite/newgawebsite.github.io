@@ -915,6 +915,13 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement-img {
+        border-radius: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        text-align: center;
+        display: block;
+        padding: 8px;
         width: 27%;
     }
 }
