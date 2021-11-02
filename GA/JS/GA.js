@@ -43,7 +43,7 @@ var msc = window.matchMedia("(min-width: 1551px)");
 
 function missionStatement() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 135) {
+        if (document.documentElement.scrollTop > 120) {
             document.getElementById("MS").className = "mission-statement col-12 animate__animated animate__fadeInRight";
         }
     }
@@ -51,7 +51,7 @@ function missionStatement() {
 
 function ministries() {
     if (msa.matches) {
-        if (document.documentElement.scrollTop > 550) {
+        if (document.documentElement.scrollTop > 520) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
     }
