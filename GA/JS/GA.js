@@ -58,7 +58,7 @@ function ministries() {
 }
 
 function msBig() {
-    if (msc.matches) {
+    if (msb.matches) {
         if (document.documentElement.scrollTop > 300) {
             document.getElementById("MS").className = "mission-statement col-12 animate__animated animate__fadeInRight";
         }
@@ -66,7 +66,7 @@ function msBig() {
 }
 
 function ministriesBig() {
-    if (msc.matches) {
+    if (msb.matches) {
         if (document.documentElement.scrollTop > 600) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
@@ -74,7 +74,7 @@ function ministriesBig() {
 }
 
 function ms3() {
-    if (msb.matches) {
+    if (msc.matches) {
         if (document.documentElement.scrollTop > 200) {
             document.getElementById("MS").className = "mission-statement col-12 animate__animated animate__fadeInRight";
         }
@@ -82,7 +82,7 @@ function ms3() {
 }
 
 function mini3() {
-    if (msb.matches) {
+    if (msc.matches) {
         if (document.documentElement.scrollTop > 500) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
