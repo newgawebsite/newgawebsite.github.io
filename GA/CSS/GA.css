@@ -536,11 +536,11 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .ministries-img {
-            width: 39%;
+            width: 37%;
         }
 
         .ministries-img:hover {
-            width: 41%;
+            width: 39%;
         }
 
         .ministries-title {
@@ -552,11 +552,11 @@ body {
 @media screen and (min-width: 601px) {
     @media screen and (max-width: 1100px) {
         .ministries-img {
-            width: 31%;
+            width: 29%;
         }
 
         .ministries-img:hover {
-            width: 33%;
+            width: 31%;
         }
 
         .ministries-title {
