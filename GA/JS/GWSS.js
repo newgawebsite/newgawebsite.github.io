@@ -16,6 +16,24 @@ function carousel() {
     setTimeout(carousel, 1900);
 }
 
+/* New Building Slideshow Settings */
+var nbIndex = 0;
+nbCarousel();
+
+function nbCarousel() {
+    var n;
+    var b = document.getElementsByClassName("nbSlides");
+    for (n = 0; n < b.length; n++) {
+        b[n].style.display = "none";
+    }
+    nbIndex++;
+    if (nbIndex > b.length) {
+        nbIndex = 1
+    }
+    b[nbIndex-1].style.display = "block";
+    setTimeout(nbCarousel, 1900);
+}
+
 /* Fixed Menu Settings */
 function fixedMenu(x) {
     x.classList.toggle("change");

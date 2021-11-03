@@ -971,6 +971,32 @@ body {
     border-radius: 6px;
 }
 
+/* Building Progress Slideshow */
+.new-building-progress {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+    background-color: var(--NewGWGreen);
+}
+
+.nbSlides {
+    display:none;
+    overflow: hidden;
+}
+
+.nbSlides.img {
+    z-index: -1;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+    
+}
+
 /*
 @media screen and (min-width: 400px) {
     .background-picture {
