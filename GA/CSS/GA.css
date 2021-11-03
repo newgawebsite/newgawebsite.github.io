@@ -390,8 +390,8 @@ body {
 
 @media screen and (max-width: 1352px) {
     .background-picture {
-        background-image: url("../IMG/nb_const.jpg");
-        height: 640px;
+        /*background-image: url("../IMG/nb_const.jpg");*/
+        height: 800px;
     }
 }
 
