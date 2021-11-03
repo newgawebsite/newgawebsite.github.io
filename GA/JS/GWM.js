@@ -1,0 +1,114 @@
+
+/* Sunday Morning Modal */
+var sModal = document.getElementById("sunModal");
+
+var sNav = document.getElementById("sunNav");
+
+var sSpan = document.getElementsByClassName("hz-close")[0];
+
+/* Open modal on button click 
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+*/
+sNav.onclick = function() {
+    sModal.style.display = "block";
+    document.getElementById("sunModal").className = "hz-modal";
+    document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+sSpan.onclick = function() {
+    sModal.style.display = "none";
+    document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == sModal) {
+        sModal.style.display = "none";
+      /*  document.getElementById("sm").className = " hz-modal-sunanimate__animated animate__fadeOutDown"; */
+    }
+}
+
+/* Wednesday Modal */
+var wModal = document.getElementById("wedModal");
+
+var wNav = document.getElementById("wedNav");
+
+var wSpan = document.getElementsByClassName("hz-close-wed")[0];
+
+/* Open modal on button click 
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+*/
+wNav.onclick = function() {
+    wModal.style.display = "block";
+    document.getElementById("wedModal").className = "hz-modal";
+    document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+wSpan.onclick = function() {
+    wModal.style.display = "none";
+    document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == wModal) {
+        wModal.style.display = "none";
+       /* document.getElementById("wm").className = " hz-modal-sunanimate__animated animate__fadeOutDown"; */
+    }
+}
+
+/* Address Map Modal */
+var aModal = document.getElementById("addModal");
+
+var aNav = document.getElementById("addNav");
+
+var aSpan = document.getElementsByClassName("hz-close-add")[0];
+
+/* Open modal on button click 
+function openSun() {
+    document.getElementsByClassName("hz-modal").style.display = "block";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeInUpBig";
+}
+*/
+aNav.onclick = function() {
+    aModal.style.display = "block";
+    document.getElementById("addModal").className = "hz-modal";
+    document.getElementById("am").className = "hz-modal-sun animate__animated animate__fadeInUpBig";
+}
+
+/* Close the modal if users clicks the "X", or anywhere outside the modal
+function closeSun() {
+    document.getElementsByClassName("hz-modal").style.display = "none";
+    document.getElementById("sunNav").className = "hz-modal animate__animated animate__fadeOutDown";
+}
+*/
+
+aSpan.onclick = function() {
+    aModal.style.display = "none";
+    document.getElementById("am").className = "hz-modal-sun animate__animated animate__fadeOutDown";
+}
+
+window.onclick = function(event) {
+    if (event.target == aModal) {
+        aModal.style.display = "none";
+       /* document.getElementById("am").className = " hz-modal-sunanimate__animated animate__fadeOutDown";  */
+    }
+}
