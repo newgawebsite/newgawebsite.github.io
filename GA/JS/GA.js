@@ -4,7 +4,7 @@ if (window.location.protocol === "http:") {
  }   
 
 /* Responsive menu function */
-function Condense() {
+/*function Condense() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive animate_animated animate_slideInDown";
@@ -12,6 +12,7 @@ function Condense() {
         x.className = "topnav";
     }
 }
+*/
 
 /* On-scroll functions
 window.onscroll = function() {
@@ -150,6 +151,7 @@ function openMenu(evt, menuName) {
   */
 
   /* KR Menu */
+  /*
   function openKRMenu(evt, menuName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("kr-new-menu");
@@ -164,7 +166,7 @@ function openMenu(evt, menuName) {
     evt.currentTarget.firstElementChild.className += " kr-red";
   }
   document.getElementById("krLink").click();
-
+*/
 
   /* Slide-Show text
   var myIndex = 0;
