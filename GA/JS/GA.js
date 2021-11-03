@@ -67,7 +67,7 @@ function msBig() {
 
 function ministriesBig() {
     if (msb.matches) {
-        if (document.documentElement.scrollTop > 850) {
+        if (document.documentElement.scrollTop > 900) {
             document.getElementById("Ministries").className = "ministries-title col-12 animate__animated animate__zoomIn";
         }
     }
