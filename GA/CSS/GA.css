@@ -381,7 +381,7 @@ body {
     background-size: auto;
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
-    height: 600px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
     top: 0;
@@ -391,7 +391,7 @@ body {
 @media screen and (max-width: 1284px) {
     .background-picture {
         background-image: url("../IMG/GA_Backlot2.jpg");
-        height: 550px;
+        height: 650px;
     }
 }
 
