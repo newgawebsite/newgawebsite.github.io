@@ -934,7 +934,7 @@ body {
     height: auto;
     text-align: center;
     color: var(--White);
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 1px 1px 1px 1px var(--Black);
     padding: 6px;
 }
