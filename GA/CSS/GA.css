@@ -310,10 +310,11 @@ body {
     color: var(--White);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18x;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: block;
+    font-weight: bold;
 }
 
 .overlay a:hover {
@@ -326,7 +327,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .3s;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 #myNav {
@@ -435,13 +436,14 @@ body {
     color: var(--White);
     padding: 7px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
     cursor: pointer;
     border: 3px solid var(--White);
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .horizontal-scroll-menu a:hover {
@@ -454,7 +456,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .3s;
-    font-size: 19px;
+    font-size: 20px;
     border: 2px solid var(--NewGWYellow);
 }
 
@@ -1042,6 +1044,7 @@ body {
     height: auto;
     vertical-align: middle;
     z-index: -1;
+    font-weight: bold;
 }
 
 
@@ -1339,10 +1342,11 @@ body {
     color: var(--White);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
+    font-weight: bold;
 }
 
 .fixed-navbar-items:hover {
@@ -1355,7 +1359,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .3s;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 800px) {
