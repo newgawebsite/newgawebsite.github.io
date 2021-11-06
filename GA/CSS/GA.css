@@ -362,7 +362,7 @@ body {
     }
 }
 
-@media screen and (min-w'idth: 500px) {
+@media screen and (min-width: 500px) {
     .overlay {
         margin-top: 14px;
     }
