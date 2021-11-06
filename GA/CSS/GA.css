@@ -389,10 +389,108 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 1352px) {
-    .background-picture {
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 300px) {
+        .background-picture {
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (min-width: 301px) {
+    @media screen and (max-width: 400px) {
+        .background-picture {
+            height: 450px;
+        }
+    }
+}
+
+@media screen and (min-width: 401px) {
+    @media screen and (max-width: 500px) {
+        .background-picture {
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (min-width: 501px) {
+    @media screen and (max-width: 600px) {
+        .background-picture {
+            height: 550px;
+        }
+    }
+}
+
+@media screen and (min-width: 601px) {
+    @media screen and (max-width: 700px) {
+        .background-picture {
+            height: 600px;
+        }
+    }
+}
+
+@media screen and (min-width: 701px) {
+    @media screen and (max-width: 800px) {
+        .background-picture {
+            height: 650px;
+        }
+    }
+}
+
+@media screen and (min-width: 801px) {
+    @media screen and (max-width: 900px) {
+        .background-picture {
+            height: 700px;
+        }
+    }
+}
+
+@media screen and (min-width: 901px) {
+    @media screen and (max-width: 1000px) {
+        .background-picture {
+            height: 750px;
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    @media screen and (max-width: 1100px) {
+        .background-picture {
+            height: 800px;
+        }
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    @media screen and (max-width: 1200px) {
+        .background-picture {
+            height: 850px;
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    @media screen and (max-width: 1300px) {
+        .background-picture {
+            height: 900px;
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    @media screen and (max-width: 1400px) {
+        .background-picture {
+            height: 950px;
+        }
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    @media screen and (max-width: 1501px) {
+        .background-picture {
         /*background-image: url("../IMG/nb_const.jpg");*/
-        height: 1000px;
+            height: 1000px;
+        }
     }
 }
 
