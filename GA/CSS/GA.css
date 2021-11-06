@@ -1265,14 +1265,14 @@ body {
     border-radius: 7px;
     height: auto;
     float: left;
-    width: 22%;
+    width: 23%;
     position: relative;
     margin-right: auto;
     margin-left: auto;
   }
 
   .logo-display:hover {
-      width: 24%;
+      width: 25%;
       transition: all .3s;
   }
 }
