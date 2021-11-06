@@ -362,7 +362,7 @@ body {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-w'idth: 500px) {
     .overlay {
         margin-top: 14px;
     }
@@ -442,8 +442,7 @@ body {
     display: inline-block;
     cursor: pointer;
     border: 3px solid var(--White);
-    border-radius: 8px;
-    font-weight: bold;
+    border-radius: 8%;
 }
 
 .horizontal-scroll-menu a:hover {
