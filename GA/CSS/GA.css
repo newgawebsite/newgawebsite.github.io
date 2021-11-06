@@ -505,11 +505,12 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-    .horizontal-scroll-menu {
+   /* .horizontal-scroll-menu {
         overflow: hidden;
         white-space: normal;
         background-repeat: space;
     }
+    */
 
     .hz-container {
         width: 69%;
@@ -540,7 +541,7 @@ body {
     display: inline-block;
     cursor: pointer;
     border: 3px solid var(--White);
-    border-radius: 8%;
+    border-radius: 8px;
 }
 
 .horizontal-scroll-menu a:hover {
@@ -555,6 +556,7 @@ body {
     transition: all .3s;
     font-size: 20px;
     border: 2px solid var(--NewGWYellow);
+    border-radius: 10px;
 }
 
 .horizontal-scroll-menu-button {
