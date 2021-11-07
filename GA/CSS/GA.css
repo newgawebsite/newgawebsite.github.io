@@ -1005,7 +1005,7 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement {
-        width: 22%;
+        width: 23%;
         display: inline-block;
         padding: 20px;
     }
@@ -1097,6 +1097,7 @@ body {
     display:none;
     overflow: hidden;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .nbSlides.img {
