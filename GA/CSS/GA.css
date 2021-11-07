@@ -1082,12 +1082,12 @@ body {
 .nbSlides {
     display:none;
     overflow: hidden;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .nbSlides.img {
     z-index: -1;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .nb-display {
