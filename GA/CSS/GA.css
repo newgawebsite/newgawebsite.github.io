@@ -1009,7 +1009,6 @@ body {
             text-align: center;
             display: block;
             padding: 8px;
-            width: 38%;
         }
     }
 }
@@ -1021,9 +1020,7 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        display: block;
         padding: 8px;
-        width: 25%;
     }
 }
 
@@ -1095,6 +1092,7 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
+    display: inline-block;
 }
 
 .video {
