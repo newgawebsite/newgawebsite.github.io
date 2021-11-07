@@ -1090,6 +1090,13 @@ body {
     z-index: -1;
 }
 
+.nb-display {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+}
+
 .video {
     margin-left: auto;
     margin-right: auto;
