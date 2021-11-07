@@ -1096,6 +1096,20 @@ body {
     padding: 10px;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .nbSlides {
+            width: 93%;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .nbSlides {
+        width: 40%;
+    }
+}
+
 .nbSlides.img {
     z-index: -1;
     border-radius: 10px;
