@@ -505,12 +505,12 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-   /* .horizontal-scroll-menu {
+    .horizontal-scroll-menu {
         overflow: hidden;
         white-space: normal;
         background-repeat: space;
     }
-    */
+    
 
     .hz-container {
         width: 69%;
