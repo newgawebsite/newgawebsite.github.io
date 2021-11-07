@@ -998,7 +998,7 @@ body {
             height: auto;
             padding: 8px;
             display: inline-block;
-            width: 95%;
+            width: 93%;
         }
     }
 }
@@ -1014,7 +1014,6 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .mission-statement-img {
-            border-radius: 10%;
             margin-left: auto;
             margin-right: auto;
             height: auto;
@@ -1028,7 +1027,6 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement-img {
-        border-radius: 10%;
         margin-left: auto;
         margin-right: auto;
         height: auto;
