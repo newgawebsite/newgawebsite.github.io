@@ -1009,7 +1009,7 @@ body {
             text-align: center;
             padding: 18px;
             display: inline-block;
-            width: 20%;
+            width: 95%;
         }
     }
 }
@@ -1023,7 +1023,7 @@ body {
         text-align: center;
         padding: 8px;
         display: inline-block;
-        width: 95%;
+        width: 20%;
     }
 }
 
