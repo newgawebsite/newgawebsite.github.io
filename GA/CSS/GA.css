@@ -1082,6 +1082,7 @@ body {
 .nbSlides {
     display:none;
     overflow: hidden;
+    border-radius: 10%;
 }
 
 .nbSlides.img {
