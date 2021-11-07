@@ -1008,6 +1008,7 @@ body {
             height: auto;
             text-align: center;
             padding: 8px;
+            display: inline-block;
         }
     }
 }
@@ -1020,6 +1021,7 @@ body {
         height: auto;
         text-align: center;
         padding: 8px;
+        display: inline-block;
     }
 }
 
