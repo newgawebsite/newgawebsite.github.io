@@ -1086,6 +1086,7 @@ body {
 
 .nbSlides.img {
     z-index: -1;
+    border-radius: 10%;
 }
 
 .nb-display {
