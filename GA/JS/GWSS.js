@@ -30,7 +30,7 @@ function nbCarousel() {
     if (nbIndex > b.length) {
         nbIndex = 1
     }
-    b[nbIndex-1].style.display = "block";
+    b[nbIndex-1].style.display = "inline-block";
     setTimeout(nbCarousel, 1900);
 }
 
