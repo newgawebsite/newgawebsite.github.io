@@ -987,15 +987,26 @@ body {
 }
 
 /* Mission Statement */
-.mission-statement {
-    text-align: center;
-    font-size: 20px;
-    color: var(--White);
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    padding: 8px;
-    display: inline-block;
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .mission-statement {
+            text-align: center;
+            font-size: 20px;
+            color: var(--White);
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            padding: 8px;
+            display: inline-block;
+            width: 95%;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .mission-statement {
+        width: 20%;
+    }
 }
 
 @media screen and (min-width: 1px) {
@@ -1008,7 +1019,7 @@ body {
             text-align: center;
             padding: 18px;
             display: inline-block;
-            width: 95%;
+            width: 100%;
         }
     }
 }
@@ -1022,7 +1033,7 @@ body {
         text-align: center;
         padding: 8px;
         display: inline-block;
-        width: 21%;
+        width: 100%;
     }
 }
 
