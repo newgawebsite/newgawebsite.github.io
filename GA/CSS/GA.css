@@ -537,14 +537,14 @@ body {
 .horizontal-scroll-menu a {
     text-align: center;
     color: var(--White);
-    padding: 7px;
+    padding: 15px;
     text-decoration: none;
     font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
     cursor: pointer;
-    border: 3px solid var(--White);
+    border: 1px solid var(--White);
     border-radius: 8px;
 }
 
@@ -559,7 +559,7 @@ body {
     background-repeat: no-repeat;
     transition: all .3s;
     font-size: 20px;
-    border: 2px solid var(--NewGWYellow);
+    border: 1px solid var(--NewGWYellow);
     border-radius: 10px;
 }
 
