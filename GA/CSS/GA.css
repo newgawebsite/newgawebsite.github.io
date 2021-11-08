@@ -501,6 +501,9 @@ body {
     white-space: nowrap;
     border-radius: 5px;
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
