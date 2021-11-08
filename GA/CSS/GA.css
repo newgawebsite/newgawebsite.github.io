@@ -55,7 +55,8 @@ a {
 
 /* Background Settings */
 body {
-    background-color: var(--NewGWGrey);
+   /* background-color: var(--NewGWGrey); */
+    background: linear-gradient(-45deg, var(--NewGWGrey),var(--GAPurple));
     font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 
