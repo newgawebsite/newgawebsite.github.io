@@ -620,7 +620,9 @@ body {
     text-shadow: 1px 1px var(--Black);
     border-radius: 36%;
     padding: 8px;
+    width: 95%;
 }
+
 
 .ministries-img {
     display: inline-block;
