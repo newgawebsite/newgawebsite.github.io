@@ -1106,14 +1106,14 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .nbSlides {
-            width: 95%;
+            width: 93%;
         }
     }
 }
 
 @media screen and (min-width: 769px) {
     .nbSlides {
-        width: 59%;
+        width: 58%;
     }
 }
 
