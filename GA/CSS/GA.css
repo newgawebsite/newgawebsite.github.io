@@ -393,7 +393,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 300px) {
         .background-picture {
-            height: 350px;
+            height: 325px;
         }
     }
 }
@@ -401,7 +401,7 @@ body {
 @media screen and (min-width: 301px) {
     @media screen and (max-width: 400px) {
         .background-picture {
-            height: 375px;
+            height: 350px;
         }
     }
 }
@@ -409,7 +409,7 @@ body {
 @media screen and (min-width: 401px) {
     @media screen and (max-width: 500px) {
         .background-picture {
-            height: 400px;
+            height: 375px;
         }
     }
 }
@@ -417,7 +417,7 @@ body {
 @media screen and (min-width: 501px) {
     @media screen and (max-width: 600px) {
         .background-picture {
-            height: 425px;
+            height: 400px;
         }
     }
 }
@@ -425,7 +425,7 @@ body {
 @media screen and (min-width: 601px) {
     @media screen and (max-width: 700px) {
         .background-picture {
-            height: 450px;
+            height: 425px;
         }
     }
 }
@@ -433,7 +433,7 @@ body {
 @media screen and (min-width: 701px) {
     @media screen and (max-width: 800px) {
         .background-picture {
-            height: 475px;
+            height: 450px;
         }
     }
 }
@@ -441,7 +441,7 @@ body {
 @media screen and (min-width: 801px) {
     @media screen and (max-width: 900px) {
         .background-picture {
-            height: 500px;
+            height: 475px;
         }
     }
 }
@@ -449,7 +449,7 @@ body {
 @media screen and (min-width: 901px) {
     @media screen and (max-width: 1000px) {
         .background-picture {
-            height: 525px;
+            height: 500px;
         }
     }
 }
@@ -457,7 +457,7 @@ body {
 @media screen and (min-width: 1001px) {
     @media screen and (max-width: 1100px) {
         .background-picture {
-            height: 550px;
+            height: 525px;
         }
     }
 }
@@ -465,7 +465,7 @@ body {
 @media screen and (min-width: 1101px) {
     @media screen and (max-width: 1200px) {
         .background-picture {
-            height: 575px;
+            height: 550px;
         }
     }
 }
@@ -473,7 +473,7 @@ body {
 @media screen and (min-width: 1201px) {
     @media screen and (max-width: 1300px) {
         .background-picture {
-            height: 600px;
+            height: 575px;
         }
     }
 }
@@ -481,7 +481,7 @@ body {
 @media screen and (min-width: 1301px) {
     @media screen and (max-width: 1400px) {
         .background-picture {
-            height: 625px;
+            height: 600px;
         }
     }
 }
@@ -490,7 +490,7 @@ body {
     @media screen and (max-width: 1501px) {
         .background-picture {
         /*background-image: url("../IMG/nb_const.jpg");*/
-            height: 650px;
+            height: 625px;
         }
     }
 }
@@ -1011,7 +1011,7 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement {
-        width: 29.75%;
+        width: 29%;
         display: inline-block;
         padding: 20px;
     }
@@ -1113,7 +1113,7 @@ body {
 
 @media screen and (min-width: 769px) {
     .nbSlides {
-        width: 62.5%;
+        width: 59.5%;
     }
 }
 
