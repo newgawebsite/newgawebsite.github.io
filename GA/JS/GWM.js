@@ -1,10 +1,18 @@
 
 /* Sunday Morning Modal */
 var sModal = document.getElementById("sunModal");
-
 var sNav = document.getElementById("sunNav");
-
 var sSpan = document.getElementsByClassName("hz-close")[0];
+
+/* Wednesday Modal */
+var wModal = document.getElementById("wedModal");
+var wNav = document.getElementById("wedNav");
+var wSpan = document.getElementsByClassName("hz-close-wed")[0];
+
+/* Address Map Modal */
+var aModal = document.getElementById("addModal");
+var aNav = document.getElementById("addNav");
+var aSpan = document.getElementsByClassName("hz-close-add")[0];
 
 /* Open modal on button click 
 function openSun() {
@@ -30,19 +38,6 @@ sSpan.onclick = function() {
     document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
 }
 
-window.onclick = function(event) {
-    if (event.target == sModal) {
-        sModal.style.display = "none";
-      /*  document.getElementById("sm").className = " hz-modal-sunanimate__animated animate__fadeOutDown"; */
-    }
-}
-
-/* Wednesday Modal */
-var wModal = document.getElementById("wedModal");
-
-var wNav = document.getElementById("wedNav");
-
-var wSpan = document.getElementsByClassName("hz-close-wed")[0];
 
 /* Open modal on button click 
 function openSun() {
@@ -68,19 +63,8 @@ wSpan.onclick = function() {
     document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeOutDown";
 }
 
-window.onclick = function(event) {
-    if (event.target == wModal) {
-        wModal.style.display = "none";
-       /* document.getElementById("wm").className = " hz-modal-sunanimate__animated animate__fadeOutDown"; */
-    }
-}
 
-/* Address Map Modal */
-var aModal = document.getElementById("addModal");
 
-var aNav = document.getElementById("addNav");
-
-var aSpan = document.getElementsByClassName("hz-close-add")[0];
 
 /* Open modal on button click 
 function openSun() {
@@ -106,9 +90,11 @@ aSpan.onclick = function() {
     document.getElementById("am").className = "hz-modal-sun animate__animated animate__fadeOutDown";
 }
 
+/* Close all modals if the user clicks outside the window */
 window.onclick = function(event) {
-    if (event.target == aModal) {
+    if (event.target == sModal || event.target == wModal || event.target == aModal) {
+        sModal.style.display = "none";
+        wModal.style.display = "none";
         aModal.style.display = "none";
-       /* document.getElementById("am").className = " hz-modal-sunanimate__animated animate__fadeOutDown";  */
     }
 }
