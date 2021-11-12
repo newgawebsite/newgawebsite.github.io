@@ -979,8 +979,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35x;
-    width: 40%;
+    font-size: 45px;
+    width: 45%;
     text-shadow: 1px 2px var(--bsb);
     text-align: center;
     color: var(--White);
