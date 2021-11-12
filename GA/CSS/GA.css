@@ -537,10 +537,7 @@ body {
         width: 71%;
     }
 
-    .centered-text {
-        font-size: 9px;
-        width: 11%
-    }
+    
 }
 
 .horizontal-scroll-menu a {
@@ -974,17 +971,42 @@ body {
     height: auto;
   }
 
-.centered-text {
+  /* Centered Text for Images */
+.container-img {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    color: var(--White);
+    text-shadow: var(--Black) 2px 2px 2px;
+  }
+
+  .container-img a {
+      text-decoration: none;
+      font-size: 60px;
+      color: var(--White);
+      text-shadow: var(--Black) 2px 2px 2px;
+  }
+
+  .centered-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 33px;
     width: 65%;
     text-shadow: 1px 2px var(--bsb);
     text-align: center;
     color: var(--White);
 }
+
+
+.centered-text a {
+    text-decoration: none;
+    font-size: 60px;
+    color: var(--White);
+    text-shadow: var(--Black) 2px 2px 2px;
+}
+
 
 .new-menu-text {
     text-align: center;
