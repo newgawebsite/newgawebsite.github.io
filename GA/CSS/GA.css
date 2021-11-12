@@ -979,7 +979,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 37px;
+    font-size: 35px;
     width: 65%;
     text-shadow: 1px 2px var(--bsb);
     text-align: center;
