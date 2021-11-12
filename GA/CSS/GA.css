@@ -39,7 +39,7 @@
     --NewGWBlue:#00bbf9;
     --NewGWGreen:#00f5d4;
     --NewGWAGreen: rgba(130, 245, 212, 0.897);
-
+    --MMDarkGrey: #8d939c;
 }
 
 /* Make scroll behavior smooth */
@@ -55,11 +55,15 @@ a {
 
 /* Background Settings */
 body {
-    background-color: var(--NewGWGrey);
+   /* background-color: var(--NewGWGrey); */
     /*background: linear-gradient(-45deg, var(--NewGWGrey),var(--GAPurple));*/
     /*font-family: Roboto, Geneva, Tahoma, sans-serif;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
 
+}
+
+.gradient-bg-1 {
+    background: linear-gradient(-60deg, var(--MMDarkGrey),var(--NewGWGrey));
 }
 
 /* Fixed Menu Settings */
