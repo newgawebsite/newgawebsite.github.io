@@ -57,7 +57,9 @@ a {
 body {
     background-color: var(--NewGWGrey);
     /*background: linear-gradient(-45deg, var(--NewGWGrey),var(--GAPurple));*/
-    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    /*font-family: Roboto, Geneva, Tahoma, sans-serif;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+
 }
 
 /* Fixed Menu Settings */
