@@ -63,7 +63,7 @@ body {
 }
 
 .gradient-bg-1 {
-    background: linear-gradient(-120deg, var(--MMDarkGrey),var(--NewGWGrey));
+    background: linear-gradient(var(--MMDarkGrey),var(--NewGWGrey));
 }
 
 /* Fixed Menu Settings */
