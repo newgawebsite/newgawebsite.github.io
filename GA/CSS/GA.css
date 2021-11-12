@@ -1009,14 +1009,14 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .centered-text {
-            font-size: 23px;
+            font-size: 21px;
         }
     }
 }
 
 @media screen and (min-width: 769px) {
     .centered-text {
-        font-size: 33px;
+        font-size: 31px;
     }
 }
 
