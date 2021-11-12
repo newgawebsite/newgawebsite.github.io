@@ -979,10 +979,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 14px;
-    width: 10%;
+    font-size: 25x;
+    width: 30%;
     text-shadow: 1px 2px var(--bsb);
     text-align: center;
+    color: var(--White);
 }
 
 .new-menu-text {
