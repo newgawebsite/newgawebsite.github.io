@@ -377,7 +377,7 @@ body {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 825px) {
     .overlay {
         display: none;
     }
