@@ -734,7 +734,20 @@ body {
     border-radius: 5px;
     float: none;
     padding: 5px;
-    width: 70%;
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 750px) {
+        .hz-modal-img {
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .hz-modal-img {
+        width: 65%;
+    }
 }
 
 .hz-modal-sun {
