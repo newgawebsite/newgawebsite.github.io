@@ -377,7 +377,7 @@ body {
     }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     .overlay {
         display: none;
     }
@@ -1379,7 +1379,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .fixed-navbar-icon {
        display: block;
        float: right;
@@ -1452,7 +1452,7 @@ body {
 }
 */
 
-@media screen and (min-width: 826px) {
+@media screen and (min-width: 900px) {
 .logo-display {
     border-radius: 7px;
     height: auto;
@@ -1469,7 +1469,7 @@ body {
   }
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
     .logo-display {
         margin-left: auto;
         margin-right: auto;
