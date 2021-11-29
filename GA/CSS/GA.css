@@ -733,7 +733,7 @@ body {
     text-align: center;
     border-radius: 5px;
     float: none;
-    padding: 5px;
+    padding: 0;
 }
 
 @media screen and (min-width: 1px) {
