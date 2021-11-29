@@ -815,7 +815,7 @@ body {
             .ws {
                 position: absolute;
                 top: 50%;
-                left: 72%;
+                left: 70%;
                 transform: translate(-50%, -50%);
                 text-shadow: 1px 2px var(--bsb);
                 text-align: center;
