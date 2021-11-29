@@ -790,8 +790,9 @@ body {
         @media screen and (max-height: 500px) {
             .hz-modal-img {
                 width: 100%;
-                opacity: 0.8;
+                /*opacity: 0.8;*/
             }
+            
             .hz-modal-text {
                 position: absolute;
                 top: 12%;
