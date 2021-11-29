@@ -739,14 +739,14 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 750px) {
         .hz-modal-img {
-            width: 78%;
+            width: 81%;
         }
     }
 }
 
 @media screen and (min-width: 750px) {
     .hz-modal-img {
-        width: 68%;
+        width: 71%;
     }
 }
 
