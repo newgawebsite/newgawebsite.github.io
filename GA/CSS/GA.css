@@ -793,7 +793,7 @@ body {
             }
             .hz-modal-text {
                 position: absolute;
-                top: 6%;
+                top: 9%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 text-shadow: 1px 2px var(--bsb);
