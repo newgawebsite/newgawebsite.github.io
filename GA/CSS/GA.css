@@ -714,7 +714,7 @@ body {
     display: block;
     position: fixed;
     z-index: 3;
-    padding-top: 3%;
+    padding-top: 0;
     left: 0;
     top: 0;
     height: 100%;
@@ -757,7 +757,7 @@ body {
     margin-right: auto;
     text-align: center;
     height: auto;
-    padding: 10px;
+    padding: 0;
     border: 1px solid var(--NewGWGrey);
     width: 75%;
     top: 0;
