@@ -746,9 +746,10 @@ body {
 
 @media screen and (min-width: 750px) {
     .hz-modal-img {
-        width: 71%;
+        width: 75%;
     }
 }
+
 
 .hz-modal-sun {
     position: relative;
@@ -782,6 +783,25 @@ body {
     color: var(--White);
     text-shadow: 1px 1px var(--bsb);
 
+}
+
+@media screen and (min-height: 300px) {
+    @media screen and (min-width: 500px) {
+        @media screen and (max-height: 500px) {
+            .hz-modal-img {
+                width: 100%;
+            }
+            .hz-modal-text {
+                position: absolute;
+                top: 2%;
+                left: 50%;
+                /*transform: translate(-50%, -50%); */
+                text-shadow: 1px 2px var(--bsb);
+                text-align: center;
+                color: var(--White);
+            }
+
+    }
 }
 
 .hz-modal-map {
