@@ -769,7 +769,7 @@ body {
 
 .sun-morning-description {
     overflow-y: auto;
-    padding: 25px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -777,8 +777,8 @@ body {
 
 .sun-morning-description p {
     display: inline-block;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 10px;
     color: var(--White);
     text-shadow: 1px 1px var(--bsb);
 
