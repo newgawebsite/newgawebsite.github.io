@@ -785,14 +785,15 @@ body {
 
 }
 
+/*
 @media screen and (min-height: 300px) {
     @media screen and (min-width: 500px) {
         @media screen and (max-height: 500px) {
             .hz-modal-img {
                 width: 100%;
-                /*opacity: 0.8;*/
+                opacity: 0.8;
             }
-            
+
             .hz-modal-text {
                 position: absolute;
                 top: 12%;
@@ -827,6 +828,7 @@ body {
 
     }
 }
+*/
 
 .hz-modal-map {
     margin-left: auto;
@@ -1026,7 +1028,7 @@ body {
     color: var(--White);
     text-align: center;
     text-shadow: 1px 2px var(--Black);
-    font-size: 16px;
+    font-size: 26px;
     float: none;
 }
 
