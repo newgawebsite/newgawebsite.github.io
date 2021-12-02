@@ -1030,6 +1030,7 @@ body {
     text-shadow: 1px 2px var(--Black);
     font-size: 24px;
     float: none;
+    display: inline-block;
 }
 
 .underline {
