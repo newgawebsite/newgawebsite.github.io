@@ -791,9 +791,9 @@ body {
     margin-right: auto;
     height:auto;
     color: var(--White);
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 1px 2px var(--Black);
-    padding: 12px;
+    padding: 10px;
 }
 
 .ws {
@@ -803,9 +803,9 @@ body {
     margin-right: auto;
     height:auto;
     color: var(--White);
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 1px 2px var(--Black);
-    padding: 12px;
+    padding: 10px;
 }
 
 /*
