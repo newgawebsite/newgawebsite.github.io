@@ -772,6 +772,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: inline-block;
 }
 
 .sun-morning-description p {
@@ -781,6 +782,28 @@ body {
     color: var(--White);
     text-shadow: 1px 1px var(--bsb);
 
+}
+
+.ss {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    color: var(--White);
+    font-size: 20px;
+    text-shadow: 1px 2px var(--Black);
+}
+
+.ws {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    color: var(--White);
+    font-size: 20px;
+    text-shadow: 1px 2px var(--Black);
 }
 
 /*
