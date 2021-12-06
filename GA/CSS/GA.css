@@ -811,10 +811,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .ss {
-            font-size: 18px;
+            font-size: 17px;
         }
         .ws {
-            font-size: 18px;
+            font-size: 17px;
         }
     }
 }
@@ -822,10 +822,10 @@ body {
 @media screen and (min-width: 601px) {
     @media screen and (max-width: 700px) {
         .ss {
-            font-size: 19px;
+            font-size: 18px;
         }
         .ws {
-            font-size: 19px;
+            font-size: 18px;
         }
     }
 }
@@ -833,10 +833,10 @@ body {
 @media screen and (min-width: 701px) {
     @media screen and (max-width: 800px) {
         .ss {
-            font-size: 20px;
+            font-size: 19px;
         }
         .ws {
-            font-size: 20px;
+            font-size: 19px;
         }
     }
 }
