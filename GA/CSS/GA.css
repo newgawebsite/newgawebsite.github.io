@@ -833,20 +833,20 @@ body {
 @media screen and (min-width: 701px) {
     @media screen and (max-width: 800px) {
         .ss {
-            font-size: 19px;
+            font-size: 18px;
         }
         .ws {
-            font-size: 19px;
+            font-size: 18px;
         }
     }
 }
 
 @media screen and (min-width: 801px) {
     .ss {
-        font-size: 25px;
+        font-size: 22px;
     }
     .ws {
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 
