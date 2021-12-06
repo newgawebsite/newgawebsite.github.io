@@ -820,12 +820,23 @@ body {
 }
 
 @media screen and (min-width: 601px) {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 700px) {
         .ss {
             font-size: 20px;
         }
         .ws {
             font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 701px) {
+    @media screen and (max-width: 800px) {
+        .ss {
+            font-size: 22px;
+        }
+        .ws {
+            font-size: 22px;
         }
     }
 }
