@@ -811,10 +811,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .ss {
-            font-size: 22px;
+            font-size: 24px;
         }
         .ws {
-            font-size: 22px;
+            font-size: 24px;
         }
     }
 }
@@ -865,14 +865,12 @@ body {
 }
 
 @media screen and (min-width: 1173px) {
-    @media screen and (max-width: 1273px) {
-        .ss {
-            font-size: 24px;
-        }
-        .ws {
-            font-size: 24px;
-        }
-    } 
+    .ss {
+        font-size: 24px;
+    }
+    .ws {
+        font-size: 24px;
+    }
 }
 
 /*
