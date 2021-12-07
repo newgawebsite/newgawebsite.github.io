@@ -822,10 +822,10 @@ body {
 @media screen and (min-width: 601px) {
     @media screen and (max-width: 700px) {
         .ss {
-            font-size: 18px;
+            font-size: 20px;
         }
         .ws {
-            font-size: 18px;
+            font-size: 20px;
         }
     }
 }
