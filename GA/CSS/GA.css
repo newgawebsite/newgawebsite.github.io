@@ -809,16 +809,26 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         .ss {
-            font-size: 17px;
+            font-size: 22px;
         }
         .ws {
-            font-size: 17px;
+            font-size: 22px;
         }
     }
 }
 
+@media screen and (min-width: 769px) {
+    .ss {
+        font-size: 16px;
+    }
+    .ws {
+        font-size: 16px;
+    }
+}
+
+/*
 @media screen and (min-width: 601px) {
     @media screen and (max-width: 700px) {
         .ss {
@@ -849,7 +859,7 @@ body {
         font-size: 17px;
     }
 }
-
+*/
 
 /*
 @media screen and (min-height: 300px) {
