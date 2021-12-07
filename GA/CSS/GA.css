@@ -833,10 +833,10 @@ body {
 @media screen and (min-width: 870px) {
     @media screen and (max-width: 970px) {
         .ss {
-            font-size: 17px;
+            font-size: 18px;
         }
         .ws {
-            font-size: 17px;
+            font-size: 18px;
         }
     } 
 }
@@ -845,10 +845,10 @@ body {
 @media screen and (min-width: 971px) {
     @media screen and (max-width: 1071px) {
         .ss {
-            font-size: 18px;
+            font-size: 20px;
         }
         .ws {
-            font-size: 18px;
+            font-size: 20px;
         }
     } 
 }
@@ -856,10 +856,21 @@ body {
 @media screen and (min-width: 1072px) {
     @media screen and (max-width: 1172px) {
         .ss {
-            font-size: 19px;
+            font-size: 22px;
         }
         .ws {
-            font-size: 19px;
+            font-size: 22px;
+        }
+    } 
+}
+
+@media screen and (min-width: 1173px) {
+    @media screen and (max-width: 1273px) {
+        .ss {
+            font-size: 24px;
+        }
+        .ws {
+            font-size: 24px;
         }
     } 
 }
@@ -1182,7 +1193,7 @@ body {
 
   .centered-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
