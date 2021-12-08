@@ -1302,6 +1302,10 @@ body {
     }
 }
 
+.live-sermon {
+    height: 314px;
+}
+
 
 .mission-statement-text {
     display: block;
