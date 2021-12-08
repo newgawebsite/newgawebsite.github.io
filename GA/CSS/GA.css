@@ -1304,6 +1304,7 @@ body {
 
 .live-sermon {
     height: 314px;
+    display: inline-block;
 }
 
 
