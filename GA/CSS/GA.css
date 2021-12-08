@@ -68,6 +68,12 @@ body {
     right: 0;
 }
 
+.bg2 {
+    background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
+    left: 0;
+    right: 0;
+}
+
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
