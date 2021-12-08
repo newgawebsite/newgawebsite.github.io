@@ -571,7 +571,7 @@ body {
     background-repeat: no-repeat;
     transition: all .3s;
     font-size: 20px;
-    border: 2px solid var(--NewGWYellow);
+    border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
 }
 
