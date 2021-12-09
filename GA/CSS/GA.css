@@ -133,7 +133,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .4s;
+    transition: all .25s;
     font-size: 22px;
 }
 
@@ -192,7 +192,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .4s;
+    transition: all .25s;
     font-size: 24px;
 }
 
@@ -305,7 +305,7 @@ body {
     background-color: var(--NewGWBlue);
     overflow-y: hidden;
     margin-top: 5px;
-    transition: 0.4s;
+    transition: 0.25s;
     left: 0;
     right: 0;
     top: 45px;
@@ -341,7 +341,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .3s;
+    transition: all .25s;
     font-size: 21px;
 }
 
@@ -569,7 +569,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .3s;
+    transition: all .25s;
     font-size: 20px;
     border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
@@ -598,7 +598,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .3s;
+    transition: all .25s;
     font-size: 19px;
     border: 2px solid var(--NewGWYellow);
 }
@@ -614,7 +614,7 @@ body {
 
 .horizontal-scroll-img:hover {
     width: 42%;
-    transition: all .3s;
+    transition: all .25s;
 }
 
 /* Ministries Settings */
@@ -649,7 +649,7 @@ body {
 
   .ministries-img:hover {
     border-radius: 35%;
-    transition: all .4s;
+    transition: all .25s;
   }
 
 @media screen and (min-width: 1px) {
@@ -1619,7 +1619,7 @@ body {
     background-position: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    transition: all .3s;
+    transition: all .25s;
     border: 2px solid var(--NewKRYellow);
     border-radius: 15px;
     }
@@ -1678,7 +1678,7 @@ body {
 
   .logo-display:hover {
       width: 25%;
-      transition: all .3s;
+      transition: all .25s;
   }
 }
 
@@ -1697,7 +1697,7 @@ body {
 
     .logo-display:hover {
         width: 35%;
-        transition: all .3s;
+        transition: all .25s;
     }
 
     .active {
@@ -1761,7 +1761,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .3s;
+    transition: all .25s;
     font-size: 23px;
 }
 
