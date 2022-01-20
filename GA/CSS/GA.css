@@ -1206,6 +1206,16 @@ body {
     color: var(--White);
 }
 
+.centered-text-voice {
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   text-shadow: 1px 2px var(--bsb);
+   text-align: center;
+   color: var(--Black);
+   font-size: 45px;
+}
+
 
 .centered-text a {
     text-decoration: none;
