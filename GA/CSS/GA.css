@@ -1247,7 +1247,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .centered-text-voice {
-            font-size: 18px;
+            font-size: 17px;
         }
     }
 }
@@ -1255,14 +1255,14 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 825px) {
         .centered-text-voice {
-            font-size: 23px;
+            font-size: 22px;
         }
     }
 }
 
 @media screen and (min-width: 825px) {
     .centered-text-voice {
-        font-size: 31px;
+        font-size: 30px;
     }
 }
 
