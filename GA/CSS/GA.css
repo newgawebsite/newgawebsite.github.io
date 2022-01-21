@@ -258,6 +258,18 @@ body {
 /* Address Info */
 .address-container {
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 28px;
+}
+
+.address-nc {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
 }
 
 /*
