@@ -78,6 +78,15 @@ body {
     width: 100%;
 }
 
+/* Main Title*/
+.ga-title {
+    color: var(--MeteorJSPurple);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
