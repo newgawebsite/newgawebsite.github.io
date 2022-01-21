@@ -86,7 +86,7 @@ body {
     margin-right: auto;
     font-weight: bold;
     padding: 25px;
-    text-shadow: var(--NewGWYellow) 2px 2px 3px, 0 0 10px var(--MeteorJSOrange), 0 0 10px var(--NewGWGrey);
+    text-shadow: var(--NewGWYellow) 1px 1px 2px, 0 0 5px var(--MeteorJSOrange), 0 0 5px var(--NewGWGrey);
 
 }
 
