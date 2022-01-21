@@ -624,12 +624,12 @@ body {
     cursor: pointer;
     border: 1px solid var(--White);
     border-radius: 8px;
-    background-color: var(--NewGWBlue);
+    background-color: var(--MeteorJSPurple);
 }
 
 .horizontal-scroll-menu a:hover {
-    background-color: var(--NewGWBlue);
-    color: var(--NewGWYellow);
+    background-color: var(--MeteorJSPurple);
+    color: var(--MeteorJSOrange);
     /*background-image: linear-gradient(transparent calc(100% - 2px), var(--NewGWYellow) 1px);*/
     text-decoration: none;
     background-size: 100% 100%;
@@ -638,7 +638,7 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 20px;
-    border: 3px solid var(--NewGWYellow);
+    border: 3px solid var(--MeteorJSOrange);
     border-radius: 10px;
 }
 
