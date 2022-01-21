@@ -577,7 +577,7 @@ body {
 
 /* Horizontal Scroll Menu */
 .horizontal-scroll-menu {
-    background-color: var(--NewGWBlue);
+    /*background-color: var(--NewGWBlue);*/
     overflow: auto;
     white-space: nowrap;
     border-radius: 5px;
@@ -616,7 +616,7 @@ body {
     text-align: center;
     color: var(--White);
     padding: 15px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
@@ -624,10 +624,11 @@ body {
     cursor: pointer;
     border: 1px solid var(--White);
     border-radius: 8px;
+    background-color: var(--NewGWBlue);
 }
 
 .horizontal-scroll-menu a:hover {
-    background-color: none;
+    background-color: var(--NewGWBlue);
     color: var(--NewGWYellow);
     /*background-image: linear-gradient(transparent calc(100% - 2px), var(--NewGWYellow) 1px);*/
     text-decoration: none;
