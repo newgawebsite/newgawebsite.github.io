@@ -65,7 +65,8 @@ body {
 }
 
 .gradient-bg-1 {
-    background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
+    /*background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
+    */
     left: 0;
     right: 0;
 }
