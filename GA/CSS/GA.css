@@ -74,6 +74,7 @@ body {
     background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
     left: 0;
     right: 0;
+    width: 100%;
 }
 
 /* Fixed Menu Settings */
