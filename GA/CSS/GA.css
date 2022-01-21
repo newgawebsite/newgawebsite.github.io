@@ -616,9 +616,9 @@ body {
 .horizontal-scroll-menu a {
     text-align: center;
     color: var(--White);
-    padding: 15px;
+    padding: 23px;
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 20px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
@@ -638,7 +638,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 20px;
+    font-size: 22px;
     border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
 }
