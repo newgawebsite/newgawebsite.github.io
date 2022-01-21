@@ -213,7 +213,7 @@ body {
 /* Bottom Navbar */
 .navbar-bottom {
     overflow: hidden;
-    background-color: var(--MeteorJSPurple);
+    background-color: none;
     bottom: 0;
     left: 0;
     width: 100%;
