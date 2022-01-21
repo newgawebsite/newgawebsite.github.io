@@ -219,10 +219,13 @@ body {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
+    padding: 15px;
 }
 
 .bottom-navbar-items {
-    float: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: var(--White);
     padding: 14px 16px;
@@ -231,6 +234,7 @@ body {
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
+    padding: 10px;
 }
 
 .bottom-navbar-items:hover {
