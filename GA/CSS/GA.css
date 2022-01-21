@@ -86,14 +86,14 @@ body {
     margin-right: auto;
     font-weight: bold;
     padding: 25px;
-    text-shadow: var(--NewGWYellow) 1px 1px 1px, 0 0 2px var(--MeteorJSOrange), 0 0 2px var(--NewGWGrey);
+    text-shadow: var(--NewGWYellow) 1px 1px 1px, 0 0 1px var(--MeteorJSOrange), 0 0 1px var(--NewGWGrey);
 
 }
 
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .ga-title {
-            font-size: 38px;
+            font-size: 43px;
         }
     }
 }
@@ -101,14 +101,14 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 825px) {
         .ga-title {
-            font-size: 43px;
+            font-size: 48px;
         }
     }
 }
 
 @media screen and (min-width: 825px) {
     .ga-title {
-        font-size: 51px;
+        font-size: 56px;
     }
 }
 
