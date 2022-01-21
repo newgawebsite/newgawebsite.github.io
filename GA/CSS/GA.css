@@ -81,7 +81,8 @@ body {
 /* Fixed Menu Settings */
 .navbar {
     overflow: hidden;
-    background-color: var(--NewGWBlue);
+    /*background-color: var(--NewGWBlue);*/
+    background-color: var(--MeteorJSPurple);
     position: fixed;
     top: 0;
     left: 0;
