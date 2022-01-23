@@ -1962,8 +1962,8 @@ body {
 
 .logo-title {
     color: var(--White);
-    font-size: 18px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 8px;
 }
 
 @media screen and (max-width: 700px) {
