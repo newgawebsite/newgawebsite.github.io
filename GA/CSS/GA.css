@@ -1962,8 +1962,9 @@ body {
 
 .logo-title {
     color: var(--White);
-    font-size: 15px;
+    font-size: 16px;
     padding: 8px;
+    font-weight: bold;
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
