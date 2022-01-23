@@ -1922,6 +1922,7 @@ body {
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    color: var(--White);
   }
 
   .logo-display:hover {
