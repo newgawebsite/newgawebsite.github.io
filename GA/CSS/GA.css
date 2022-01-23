@@ -1964,6 +1964,7 @@ body {
     color: var(--White);
     font-size: 15px;
     padding: 8px;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 @media screen and (max-width: 700px) {
