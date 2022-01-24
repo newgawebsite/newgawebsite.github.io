@@ -128,6 +128,14 @@ body {
     text-align: center;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 1000px) {
+        .navbar {
+            max-height: 5%;
+        }
+    }
+}
+
 .navbar-left {
     display: inline-block;
     height: auto;
