@@ -131,7 +131,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 1000px) {
         .navbar {
-            max-height: 18%;
+            max-height: 19%;
         }
     }
 }
