@@ -1946,14 +1946,14 @@ body {
         height: auto;
         text-align: center;
         display: block;
-        width: 33%;
+        width: 30%;
         float: none;
         border-radius: 7px;
         position: relative;
     }
 
     .logo-display:hover {
-        width: 35%;
+        width: 32%;
         transition: all .25s;
     }
 
@@ -1990,7 +1990,7 @@ body {
         }
     }
 
-
+/*
 @media screen and (max-width: 700px) {
     .logo-display {
         margin-left: auto;
@@ -2003,6 +2003,7 @@ body {
         border-radius: 7px;
         position: relative;
     }
+    */
 
     .active {
         margin-left: auto;
