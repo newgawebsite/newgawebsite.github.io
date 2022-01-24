@@ -131,7 +131,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 1000px) {
         .navbar {
-            max-height: 15%;
+            max-height: 18%;
         }
     }
 }
@@ -1970,11 +1970,26 @@ body {
 
 .logo-title {
     color: var(--White);
-    font-size: 18px;
-    padding: 5px;
     font-weight: bold;
-    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-family: Candara, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 1000px) {
+        .logo-title {
+            font-size: 14px;
+            padding: 2px;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+        .logo-title {
+            font-size: 18px;
+            padding: 5px;
+        }
+    }
+
 
 @media screen and (max-width: 700px) {
     .logo-display {
