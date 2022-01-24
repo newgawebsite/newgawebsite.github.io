@@ -1931,7 +1931,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     color: var(--White);
-    margin-top: 5px;
   }
 
   .logo-display:hover {
@@ -1947,14 +1946,14 @@ body {
         height: auto;
         text-align: center;
         display: block;
-        width: 30%;
+        width: 25%;
         float: none;
         border-radius: 7px;
         position: relative;
     }
 
     .logo-display:hover {
-        width: 32%;
+        width: 27%;
         transition: all .25s;
     }
 
