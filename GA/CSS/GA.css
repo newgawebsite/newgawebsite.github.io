@@ -133,7 +133,7 @@ body {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 400px) {
                 .navbar {
-                    max-height: 19%;
+                    max-height: 18%;
                 }
             }
         }
@@ -145,7 +145,7 @@ body {
         @media screen and (min-height: 400px) {
             @media screen and (max-height: 900px) {
                 .navbar {
-                    max-height: 17%;
+                    max-height: 15%;
                 }
             }
         }
