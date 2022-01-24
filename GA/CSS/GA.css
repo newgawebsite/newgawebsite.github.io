@@ -1964,14 +1964,14 @@ body {
         height: auto;
         text-align: center;
         display: block;
-        width: 25%;
+        width: 24%;
         float: none;
         border-radius: 7px;
         position: relative;
     }
 
     .logo-display:hover {
-        width: 27%;
+        width: 26%;
         transition: all .25s;
     }
 
