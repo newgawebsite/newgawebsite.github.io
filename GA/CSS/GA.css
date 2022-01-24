@@ -1990,7 +1990,7 @@ body {
         }
     }
 
-/*
+
 @media screen and (max-width: 700px) {
     .logo-display {
         margin-left: auto;
@@ -2003,7 +2003,7 @@ body {
         border-radius: 7px;
         position: relative;
     }
-    */
+    
 
     .active {
         margin-left: auto;
