@@ -1931,6 +1931,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     color: var(--White);
+    top: 5px;
   }
 
   .logo-display:hover {
