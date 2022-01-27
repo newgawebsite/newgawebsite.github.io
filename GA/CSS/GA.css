@@ -1963,7 +1963,7 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -1993,7 +1993,7 @@ body {
     */
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     @media screen and (max-width: 1000px) {
         .logo-display {
             margin-left: auto;
@@ -2001,7 +2001,7 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 25%;
+            width: 27%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -2009,7 +2009,7 @@ body {
     }
 
     .logo-display:hover {
-        width: 27%;
+        width: 29%;
         transition: all .25s;
     }
 }
