@@ -1963,7 +1963,7 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 650px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -1993,7 +1993,7 @@ body {
     */
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     @media screen and (max-width: 1000px) {
         .logo-display {
             margin-left: auto;
