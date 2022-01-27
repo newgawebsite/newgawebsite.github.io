@@ -1963,14 +1963,14 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 600px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 33.5%;
+            width: 34%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -1978,7 +1978,7 @@ body {
 }
 
     .logo-display:hover {
-        width: 35.5%;
+        width: 36%;
         transition: all .25s;
     }
 /*
@@ -1993,15 +1993,15 @@ body {
     */
 }
 
-@media screen and (min-width: 650px) {
-    @media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) {
+    @media screen and (max-width: 800px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 30%;
+            width: 29%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -2009,7 +2009,28 @@ body {
     }
 
     .logo-display:hover {
-        width: 33%;
+        width: 31%;
+        transition: all .25s;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    @media screen and (max-width: 1000px) {
+        .logo-display {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 26%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+    }
+
+    .logo-display:hover {
+        width: 28%;
         transition: all .25s;
     }
 }
