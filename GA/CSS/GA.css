@@ -1982,8 +1982,7 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        display: inline-block;
-        font-size: 45px;  
+        display: inline-block;  
         color: var(--White) ;  
     }
 }
