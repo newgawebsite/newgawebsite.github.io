@@ -2006,6 +2006,7 @@ body {
 
 @media screen and (min-width: 1000px) {
         .logo-title {
+            top: 10px;
             font-size: 18px;
             padding: 3px;
         }
