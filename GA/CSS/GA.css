@@ -2019,6 +2019,7 @@ body {
             font-size: 18px;
             padding: 3px;
             vertical-align: top;
+            position: absolute;
         }
     }
 
