@@ -1957,21 +1957,23 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
-    .logo-display {
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        text-align: center;
-        display: inline-block;
-        width: 24%;
-        float: none;
-        border-radius: 3px;
-        position: relative;
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 1000px) {
+        .logo-display {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 21%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
     }
+}
 
     .logo-display:hover {
-        width: 26%;
+        width: 22%;
         transition: all .25s;
     }
 
