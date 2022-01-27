@@ -1952,7 +1952,7 @@ body {
   }
 
   .logo-display:hover {
-      width: 25%;
+      width: 24%;
       transition: all .25s;
   }
 }
@@ -2010,7 +2010,7 @@ body {
         }
     }
 
-
+/*
 @media screen and (max-width: 700px) {
     .logo-display {
         margin-left: auto;
@@ -2034,7 +2034,7 @@ body {
         font-size: 35px;    
     }
 }
-
+*/
 @media screen and (min-width: 755px) {
     .navbar-right {
         display: inline-block;
