@@ -1944,7 +1944,7 @@ body {
     border-radius: 7px;
     height: auto;
     float: left;
-    width: 23%;
+    width: 22%;
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -1988,6 +1988,7 @@ body {
 }
 
 .logo-title {
+    text-align: center;
     display: inline-block;
     color: var(--White);
     font-weight: bold;
