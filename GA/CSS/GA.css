@@ -1963,7 +1963,7 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        display: block;
+        display: inline-block;
         width: 24%;
         float: none;
         border-radius: 3px;
@@ -1980,7 +1980,7 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        display: block;
+        display: inline-block;
         font-size: 45px;  
         color: var(--White) ;  
     }
@@ -2015,7 +2015,7 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        display: block;
+        display: inline-block;
         width: 30%;
         float: none;
         border-radius: 7px;
