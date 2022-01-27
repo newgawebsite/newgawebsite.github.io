@@ -133,7 +133,7 @@ body {
         @media screen and (min-height: 1px) {
             @media screen and (max-height: 400px) {
                 .navbar {
-                    max-height: 15%;
+                    max-height: 16%;
                 }
             }
         }
@@ -145,7 +145,7 @@ body {
         @media screen and (min-height: 400px) {
             @media screen and (max-height: 1000px) {
                 .navbar {
-                    max-height: 13%;
+                    max-height: 14%;
                 }
             }
         }
@@ -1971,7 +1971,7 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 26%;
+            width: 28%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -1979,7 +1979,7 @@ body {
 }
 
     .logo-display:hover {
-        width: 28%;
+        width: 30%;
         transition: all .25s;
     }
 /*
