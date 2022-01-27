@@ -1951,6 +1951,12 @@ body {
     color: var(--White);
   }
 
+  .logo-display::after {
+      clear: both;
+      content: "";
+      display: table;
+  }
+
   .logo-display:hover {
       width: 24%;
       transition: all .25s;
@@ -2007,6 +2013,7 @@ body {
 @media screen and (min-width: 1000px) {
         .logo-title {
             top: 10px;
+            margin-top: 10px;
             font-size: 18px;
             padding: 3px;
         }
