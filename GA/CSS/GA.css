@@ -1982,7 +1982,7 @@ body {
         width: 26%;
         transition: all .25s;
     }
-
+/*
     .active {
         margin-left: auto;
         margin-right: auto;
@@ -1991,6 +1991,7 @@ body {
         display: inline-block;  
         color: var(--White) ;  
     }
+    */
 }
 
 .logo-title {
