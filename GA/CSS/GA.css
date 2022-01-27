@@ -1988,6 +1988,7 @@ body {
 }
 
 .logo-title {
+    display: inline-block;
     color: var(--White);
     font-weight: bold;
     font-family: Candara, Verdana, Geneva, Tahoma, sans-serif;
