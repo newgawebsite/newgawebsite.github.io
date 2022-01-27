@@ -1971,7 +1971,7 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 35%;
+            width: 32%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -1979,7 +1979,7 @@ body {
 }
 
     .logo-display:hover {
-        width: 37%;
+        width: 34%;
         transition: all .25s;
     }
 /*
