@@ -1950,12 +1950,6 @@ body {
     color: var(--White);
   }
 
-  .logo-display::after {
-      clear: both;
-      content: "";
-      display: table;
-  }
-
   .logo-display:hover {
       width: 24%;
       transition: all .25s;
@@ -1963,7 +1957,7 @@ body {
 }
 
 @media screen and (min-width: 1px) {
-    @media screen and (max-width: 625px) {
+    @media screen and (max-width: 600px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -1993,8 +1987,8 @@ body {
     */
 }
 
-@media screen and (min-width: 625px) {
-    @media screen and (max-width: 800px) {
+@media screen and (min-width: 600px) {
+    @media screen and (max-width: 700px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -2014,8 +2008,8 @@ body {
     }
 }
 
-@media screen and (min-width: 800px) {
-    @media screen and (max-width: 1000px) {
+@media screen and (min-width: 700px) {
+    @media screen and (max-width: 800px) {
         .logo-display {
             margin-left: auto;
             margin-right: auto;
@@ -2031,6 +2025,27 @@ body {
 
     .logo-display:hover {
         width: 29%;
+        transition: all .25s;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    @media screen and (max-width: 1000px) {
+        .logo-display {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 24%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+    }
+
+    .logo-display:hover {
+        width: 26%;
         transition: all .25s;
     }
 }
