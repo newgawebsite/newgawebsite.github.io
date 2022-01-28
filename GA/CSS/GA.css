@@ -296,13 +296,12 @@ body {
     margin-right: auto;
     text-align: center;
     color: var(--White);
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 22px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
-    padding: 10px;
 }
 
 .bottom-navbar-items:hover {
@@ -315,7 +314,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 /* Address Info */
