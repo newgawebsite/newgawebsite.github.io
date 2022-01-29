@@ -2038,7 +2038,7 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 25%;
+            width: 26%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -2046,7 +2046,7 @@ body {
     }
 
     .logo-display:hover {
-        width: 27%;
+        width: 28%;
         transition: all .25s;
     }
 }
