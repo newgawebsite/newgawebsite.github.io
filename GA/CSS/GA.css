@@ -325,6 +325,7 @@ body {
     text-align: center;
     padding: 28px;
     overflow-y: auto;
+    color: var(--MeteorJSPurple);
 
 }
 
