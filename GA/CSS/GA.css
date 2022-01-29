@@ -565,9 +565,9 @@ body {
     padding: 8px;
     text-align: center;
     color: var(--White);
-    padding: 14px 16px;
+    padding: 13px 15px;
     text-decoration: none;
-    font-size: 18x;
+    font-size: 17x;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: block;
@@ -584,7 +584,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 #myNav {
