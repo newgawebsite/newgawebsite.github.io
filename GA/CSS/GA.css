@@ -334,12 +334,11 @@ body {
     margin-right: auto;
     text-align: center;
     font-size: 25px;
-    color: var(--White);
+    color: var(--MeteorJSPurple);
     text-shadow: 1px 2px var(--Black);
     padding: 5px;
     font-weight: bold;
 }
-
 
 .sun-morning-description {
     overflow-y: auto;
