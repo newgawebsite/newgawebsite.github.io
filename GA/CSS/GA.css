@@ -296,9 +296,9 @@ body {
     margin-right: auto;
     text-align: center;
     color: var(--White);
-    padding: 16px 18px;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
@@ -314,7 +314,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 /* Address Info */
