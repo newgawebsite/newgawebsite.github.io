@@ -2117,7 +2117,7 @@ body {
     color: var(--White);
     padding: 15px 33px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 23px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     vertical-align: bottom;
@@ -2135,7 +2135,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 1000px) {
