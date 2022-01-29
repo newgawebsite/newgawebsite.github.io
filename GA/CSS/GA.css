@@ -2017,7 +2017,7 @@ body {
             height: auto;
             text-align: center;
             display: inline-block;
-            width: 29%;
+            width: 30%;
             float: none;
             border-radius: 3px;
             position: relative;
@@ -2025,7 +2025,7 @@ body {
     }
 
     .logo-display:hover {
-        width: 31%;
+        width: 32%;
         transition: all .25s;
     }
 }
