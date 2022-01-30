@@ -995,7 +995,7 @@ body {
 
 @media screen and (min-width: 750px) {
     .hz-modal-img {
-        width: 79%;
+        width: 75%;
     }
 }
 
@@ -1232,7 +1232,7 @@ body {
 @media screen and (min-height: 301px) {
     @media screen and (max-height: 350px) {
         .hz-modal-map {
-            height: 170px;
+            height: 130px;
         }
 
     }
@@ -1242,7 +1242,7 @@ body {
 @media screen and (min-height: 351px) {
     @media screen and (max-height: 400px) {
         .hz-modal-map {
-            height: 215px;
+            height: 150px;
         }
 
     }
@@ -1252,7 +1252,7 @@ body {
 @media screen and (min-height: 401px) {
     @media screen and (max-height: 450px) {
         .hz-modal-map {
-            height: 260px;
+            height: 160px;
         }
 
     }
@@ -1262,7 +1262,7 @@ body {
 @media screen and (min-height: 451px) {
     @media screen and (max-height: 500px) {
         .hz-modal-map {
-            height: 205px;
+            height: 180px;
         }
 
     }
@@ -1272,7 +1272,7 @@ body {
 @media screen and (min-height: 501px) {
     @media screen and (max-height: 550px) {
         .hz-modal-map {
-            height: 250px;
+            height: 225px;
         }
 
     }
@@ -1282,7 +1282,7 @@ body {
 @media screen and (min-height: 551px) {
     @media screen and (max-height: 600px) {
         .hz-modal-map {
-            height: 295px;
+            height: 270px;
         }
 
     }
@@ -1292,7 +1292,7 @@ body {
 @media screen and (min-height: 601px) {
     @media screen and (max-height: 650px) {
         .hz-modal-map {
-            height: 340px;
+            height: 315px;
         }
 
     }
@@ -1302,7 +1302,7 @@ body {
 @media screen and (min-height: 651px) {
     @media screen and (max-height: 700px) {
         .hz-modal-map {
-            height: 385px;
+            height: 360px;
         }
 
     }
@@ -1312,7 +1312,7 @@ body {
 @media screen and (min-height: 701px) {
     @media screen and (max-height: 750px) {
         .hz-modal-map {
-            height: 430px;
+            height: 400px;
         }
 
     }
@@ -1322,7 +1322,7 @@ body {
 @media screen and (min-height: 751px) {
     @media screen and (max-height: 800px) {
         .hz-modal-map {
-            height: 475px;
+            height: 450px;
         }
 
     }
