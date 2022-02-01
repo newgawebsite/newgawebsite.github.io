@@ -43,6 +43,7 @@
     --MeteorJSPurple: #595dff;
     --MeteorJSOrange: #ff6a3e;
     --SilverChalice: #ABABAB;
+    --TithelyGreen: #5cd2a4;
 }
 
 /* Make scroll behavior smooth */
@@ -78,6 +79,34 @@ body {
   background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
   left: 0;
   right: 0;
+}
+
+/* Tithely Button Settings */
+.tithely-button {
+    background-color: var(--TithelyGreen);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .tithely-button {
+            width: 96%;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .tithely-button {
+        width: 43%;
+    }
 }
 
 /* Main Title*/
