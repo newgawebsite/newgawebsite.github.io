@@ -295,12 +295,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--MeteorJSPurple);
-    padding: 18px 20px;
+    color: var(--Black);
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     background-size: 0% 100%;
-    box-shadow: var(--bsb);
+    /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
 }
 
@@ -314,7 +314,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 /* Address Info */
@@ -1212,7 +1212,7 @@ body {
 @media screen and (min-height: 1px) {
     @media screen and (max-height: 150px) {
         .hz-modal-map {
-            height: 50px;
+            height: 65px;
         }
 
     }
@@ -1222,7 +1222,7 @@ body {
 @media screen and (min-height: 151px) {
     @media screen and (max-height: 300px) {
         .hz-modal-map {
-            height: 100px;
+            height: 115px;
         }
 
     }
@@ -1232,7 +1232,7 @@ body {
 @media screen and (min-height: 301px) {
     @media screen and (max-height: 350px) {
         .hz-modal-map {
-            height: 130px;
+            height: 145px;
         }
 
     }
@@ -1242,7 +1242,7 @@ body {
 @media screen and (min-height: 351px) {
     @media screen and (max-height: 400px) {
         .hz-modal-map {
-            height: 150px;
+            height: 165px;
         }
 
     }
@@ -1252,7 +1252,7 @@ body {
 @media screen and (min-height: 401px) {
     @media screen and (max-height: 450px) {
         .hz-modal-map {
-            height: 160px;
+            height: 175px;
         }
 
     }
@@ -1262,7 +1262,7 @@ body {
 @media screen and (min-height: 451px) {
     @media screen and (max-height: 500px) {
         .hz-modal-map {
-            height: 180px;
+            height: 195px;
         }
 
     }
@@ -1272,7 +1272,7 @@ body {
 @media screen and (min-height: 501px) {
     @media screen and (max-height: 550px) {
         .hz-modal-map {
-            height: 225px;
+            height: 240px;
         }
 
     }
@@ -1282,7 +1282,7 @@ body {
 @media screen and (min-height: 551px) {
     @media screen and (max-height: 600px) {
         .hz-modal-map {
-            height: 270px;
+            height: 285px;
         }
 
     }
@@ -1292,7 +1292,7 @@ body {
 @media screen and (min-height: 601px) {
     @media screen and (max-height: 650px) {
         .hz-modal-map {
-            height: 315px;
+            height: 330px;
         }
 
     }
@@ -1302,7 +1302,7 @@ body {
 @media screen and (min-height: 651px) {
     @media screen and (max-height: 700px) {
         .hz-modal-map {
-            height: 360px;
+            height: 375px;
         }
 
     }
@@ -1312,7 +1312,7 @@ body {
 @media screen and (min-height: 701px) {
     @media screen and (max-height: 750px) {
         .hz-modal-map {
-            height: 400px;
+            height: 415px;
         }
 
     }
@@ -1322,7 +1322,7 @@ body {
 @media screen and (min-height: 751px) {
     @media screen and (max-height: 800px) {
         .hz-modal-map {
-            height: 450px;
+            height: 465px;
         }
 
     }
