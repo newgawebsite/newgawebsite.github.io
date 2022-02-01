@@ -91,6 +91,15 @@ body {
     display: inline-block;
 }
 
+.tithely-container a {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .tithely-button {
     background-color: var(--TithelyGreen);
     border: none;
@@ -108,21 +117,21 @@ body {
     font-weight: bold;
 }
 
-/*
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
-        .tithely-button {
+        .tithely-container a {
             width: 96%;
         }
     }
 }
 
 @media screen and (min-width: 769px) {
-    .tithely-button {
-        width: 88%;
+    .tithely-container a {
+        width: 58%;
     }
 }
-*/
+
 
 /* Main Title*/
 .ga-title {
