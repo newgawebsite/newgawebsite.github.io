@@ -89,6 +89,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 15px;
 }
 
 .tithely-container a {
@@ -98,6 +99,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 15px;
 }
 
 .tithely-button {
@@ -126,6 +128,7 @@ body {
     margin-right: auto;
     cursor: pointer;
     height: auto;
+    border-radius: 8px;
 }
 
 
