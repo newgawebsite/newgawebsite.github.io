@@ -135,13 +135,13 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .tithely-container a {
-            width: 96%;
+            width: 92%;
         }
         .tithely-button {
-            width: 96%
+            width: 92%
         }
         .app-store {
-            width: 96%;
+            width: 92%;
         }
     }
 }
@@ -154,7 +154,7 @@ body {
         width: 58%;
     }
     .app-store {
-        width: 35%;
+        width: 32%;
     }
 }
 
