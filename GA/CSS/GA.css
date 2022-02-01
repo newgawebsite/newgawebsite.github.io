@@ -123,11 +123,17 @@ body {
         .tithely-container a {
             width: 96%;
         }
+        .tithely-button {
+            width: 96%
+        }
     }
 }
 
 @media screen and (min-width: 769px) {
     .tithely-container a {
+        width: 58%;
+    }
+    .tithely-button {
         width: 58%;
     }
 }
