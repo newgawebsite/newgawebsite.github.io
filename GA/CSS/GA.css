@@ -95,7 +95,7 @@ body {
     background-color: var(--TithelyGreen);
     border: none;
     color: var(--White);
-    padding: 15px 37px;
+    padding: 25px 47px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -117,7 +117,7 @@ body {
 
 @media screen and (min-width: 769px) {
     .tithely-button {
-        width: 53%;
+        width: 63%;
     }
 }
 
