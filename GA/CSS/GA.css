@@ -74,9 +74,10 @@ body {
 }
 
 .bg2 {
-   background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));
-   left: 0;
-   right: 0;
+  /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));*/
+  background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
+  left: 0;
+  right: 0;
 }
 
 /* Main Title*/
