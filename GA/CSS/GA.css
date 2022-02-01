@@ -74,8 +74,7 @@ body {
 }
 
 .bg2 {
-   /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
-   */ 
+   background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
    left: 0;
    right: 0;
 }
@@ -875,7 +874,7 @@ body {
    /* border-radius: 36%; */
     padding: 8px;
     width: 100%;
-    background-color: var(--SilverChalice);
+   /* background-color: var(--SilverChalice); */
 }
 
 
