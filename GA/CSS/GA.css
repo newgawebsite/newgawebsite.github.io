@@ -404,6 +404,7 @@ body {
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
+    font-weight: bold;
 }
 
 .bottom-navbar-items:hover {
