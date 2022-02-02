@@ -117,6 +117,7 @@ body {
     height: auto;
     border-radius: 9px;
     font-weight: bold;
+    text-shadow: 1px 1px var(--Black);
 }
 
 .app-store {
