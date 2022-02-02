@@ -161,9 +161,6 @@ body {
         .app-store {
             width: 85%;
         }
-        .app-store-container {
-            width: 85%;    
-        }
         .app-store-container a {
             width: 85%;
         }
@@ -178,13 +175,10 @@ body {
         width: 58%;
     }
     .app-store-container a {
-        width: 42%;
+        width: 40%;
     }
     .app-store {
         width: 45%;
-    }
-    .app-store-container {
-        width: 41%;
     }
 }
 
