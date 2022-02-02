@@ -99,8 +99,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 15px;
-    border-radius: 8px;;
+    border-radius: 8px;
 }
 
 .tithely-button {
@@ -131,17 +130,39 @@ body {
     border-radius: 8px;
 }
 
+.app-store-container {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.app-store-container a {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
 
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .tithely-container a {
-            width: 92%;
+            width: 85%;
         }
         .tithely-button {
-            width: 92%
+            width: 85%
         }
         .app-store {
-            width: 92%;
+            width: 85%;
+        }
+        .app-store-container a {
+            width: 85%;
         }
     }
 }
@@ -153,8 +174,11 @@ body {
     .tithely-button {
         width: 58%;
     }
+    .app-store-container a {
+        width: 42%;
+    }
     .app-store {
-        width: 32%;
+        width: 45%;
     }
 }
 
