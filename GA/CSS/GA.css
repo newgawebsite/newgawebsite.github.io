@@ -410,7 +410,7 @@ body {
 .bottom-navbar-items:hover {
     background-color: none;
     color: var(--MeteorJSPurple);
-    background-image: linear-gradient(transparent calc(100% - 2px), var(--MeteorJSPurple) 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--Black) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
