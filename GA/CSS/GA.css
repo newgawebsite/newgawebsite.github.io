@@ -137,6 +137,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 15px;
 }
 
 .app-store-container a {
@@ -174,7 +175,7 @@ body {
         width: 58%;
     }
     .app-store-container a {
-        width: 44%;
+        width: 45%;
     }
     .app-store {
         width: 49%;
