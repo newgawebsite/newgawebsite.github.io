@@ -113,9 +113,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 30px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 9px;
     font-weight: bold;
 }
 
@@ -177,7 +177,7 @@ body {
         width: 46%;
     }
     .app-store {
-        width: 54%;
+        width: 58%;
     }
 }
 
