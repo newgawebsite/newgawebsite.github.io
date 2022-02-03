@@ -398,11 +398,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--White);
-    text-shadow: 1px 1px var(--Black);
+    color: var(--Black);
+   /* text-shadow: 1px 1px var(--Black);*/
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 21px;
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
@@ -418,7 +418,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 24px;
+    font-size: 23px;
 }
 
 /* Address Info */
