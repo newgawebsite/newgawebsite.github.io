@@ -398,7 +398,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--Black);
+    color: var(--White);
+    text-shadow: 1px 1px var(--Black);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
@@ -410,7 +411,6 @@ body {
 
 .bottom-navbar-items:hover {
     background-color: none;
-    color: var(--Black);
     background-image: linear-gradient(transparent calc(100% - 2px), var(--Black) 1px);
     text-decoration: none;
     background-size: 100% 100%;
