@@ -64,7 +64,7 @@ body {
     /*font-family: Roboto, Geneva, Tahoma, sans-serif;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
     /*font-family: 'Antonio';*/
-    background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
+    /*background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));*/
 
 
 }
@@ -78,7 +78,7 @@ body {
 
 .bg2 {
   /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));*/
-  /*background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));*/
+  background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
   left: 0;
   right: 0;
 }
