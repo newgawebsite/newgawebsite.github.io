@@ -426,14 +426,32 @@ body {
 
 /* Address Info */
 .address-container {
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 18px 18px 18px 18px;
     /*overflow-y: auto;*/
     color: var(--MeteorJSPurple);
+}
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .address-container {
+            display: block;
+        }
+        .glow-img {
+            display: block;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .address-container {
+        display: inline-block;
+    }
+    .glow-img {
+        display: inline-block;
+    }
 }
 
 .address-nc {
@@ -2315,7 +2333,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    display: inline-block;
     text-align: center;
     padding: 35px 35px 35px 35px;
     text-decoration: none;
