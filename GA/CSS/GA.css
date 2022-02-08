@@ -405,7 +405,7 @@ body {
    /* text-shadow: 1px 1px var(--Black);*/
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 18px;
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
@@ -421,7 +421,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 /* Address Info */
