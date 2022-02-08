@@ -2313,7 +2313,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 15px 15px 15px 15px;
     text-decoration: none;
