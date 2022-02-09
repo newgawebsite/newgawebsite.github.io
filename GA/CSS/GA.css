@@ -454,6 +454,15 @@ body {
     }
 }
 
+.glow-container {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
 .address-nc {
     display: inline-block;
     margin-left: auto;
