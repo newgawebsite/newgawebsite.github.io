@@ -476,6 +476,7 @@ body {
     margin-right: auto;
     height: auto;
     display: inline-block;
+    box-shadow: var(--bsb);
 }
 
 
