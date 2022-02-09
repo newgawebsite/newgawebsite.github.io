@@ -441,6 +441,10 @@ body {
         }
         .glow-img {
             display: block;
+            width: 95%;
+        }
+        .glow-display {
+            width: 95%;
         }
     }
 }
@@ -451,6 +455,10 @@ body {
     }
     .glow-img {
         display: inline-block;
+        width: 48%;
+    }
+    .glow-display {
+        width: 48%;
     }
 }
 
@@ -462,6 +470,15 @@ body {
     display: inline-block;
     width: 100%;
 }
+
+.glow-display {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: inline-block;
+}
+
+
 
 .address-nc {
     display: inline-block;
