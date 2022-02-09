@@ -441,10 +441,10 @@ body {
         }
         .glow-img {
             display: block;
-            width: 92%;
+            width: 90%;
         }
         .glow-display {
-            width: 92%;
+            width: 90%;
         }
     }
 }
@@ -2361,6 +2361,5 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
-    padding: 35px;
     text-decoration: none;
 }
