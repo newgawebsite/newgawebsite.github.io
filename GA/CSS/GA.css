@@ -1144,10 +1144,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 750px) {
         .hz-modal-img {
-            width: 90%;
+            width: 88%;
         }
         .hz-modal-map {
-            width: 90%;
+            width: 88%;
         }
     }
 }
