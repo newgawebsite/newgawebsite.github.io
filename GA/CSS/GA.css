@@ -403,9 +403,9 @@ body {
     text-align: center;
     color: var(--Black);
    /* text-shadow: 1px 1px var(--Black);*/
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
@@ -421,7 +421,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 /* Address Info */
@@ -455,7 +455,7 @@ body {
     }
     .glow-img {
         display: inline-block;
-        width: 58%;
+        width: 68%;
     }
     .glow-display {
         width: 48%;
