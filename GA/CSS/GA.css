@@ -403,6 +403,9 @@ body {
         .bottom-navbar-items {
             display: block;
         }
+        .bottom-navbar-items-fb {
+            display: block;
+        }
     }
 }
 
@@ -413,13 +416,16 @@ body {
     .bottom-navbar-items {
         display: inline-block;
     }
+    .bottom-navbar-items-fb {
+        display: inline-block;
+    }
 }
 
 .bottom-navbar-items {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--MeteorJSPurple);
+    color: var(--black);
    /* text-shadow: 1px 1px var(--Black);*/
     padding: 18px 20px;
     text-decoration: none;
@@ -440,6 +446,34 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 27px;
+}
+
+
+.bottom-navbar-items-fb {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--MeteorJSPurple);
+   /* text-shadow: 1px 1px var(--Black);*/
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 35px;
+    background-size: 0% 100%;
+    /*box-shadow: var(--bsb);*/
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.bottom-navbar-items-fb:hover {
+    background-color: none;
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--Black) 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .25s;
+    font-size: 37px;
 }
 
 /* Address Info */
