@@ -66,7 +66,7 @@ body {
     /*font-family: 'Antonio';*/
     /*background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));*/
     width: 100%;
-    
+
 
 }
 
@@ -82,6 +82,7 @@ body {
   background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
   left: 0;
   right: 0;
+  width: 100%;
 }
 
 /* Tithely Button Settings */
