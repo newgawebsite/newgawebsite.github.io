@@ -419,9 +419,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--Black);
+    color: var(--MeteorJSPurple);
    /* text-shadow: 1px 1px var(--Black);*/
-    padding: 8px 10px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 25px;
     background-size: 0% 100%;
