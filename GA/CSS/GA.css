@@ -391,13 +391,31 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 15px;
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .navbar-bottom {
+            display: block;
+        }
+        .bottom-navbar-items {
+            display: block;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-bottom {
+        display: inline-block;
+    }
+    .bottom-navbar-items {
+        display: inline-block;
+    }
+}
+
 .bottom-navbar-items {
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -405,7 +423,7 @@ body {
    /* text-shadow: 1px 1px var(--Black);*/
     padding: 8px 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
@@ -1144,10 +1162,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 750px) {
         .hz-modal-img {
-            width: 88%;
+            width: 84%;
         }
         .hz-modal-map {
-            width: 88%;
+            width: 84%;
         }
     }
 }
