@@ -65,7 +65,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
     /*font-family: 'Antonio';*/
     /*background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));*/
-
+    width: 100%;
+    
 
 }
 
