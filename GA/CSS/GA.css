@@ -1085,6 +1085,7 @@ body {
 }
 
 .horizontal-scroll-menu a {
+    font-variant: small-caps;
     text-align: center;
     color: var(--White);
     padding: 20px;
