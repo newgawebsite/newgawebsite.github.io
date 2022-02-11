@@ -1031,12 +1031,64 @@ body {
     
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 400px) {
+        .horizontal-scroll-menu a {
+            font-size: 16px;
+        }
+        .horizontal-scroll-menu a:hover {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (min-width: 401px) {
+    @media screen and (max-width: 600px) {
+        .horizontal-scroll-menu a {
+            font-size: 18px;
+        }
+        .horizontal-scroll-menu a:hover {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 601px) {
+    @media screen and (max-width: 800px) {
+        .horizontal-scroll-menu a {
+            font-size: 20px;
+        }
+        .horizontal-scroll-menu a:hover {
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 801px) {
+    @media screen and (max-width: 1000px) {
+        .horizontal-scroll-menu a {
+            font-size: 22px;
+        }
+        .horizontal-scroll-menu a:hover {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .horizontal-scroll-menu a {
+        font-size: 24px;
+    }
+    .horizontal-scroll-menu a:hover {
+        font-size: 26px;
+    }
+}
+
 .horizontal-scroll-menu a {
     text-align: center;
     color: var(--White);
     padding: 20px;
     text-decoration: underline;
-    font-size: 18px;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
     display: inline-block;
@@ -1056,7 +1108,6 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 20px;
     border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
 }
