@@ -496,9 +496,15 @@ body {
         .glow-img {
             display: block;
             width: 90%;
+            padding: 10px;
         }
         .glow-display {
             width: 90%;
+            padding: 10px;
+        }
+        .glow-container {
+            display: block;
+            padding: 10px;
         }
     }
 }
