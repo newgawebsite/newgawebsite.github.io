@@ -2173,11 +2173,12 @@ body {
 
 @media screen and (max-width: 1000px) {
     .fixed-navbar-icon {
-      display: inline-block;
-       /*float: right;*/
+      display: block;
+       float: right;
        position: relative;
        right: 0;
        top: 0;
+       margin-top: 0;
        text-align: center;
        color: var(--White);
        padding: 20px 22px;
@@ -2187,7 +2188,6 @@ body {
        box-shadow: var(--bsb);
        /* border: 2px solid var(--White);
        border-radius: 15px;*/
-       vertical-align: top;
     }
 
     .fixed-navbar-icon:hover {
