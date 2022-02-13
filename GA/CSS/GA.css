@@ -49,6 +49,9 @@
 /* Make scroll behavior smooth */
 html {
     scroll-behavior: smooth;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -65,9 +68,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
     /*font-family: 'Antonio';*/
     /*background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));*/
-    width: 100%;
-
-
+    margin: 0 auto;
+    display: block;
+    height: 100%;
 }
 
 .gradient-bg-1 {
@@ -2172,7 +2175,7 @@ body {
     .fixed-navbar-icon {
        display: block;
        float: right;
-       position: absolute;
+       position: relative;
        right: 0;
        top: 0;
        text-align: center;
@@ -2182,8 +2185,8 @@ body {
        font-size: 17px;
        background-size: 0% 100%;
        box-shadow: var(--bsb);
-       border: 2px solid var(--White);
-       border-radius: 15px;
+       /* border: 2px solid var(--White);
+       border-radius: 15px;*/
     }
 
     .fixed-navbar-icon:hover {
@@ -2193,11 +2196,10 @@ body {
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
-    position: absolute;
     background-repeat: no-repeat;
     transition: all .25s;
-    border: 2px solid var(--NewKRYellow);
-    border-radius: 15px;
+    /*border: 2px solid var(--NewKRYellow);
+    border-radius: 15px;*/
     }
 
     .fixed-navbar-items {
