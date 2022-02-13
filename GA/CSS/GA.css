@@ -2173,7 +2173,7 @@ body {
 
 @media screen and (max-width: 1000px) {
     .fixed-navbar-icon {
-      display: block;
+       display: block;
        float: right;
        position: relative;
        right: 0;
