@@ -1769,7 +1769,7 @@ body {
 .centered-text-voice {
    margin-left: auto;
    margin-right: auto;
-   text-shadow: 1px 2px var(--bsb);
+   /*text-shadow: 1px 2px var(--bsb);*/
    text-align: center;
    color: var(--Black);
 }
