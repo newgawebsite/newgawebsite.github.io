@@ -52,6 +52,7 @@ html {
     margin: 0 auto;
     display: block;
     height: 100%;
+    max-width: 99.5%;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -71,6 +72,7 @@ body {
     margin: 0 auto;
     display: block;
     height: 100%;
+    max-width: 99.5%;
 }
 
 .gradient-bg-1 {
@@ -2513,7 +2515,8 @@ body {
 /* For, (hopefully, all), mobile phones */
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
-        width: 100%;
+        width: 99.5%;
+        max-width: 99.5%;
     }
 }
 
