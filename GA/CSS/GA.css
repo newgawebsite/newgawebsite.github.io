@@ -53,7 +53,6 @@ html {
     display: block;
     height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -74,22 +73,21 @@ body {
     display: block;
     height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 .gradient-bg-1 {
     /*background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
     */
-    left: 0;
-    right: 0;
+    
 }
 
 .bg2 {
   /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));*/
   background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
-  left: 0;
-  right: 0;
   width: 100%;
+  margin:0 auto;
+  height: 100%;
+  display: block;
 }
 
 /* Tithely Button Settings */
