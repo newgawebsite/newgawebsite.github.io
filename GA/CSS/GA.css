@@ -98,7 +98,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    overflow-x: hidden;
 }
 
 .tithely-container a {
@@ -491,6 +491,7 @@ body {
     /*overflow-y: auto;*/
     color: var(--MeteorJSPurple);
     display: block;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 1px) {
@@ -2289,7 +2290,7 @@ body {
 /*
     .active {
         margin: 0 auto;
-        /*margin-right: auto;*/
+        margin-right: auto;
         height: auto;
         text-align: center;
         display: inline-block;  
@@ -2394,7 +2395,7 @@ body {
 @media screen and (max-width: 700px) {
     .logo-display {
         margin: 0 auto;
-        /*margin-right: auto;*/
+        margin-right: auto;
         height: auto;
         text-align: center;
         display: inline-block;
@@ -2407,7 +2408,7 @@ body {
 
     .active {
         margin: 0 auto;
-        /*margin-right: auto;*/
+        margin-right: auto;
         height: auto;
         text-align: center;
         display: block;
