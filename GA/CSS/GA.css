@@ -54,6 +54,7 @@ html {
     height: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -75,6 +76,7 @@ body {
     height: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .gradient-bg-1 {
