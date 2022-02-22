@@ -2193,9 +2193,9 @@ body {
 @media screen and (max-width: 1000px) {
     .fixed-navbar-icon {
        display: block;
-       float: left;
-       position: fixed;
-       left: 0;
+       float: right;
+       position: absolute;
+       right: 0;
        top: 0;
        margin-top: 0;
        text-align: center;
