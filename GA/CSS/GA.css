@@ -86,7 +86,6 @@ body {
   background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
   width: 100%;
   margin:0 auto;
-  height: 100%;
   display: block;
 }
 
