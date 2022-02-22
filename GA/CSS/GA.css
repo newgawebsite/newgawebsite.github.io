@@ -87,7 +87,7 @@ body {
   width: 100%;
   margin:0 auto;
   display: block;
-  overflow-x: hidden;
+  overflow-x: h;
 }
 
 /* Tithely Button Settings */
@@ -97,7 +97,7 @@ body {
     height: auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: 15px;
 }
 
@@ -107,8 +107,8 @@ body {
     height: auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     border-radius: 8px;
+    display: block;
 }
 
 .tithely-button {
@@ -118,7 +118,7 @@ body {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -133,7 +133,7 @@ body {
 .app-store {
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -147,7 +147,7 @@ body {
     height: auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 .app-store-container a {
@@ -492,13 +492,11 @@ body {
     padding: 8px;
     /*overflow-y: auto;*/
     color: var(--MeteorJSPurple);
+    display: block;
 }
 
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
-        .address-container {
-            display: block;
-        }
         .glow-img {
             display: block;
             width: 90%;
@@ -516,9 +514,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .address-container {
-        display: inline-block;
-    }
     .glow-img {
         display: inline-block;
         width: 68%;
