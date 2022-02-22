@@ -92,6 +92,7 @@ body {
   display: block;
   overflow-x: hidden;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Tithely Button Settings */
