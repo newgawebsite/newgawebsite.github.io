@@ -163,16 +163,16 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .tithely-container a {
-            width: 90%;
+            width: 100%;
         }
         .tithely-button {
-            width: 90%
+            width: 00%
         }
         .app-store {
-            width: 82%;
+            width: 100%;
         }
         .app-store-container a {
-            width: 87%;
+            width: 100%;
         }
     }
 }
