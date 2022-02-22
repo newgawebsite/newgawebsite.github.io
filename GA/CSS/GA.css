@@ -92,8 +92,8 @@ body {
 
 /* Tithely Button Settings */
 .tithely-container {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -102,8 +102,8 @@ body {
 }
 
 .tithely-container a {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -119,8 +119,8 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     cursor: pointer;
     font-size: 30px;
     height: auto;
@@ -134,16 +134,16 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     cursor: pointer;
     height: auto;
     border-radius: 8px;
 }
 
 .app-store-container {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -151,8 +151,8 @@ body {
 }
 
 .app-store-container a {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -197,8 +197,8 @@ body {
 .ga-title {
     color: var(--MeteorJSPurple);
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     font-weight: bold;
     padding: 15px;
     text-shadow: var(--NewGWYellow) 1px 1px 1px, 0 0 1px var(--MeteorJSOrange), 0 0 1px var(--NewGWGrey);
@@ -281,8 +281,8 @@ body {
 
 @media screen and (min-width: 700px) {
     .navbar-left {
-        margin-right: auto;
-        margin-right: auto;
+        /*margin-right: auto;*/
+        /*margin-right: auto;*/
         display: block;
         text-align: center;
         width: 33%;
@@ -352,8 +352,8 @@ body {
     box-shadow: var(--bsb);
     top: 15%;
     border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
 }
 
@@ -378,8 +378,8 @@ body {
 }
 
 .navbar-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
     display: inline-block;
@@ -399,8 +399,8 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
 }
 
 @media screen and (min-width: 1px) {
@@ -430,8 +430,8 @@ body {
 }
 
 .bottom-navbar-items {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     text-align: center;
     color: var(--black);
    /* text-shadow: 1px 1px var(--Black);*/
@@ -458,8 +458,7 @@ body {
 
 
 .bottom-navbar-items-fb {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     color: var(--MeteorJSPurple);
    /* text-shadow: 1px 1px var(--Black);*/
@@ -486,8 +485,7 @@ body {
 
 /* Address Info */
 .address-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     padding: 8px;
     /*overflow-y: auto;*/
@@ -524,8 +522,7 @@ body {
 }
 
 .glow-container {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     height: auto;
     text-align: center;
     display: inline-block;
@@ -533,15 +530,13 @@ body {
 }
 
 .glow-display {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: auto;
     display: inline-block;
 }
 
 .address-nc {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     color: var(--Black);
     /*text-shadow: 1px 2px var(--Black);*/
@@ -588,8 +583,8 @@ body {
 .sun-morning-description {
     overflow-y: auto;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     text-align: center;
     display: inline-block;
 }
@@ -606,8 +601,8 @@ body {
 .ss {
     display: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
@@ -618,8 +613,8 @@ body {
 .ws {
     display: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
@@ -884,8 +879,8 @@ body {
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
     height: 962px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     top: 0;
     width: 100%;
 }
@@ -1002,8 +997,8 @@ body {
     white-space: nowrap;
     border-radius: 5px;
     padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     text-align: center;
 
 }
@@ -1145,8 +1140,8 @@ body {
 
 .horizontal-scroll-img {
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     border-radius: 5px;
     display: inline-block;
@@ -1159,8 +1154,8 @@ body {
 
 /* Ministries Settings */
 .ministries-title {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     height: auto;
     display: block;
     text-align: center;
@@ -1179,8 +1174,8 @@ body {
 
 .ministries-img {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--bsb);
@@ -1239,8 +1234,8 @@ body {
 
 .ministries-container {
     display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
 }
@@ -1273,8 +1268,8 @@ body {
 }
 
 .hz-modal-img {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     display: inline-block;
     text-align: center;
@@ -1307,8 +1302,8 @@ body {
 .hz-modal-sun {
     position: relative;
     background-color: var(--MeteorJSPurple);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     text-align: center;
     height: auto;
     padding: 0;
@@ -1323,8 +1318,8 @@ body {
 .sun-morning-description {
     overflow-y: auto;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     text-align: center;
     display: inline-block;
 }
@@ -1341,8 +1336,8 @@ body {
 .ss {
     display: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
@@ -1353,8 +1348,8 @@ body {
 .ws {
     display: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
@@ -1506,8 +1501,8 @@ body {
 */
 
 .hz-modal-map {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: 550px;
     border: 0;
 }
@@ -1696,8 +1691,8 @@ body {
 }
 
 .hz-modal-text {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     color: var(--White);
     text-align: center;
@@ -1766,8 +1761,8 @@ body {
 }
 
 .centered-text-voice {
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
+   /*margin-right: auto;*/
    /*text-shadow: 1px 2px var(--bsb);*/
    text-align: center;
    color: var(--Black);
@@ -1849,8 +1844,8 @@ body {
             text-align: center;
             font-size: 20px;
             color: var(--White);
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             display: inline-block;
             width: 93%;
@@ -1869,8 +1864,8 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .mission-statement-img {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             text-align: center;
             display: inline-block;
@@ -1881,8 +1876,8 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement-img {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        /*margin-right: auto;*/
         height: auto;
         text-align: center;
         padding: 8px;
@@ -1899,8 +1894,8 @@ body {
 
 .mission-statement-text {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
     color: var(--White);
@@ -1916,8 +1911,8 @@ body {
     /*background-color: var(--NewKRTeal);*/
     background-repeat: no-repeat;
     height: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     top: 0;
     width: 100%;
     display: block;
@@ -1933,8 +1928,8 @@ body {
 }
 
 .display {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     display: block;
     text-align: center;
     height: auto;
@@ -1943,8 +1938,8 @@ body {
 
 /* Building Progress Slideshow */
 .new-building-progress {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
     background-color: var(--NewGWGreen);
@@ -1977,16 +1972,16 @@ body {
 }
 
 .nb-display {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
     display: inline-block;
 }
 
 .video {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     display: block;
     width: 90%;
@@ -2031,8 +2026,8 @@ body {
     font-size: 40px;
     color: var(--White);
     text-shadow: var(--Black) 2px 2px 2px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     width: 100%;
     height: auto;
     vertical-align: middle;
@@ -2261,8 +2256,8 @@ body {
     float: left;
     width: 22%;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;*/
+    margin: 0 auto;
     color: var(--White);
   }
 
@@ -2275,8 +2270,8 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .logo-display {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             text-align: center;
             display: inline-block;
@@ -2293,8 +2288,8 @@ body {
     }
 /*
     .active {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        /*margin-right: auto;*/
         height: auto;
         text-align: center;
         display: inline-block;  
@@ -2306,8 +2301,8 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 700px) {
         .logo-display {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             text-align: center;
             display: inline-block;
@@ -2327,8 +2322,8 @@ body {
 @media screen and (min-width: 700px) {
     @media screen and (max-width: 800px) {
         .logo-display {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             text-align: center;
             display: inline-block;
@@ -2348,8 +2343,8 @@ body {
 @media screen and (min-width: 800px) {
     @media screen and (max-width: 1000px) {
         .logo-display {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /*margin-right: auto;*/
             height: auto;
             text-align: center;
             display: inline-block;
@@ -2398,8 +2393,8 @@ body {
 /*
 @media screen and (max-width: 700px) {
     .logo-display {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        /*margin-right: auto;*/
         height: auto;
         text-align: center;
         display: inline-block;
@@ -2411,8 +2406,8 @@ body {
     
 
     .active {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        /*margin-right: auto;*/
         height: auto;
         text-align: center;
         display: block;
@@ -2532,8 +2527,8 @@ body {
 }
 
 .glow-img {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /*margin-right: auto;*/
     height: auto;
     text-align: center;
     text-decoration: none;
