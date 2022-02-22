@@ -53,7 +53,7 @@ html {
     display: block;
     height: 100%;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -74,7 +74,7 @@ body {
     display: block;
     height: 100%;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .gradient-bg-1 {
@@ -2526,15 +2526,15 @@ body {
 }
 
 .col-12 {
-    width: 99.9%;
-    max-width: 99.9%;
+    width: 100%;
+    max-width: 100%;
 }
 
 /* For, (hopefully, all), mobile phones */
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
-        width: 99.9%;
-        max-width: 99.9%;
+        width: 100%;
+        max-width: 100%;
     }
 }
 
