@@ -53,6 +53,7 @@ html {
     display: block;
     height: 100%;
     max-width: 100%;
+    background-size: 100%;
 }
 
 /* Remove text decoration for all hyperlinks */
@@ -73,6 +74,7 @@ body {
     display: block;
     height: 100%;
     max-width: 100%;
+    background-size: 100%;
 }
 
 .gradient-bg-1 {
