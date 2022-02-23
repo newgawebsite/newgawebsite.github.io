@@ -97,6 +97,7 @@ body {
   background-position: center;
   position: relative;
   width: 100%;
+  max-width: 100%;
 }
 
 /* Tithely Button Settings */
