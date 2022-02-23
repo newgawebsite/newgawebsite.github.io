@@ -120,6 +120,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
+    padding: 5px;
 }
 
 .tithely-container a {
@@ -127,9 +128,10 @@ body {
     margin-left: auto;
     height: auto;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     border-radius: 8px;
     display: block;
+    padding: 5px;
 }
 
 .tithely-button {
@@ -142,12 +144,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 28px;
     height: auto;
     border-radius: 9px;
     font-weight: bold;
     text-shadow: 1px 1px var(--Black);
     font-variant: small-caps;
+    padding: 5px;
 }
 
 .app-store {
