@@ -76,12 +76,13 @@ body {
     max-width: 100%;
     background-size: 100% 100%;
 }
-
+/*
 .gradient-bg-1 {
-    /*background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
-    */
+    background: linear-gradient(var(--White),var(--NewGWGrey),var(--MMDarkGrey));
+    
     
 }
+*/
 
 .bg2 {
   /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));*/
