@@ -86,7 +86,7 @@ body {
 .bg2 {
   /* background: linear-gradient(var(--White),var(--NewGWGrey),var(--SilverChalice),var(--MMDarkGrey));*/
   background: linear-gradient(var(--White),var(--SilverChalice),var(--MMDarkGrey));
-  height: auto;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
