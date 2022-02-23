@@ -109,7 +109,9 @@ body {
     text-align: center;
     width: 100%;
     max-width: 100%;
+    overflow-x: hidden;
 }
+
 /* Tithely Button Settings */
 .tithely-container {
     margin-right: auto;
