@@ -1175,9 +1175,8 @@ body {
     text-shadow: 1px 1px var(--Black);
    /* border-radius: 36%; */
     padding: 8px;
-    width: 100%;
    /* background-color: var(--SilverChalice); */
-   font-variant: small-caps;
+    font-variant: small-caps;
 }
 
 
@@ -1242,7 +1241,7 @@ body {
 }
 
 .ministries-container {
-    display:inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
