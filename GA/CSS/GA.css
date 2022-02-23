@@ -120,7 +120,6 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    padding: 15px;
 }
 
 .tithely-container a {
@@ -137,14 +136,13 @@ body {
     background-color: var(--TithelyGreen);
     border: none;
     color: var(--White);
-    padding: 5px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     height: auto;
     border-radius: 9px;
     font-weight: bold;
