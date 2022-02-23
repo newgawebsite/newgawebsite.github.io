@@ -178,9 +178,10 @@ body {
     margin-left: auto;
     height: auto;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
     border-radius: 8px;
+    padding: 5px;
 }
 
 @media screen and (min-width: 1px) {
