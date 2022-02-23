@@ -91,7 +91,7 @@ body {
   margin-right: auto;
   text-align: center;
   display: block;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
