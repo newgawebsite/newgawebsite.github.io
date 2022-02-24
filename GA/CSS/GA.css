@@ -120,7 +120,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    padding: 8px;
+    padding: 5px;
 }
 
 .tithely-container a {
@@ -131,7 +131,7 @@ body {
     text-decoration: underline;
     border-radius: 8px;
     display: block;
-    padding: 8px;
+    padding: 5px;
 }
 
 .tithely-button {
@@ -150,7 +150,7 @@ body {
     font-weight: bold;
     text-shadow: 1px 1px var(--Black);
     font-variant: small-caps;
-    padding: 8px;
+    padding: 5px;
 }
 
 .app-store {
@@ -171,7 +171,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: block;
-    padding: 8px;
+    padding: 5px;
 }
 
 .app-store-container a {
@@ -182,7 +182,7 @@ body {
     text-decoration: underline;
     display: inline-block;
     border-radius: 8px;
-    padding: 8px;
+    padding: 5px;
 }
 
 @media screen and (min-width: 1px) {
@@ -1208,8 +1208,7 @@ body {
     box-shadow: 1px 1px 1px 1px var(--bsb);
     text-align: center;
     background-color: var(--NewGWGrey);
-    padding: 2px;
-  }
+}
 
   .ministries-img:hover {
     border-radius: 25%;
