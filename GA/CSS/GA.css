@@ -1207,7 +1207,8 @@ body {
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--bsb);
     text-align: center;
-    /*background-color: var(--NewGWGrey);*/
+    background-color: var(--NewGWGrey);
+    padding: 2px;
   }
 
   .ministries-img:hover {
