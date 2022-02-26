@@ -2065,7 +2065,7 @@ body {
     font-weight: bold;
 }
 
-
+/*
 @media screen and (min-width: 400px) {
     .sw-text {
         margin-top: 85px;
@@ -2102,7 +2102,7 @@ body {
         font-size: 25px;
     }
 }
-
+*/
 
 .mySlides {
     display:none;
@@ -2111,7 +2111,7 @@ body {
 
 .mySlides.p {
     z-index: -1;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
