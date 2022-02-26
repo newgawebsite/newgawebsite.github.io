@@ -2116,7 +2116,7 @@ body {
     overflow: hidden;
 }
 
-.mySlides.p {
+.mySlides.p,h1 {
     z-index: -1;
     font-size: 70px;
     font-weight: bold;
