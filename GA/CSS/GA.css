@@ -2111,6 +2111,8 @@ body {
 
 .mySlides.p {
     z-index: -1;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
