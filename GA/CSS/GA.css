@@ -192,6 +192,10 @@ body {
     text-align: center;
 }
 
+.app-store-container br{
+    display: none;
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
        /* .tithely-container a {
@@ -203,7 +207,7 @@ body {
         .app-store {
             width: 100%;
         }
-        .app-store-container a {
+        .app-store-container a,br {
             width: 100%;
             display: block;
             padding: 5px;
