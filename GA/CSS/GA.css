@@ -184,6 +184,13 @@ body {
     border-radius: 8px;
 }
 
+.app-store-container i {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
        /* .tithely-container a {
@@ -2114,6 +2121,8 @@ body {
     font-size: 70px;
     font-weight: bold;
 }
+
+
 
 
 /*
