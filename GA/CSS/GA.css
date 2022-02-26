@@ -518,7 +518,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 8px;
+    /*padding: 8px;*/
     overflow-x: hidden;
     color: var(--MeteorJSPurple);
     display: block;
@@ -529,15 +529,15 @@ body {
         .glow-img {
             display: block;
             width: 90%;
-            padding: 15px;
+         /*   padding: 5px;*/
         }
         .glow-display {
             width: 90%;
-            padding: 15px;
+           /* padding: 5px;*/
         }
         .glow-container {
             display: block;
-            padding: 15px;
+           /* padding: 5px;*/
         }
     }
 }
@@ -572,7 +572,7 @@ body {
     text-align: center;
     color: var(--Black);
     /*text-shadow: 1px 2px var(--Black);*/
-    padding: 5px;
+   /* padding: 5px;*/
     font-weight: bold;
     text-decoration: underline;
     font-variant: small-caps;
