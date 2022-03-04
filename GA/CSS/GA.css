@@ -142,7 +142,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    font-size: 28px;
     height: auto;
     border-radius: 9px;
     font-weight: bold;
@@ -202,10 +201,10 @@ body {
     @media screen and (max-width: 768px) {
        /* .tithely-container a {
             width: 100%;
-        }
-        .tithely-button {
-            width: 100%
         }*/
+        .tithely-button {
+            font-size: 18px;
+        }
         .app-store {
             width: 100%;
         }
@@ -234,6 +233,7 @@ body {
     .tithely-button {
        /* width: 58%; */
        padding: 15px;
+       font-size: 28px;
     }
     .app-store-container a {
        /* width: 46%; */
