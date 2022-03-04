@@ -147,7 +147,6 @@ body {
     font-weight: bold;
     text-shadow: 1px 1px var(--Black);
     font-variant: small-caps;
-    padding: 5px;
 }
 
 .app-store {
@@ -204,7 +203,7 @@ body {
         }*/
         .tithely-button {
             font-size: 22px;
-            width: 48%;
+            width: 53%;
         }
         .app-store {
             width: 100%;
@@ -220,7 +219,7 @@ body {
         }
 
         .app-button-container {
-            width: 40%;
+            width: 48%;
         }
 
     }
@@ -249,7 +248,7 @@ body {
     }
 
     .app-button-container {
-        width: 45%;
+        width: 49%;
     }
 
 }
