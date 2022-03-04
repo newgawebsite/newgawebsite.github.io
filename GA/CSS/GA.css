@@ -196,6 +196,7 @@ body {
     display: none;
 }
 
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
        /* .tithely-container a {
@@ -207,11 +208,16 @@ body {
         .app-store {
             width: 100%;
         }
-        .app-store-container a,br {
+        .app-store-container a {
             width: 100%;
             display: block;
-            padding: 5px;
         }
+
+        .br-spacing {
+            display: block;
+            width: 100%;
+        }
+
     }
 }
 
@@ -230,6 +236,10 @@ body {
     }
     .app-store {
         width: 50%;
+    }
+
+    .br-spacing {
+        display: none;
     }
 }
 
