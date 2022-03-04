@@ -147,7 +147,7 @@ body {
     font-weight: bold;
     text-shadow: 1px 1px var(--Black);
     font-variant: small-caps;
-    padding: 1px;
+    padding: 2px;
 }
 
 .app-store {
