@@ -632,7 +632,6 @@ body {
 
 .sun-morning-description {
     overflow-y: auto;
-    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -642,7 +641,6 @@ body {
 .sun-morning-description p {
     display: inline-block;
     font-size: 16px;
-    padding: 5px;
     color: var(--White);
     text-shadow: 1px 1px var(--bsb);
 
@@ -656,7 +654,6 @@ body {
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
-    padding: 5px;
     font-weight: bold;
 }
 
@@ -668,7 +665,6 @@ body {
     height:auto;
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
-    padding: 5px;
     font-weight: bold;
 }
 
@@ -1698,8 +1694,8 @@ body {
 
 .hz-close-wed {
     color: var(--White);
-    top: 1;
-    right: 1;
+    top: 2;
+    right: 2;
     float: right;
     font-size: 28px;
     font-weight: bold;
