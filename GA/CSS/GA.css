@@ -203,8 +203,8 @@ body {
             width: 100%;
         }*/
         .tithely-button {
-            font-size: 18px;
-            width: 45%;
+            font-size: 22px;
+            width: 48%;
         }
         .app-store {
             width: 100%;
@@ -234,7 +234,7 @@ body {
     .tithely-button {
        width: 58%;
        padding: 15px;
-       font-size: 28px;
+       font-size: 33px;
     }
     .app-store-container a {
        /* width: 46%; */
@@ -1842,7 +1842,7 @@ body {
         }
 
         .centered-text h1 {
-            font-size: 18px;
+            font-size: 28px;
         }
     }
 }
@@ -1854,7 +1854,7 @@ body {
         }
 
         .centered-text h1 {
-            font-size: 23px;
+            font-size: 33px;
         }
     }
 }
@@ -1865,7 +1865,7 @@ body {
     }
 
     .centered-text h1 {
-        font-size: 31px;
+        font-size: 41px;
     }
 }
 
