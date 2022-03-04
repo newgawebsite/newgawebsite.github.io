@@ -210,10 +210,10 @@ body {
         .app-store {
             width: 100%;
         }
-        .app-store-container a {
+       /* .app-store-container a {
             width: 100%;
             display: block;
-        }
+        } */
 
         .br-spacing {
             display: block;
