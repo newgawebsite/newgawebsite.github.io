@@ -1840,6 +1840,10 @@ body {
         .centered-text {
             font-size: 18px;
         }
+
+        .centered-text h1 {
+            font-size: 18px;
+        }
     }
 }
 
@@ -1848,11 +1852,19 @@ body {
         .centered-text {
             font-size: 23px;
         }
+
+        .centered-text h1 {
+            font-size: 23px;
+        }
     }
 }
 
 @media screen and (min-width: 825px) {
     .centered-text {
+        font-size: 31px;
+    }
+
+    .centered-text h1 {
         font-size: 31px;
     }
 }
