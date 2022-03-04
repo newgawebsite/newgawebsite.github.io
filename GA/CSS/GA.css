@@ -194,7 +194,7 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
-    display: block;
+    display: inline-block;
     width: 50%;
 }
 
