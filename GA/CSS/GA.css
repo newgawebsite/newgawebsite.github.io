@@ -168,8 +168,8 @@ body {
     height: auto;
     text-align: center;
     text-decoration: none;
-    display: block;
-    padding: 5px;
+    display: inline-block;
+    width: 98.5%;
 }
 
 .app-store-container a {
@@ -187,6 +187,15 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
+}
+
+.app-button-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+    display: block;
+    width: 50%;
 }
 
 
