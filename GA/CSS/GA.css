@@ -195,7 +195,6 @@ body {
     height: auto;
     text-align: center;
     display: inline-block;
-    width: 45%;
 }
 
 
@@ -220,6 +219,10 @@ body {
             width: 100%;
         }
 
+        .app-button-container {
+            width: 40%;
+        }
+
     }
 }
 
@@ -242,6 +245,10 @@ body {
 
     .br-spacing {
         display: none;
+    }
+
+    .app-button-container {
+        width: 45%;
     }
 
 }
