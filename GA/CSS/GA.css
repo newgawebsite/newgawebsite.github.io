@@ -1587,7 +1587,7 @@ body {
 }
 
 @media screen and (min-height: 1px) {
-    @media screen and (max-height: 150px) {
+    @media screen and (max-height: 175px) {
         .hz-modal-map {
             height: 65px;
         }
@@ -1596,8 +1596,8 @@ body {
         
 }
 
-@media screen and (min-height: 151px) {
-    @media screen and (max-height: 300px) {
+@media screen and (min-height: 176px) {
+    @media screen and (max-height: 350px) {
         .hz-modal-map {
             height: 115px;
         }
@@ -1606,8 +1606,8 @@ body {
         
 }
 
-@media screen and (min-height: 301px) {
-    @media screen and (max-height: 350px) {
+@media screen and (min-height: 351px) {
+    @media screen and (max-height: 425px) {
         .hz-modal-map {
             height: 145px;
         }
@@ -1616,8 +1616,8 @@ body {
         
 }
 
-@media screen and (min-height: 351px) {
-    @media screen and (max-height: 400px) {
+@media screen and (min-height: 426px) {
+    @media screen and (max-height: 500px) {
         .hz-modal-map {
             height: 165px;
         }
@@ -1626,8 +1626,8 @@ body {
         
 }
 
-@media screen and (min-height: 401px) {
-    @media screen and (max-height: 450px) {
+@media screen and (min-height: 501px) {
+    @media screen and (max-height: 575px) {
         .hz-modal-map {
             height: 175px;
         }
@@ -1636,8 +1636,8 @@ body {
         
 }
 
-@media screen and (min-height: 451px) {
-    @media screen and (max-height: 500px) {
+@media screen and (min-height: 576px) {
+    @media screen and (max-height: 650px) {
         .hz-modal-map {
             height: 195px;
         }
@@ -1646,8 +1646,8 @@ body {
         
 }
 
-@media screen and (min-height: 501px) {
-    @media screen and (max-height: 550px) {
+@media screen and (min-height: 651px) {
+    @media screen and (max-height: 725px) {
         .hz-modal-map {
             height: 240px;
         }
@@ -1656,8 +1656,8 @@ body {
         
 }
 
-@media screen and (min-height: 551px) {
-    @media screen and (max-height: 600px) {
+@media screen and (min-height: 726px) {
+    @media screen and (max-height: 800px) {
         .hz-modal-map {
             height: 285px;
         }
@@ -1666,8 +1666,8 @@ body {
         
 }
 
-@media screen and (min-height: 601px) {
-    @media screen and (max-height: 650px) {
+@media screen and (min-height: 801px) {
+    @media screen and (max-height: 875px) {
         .hz-modal-map {
             height: 330px;
         }
@@ -1676,8 +1676,8 @@ body {
         
 }
 
-@media screen and (min-height: 651px) {
-    @media screen and (max-height: 700px) {
+@media screen and (min-height: 876px) {
+    @media screen and (max-height: 950px) {
         .hz-modal-map {
             height: 375px;
         }
@@ -1686,8 +1686,8 @@ body {
         
 }
 
-@media screen and (min-height: 701px) {
-    @media screen and (max-height: 750px) {
+@media screen and (min-height: 951px) {
+    @media screen and (max-height: 1025px) {
         .hz-modal-map {
             height: 415px;
         }
@@ -1696,8 +1696,8 @@ body {
         
 }
 
-@media screen and (min-height: 751px) {
-    @media screen and (max-height: 800px) {
+@media screen and (min-height: 1026px) {
+    @media screen and (max-height: 1100px) {
         .hz-modal-map {
             height: 465px;
         }
