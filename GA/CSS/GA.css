@@ -1821,6 +1821,20 @@ body {
       font-variant: small-caps;
   }
 
+  @media screen and (min-width: 1px) {
+      @media screen and (max-width: 768px) {
+          .coh-ul {
+              width: 98.5%;
+          }
+      }
+  }
+
+  @media screen and (min-width: 769px) {
+      .coh-ul {
+          width: 97%;
+      }
+  }
+
   .glow-mp {
       display: block;
       margin: 0 auto;
