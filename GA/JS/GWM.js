@@ -23,7 +23,7 @@ function openSun() {
 sNav.onclick = function() {
     sModal.style.display = "block";
     document.getElementById("sunModal").className = "hz-modal col-12";
-    document.getElementById("sm").className = "hz-modal-sun col-6 animate__animated animate__fadeInUp";
+    document.getElementById("sm").className = "hz-modal-sun animate__animated animate__fadeInUp";
 }
 
 /* Close the modal if users clicks the "X", or anywhere outside the modal
@@ -48,7 +48,7 @@ function openSun() {
 wNav.onclick = function() {
     wModal.style.display = "block";
     document.getElementById("wedModal").className = "hz-modal col-12";
-    document.getElementById("wm").className = "hz-modal-sun col-6 animate__animated animate__fadeInUp";
+    document.getElementById("wm").className = "hz-modal-sun animate__animated animate__fadeInUp";
 }
 
 /* Close the modal if users clicks the "X", or anywhere outside the modal
