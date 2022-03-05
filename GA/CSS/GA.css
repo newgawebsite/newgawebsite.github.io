@@ -527,7 +527,7 @@ body {
    /* text-shadow: 1px 1px var(--Black);*/
     padding: 18px 20px;
     text-decoration: none;
-    font-size: 35px;
+    width: 30%;
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
@@ -536,14 +536,14 @@ body {
 
 .bottom-navbar-items-fb:hover {
     background-color: none;
-    background-image: linear-gradient(transparent calc(100% - 2px), var(--Black) 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--MeteorJSPurple) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 37px;
+    width: 33%;
 }
 
 /* Address Info */
