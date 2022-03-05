@@ -1379,12 +1379,18 @@ body {
         .hz-modal-sun {
             width: 98.5%
         } 
+        .underline {
+            width: 97.5%;
+        }
     }
 }
 
 @media screen and (min-width: 769px) {
     .hz-modal-sun {
         width: 60%;
+    }
+    .underline {
+        width: 70%;
     }
 }
 
