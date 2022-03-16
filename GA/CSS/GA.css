@@ -1169,6 +1169,7 @@ body {
     transition: all .25s;
     border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
+    list-style: ;
 }
 
 .horizontal-scroll-menu-button {
@@ -1819,6 +1820,10 @@ body {
   .coh-ul {
       font-weight: bold;
       font-variant: small-caps;
+  }
+
+  .coh-ul li::marker {
+      color:var(--MeteorJSPurple);
   }
 
   @media screen and (min-width: 1px) {
