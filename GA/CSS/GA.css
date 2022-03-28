@@ -532,6 +532,7 @@ body {
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
     font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
 .bottom-navbar-items-fb:hover {
