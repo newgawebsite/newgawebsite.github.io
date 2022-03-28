@@ -547,6 +547,10 @@ body {
     font-size: 36px;
 }
 
+.bottom-navbar-items-fb span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;    
+}
+
 /* Address Info */
 .address-container {
     margin-left: auto;
