@@ -549,6 +549,8 @@ body {
 
 .bottom-navbar-items-fb span {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;    
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 /* Address Info */
