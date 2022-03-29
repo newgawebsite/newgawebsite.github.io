@@ -1967,7 +1967,7 @@ body {
             margin-left: auto;
             margin-right: auto;
             height: auto;
-            display: inline-block;
+            display: block;
             width: 93%;
         }
     }
@@ -1976,8 +1976,7 @@ body {
 @media screen and (min-width: 769px) {
     .mission-statement {
         width: 28%;
-        display: inline-block;
-        padding: 20px;
+      /*  display: inline-block; */
     }
 }
 
@@ -2000,7 +1999,6 @@ body {
         margin-right: auto;
         height: auto;
         text-align: center;
-        padding: 8px;
         display: inline-block;
         width: 100%;
     }
