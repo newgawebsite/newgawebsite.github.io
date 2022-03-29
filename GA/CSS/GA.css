@@ -1975,6 +1975,10 @@ body {
 
 @media screen and (min-width: 769px) {
     .mission-statement {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        text-align: center;
         width: 28%;
         display: inline-block;
     }
