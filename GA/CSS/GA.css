@@ -610,7 +610,7 @@ body {
 .address-nc {
     margin: 0 auto;
     text-align: center;
-    color: var(--Black);
+    color: var(--MeteorJSPurple);
     /*text-shadow: 1px 2px var(--Black);*/
    /* padding: 5px;*/
     font-weight: bold;
@@ -1830,6 +1830,10 @@ body {
   .coh-ul {
       font-weight: bold;
       font-variant: small-caps;
+  }
+
+  .coh-ul a {
+      color: var(--MeteorJSPurple);
   }
 
   .coh-ul li::marker {
