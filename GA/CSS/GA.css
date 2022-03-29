@@ -1976,7 +1976,7 @@ body {
 @media screen and (min-width: 769px) {
     .mission-statement {
         width: 28%;
-      /*  display: inline-block; */
+        display: inline-block;
     }
 }
 
