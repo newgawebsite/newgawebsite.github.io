@@ -1080,7 +1080,20 @@ body {
         background-repeat: space;
         padding: 20px;
     }
+
+    @media screen and (min-width: 1px) {
+        @media screen and (max-width: 650px) {
+            .horizontal-scroll-menu div {
+                display: block;
+            }
+        }
+    }
     
+    @media screen and (min-width: 651px) {
+        .horizontal-scroll-menu div {
+            display: inline-block;
+        }
+    }
 
     .hz-container {
         width: 69%;
