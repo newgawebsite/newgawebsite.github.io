@@ -1843,14 +1843,14 @@ body {
   @media screen and (min-width: 1px) {
       @media screen and (max-width: 768px) {
           .container-img img {
-              width: 90%;
+              width: 80%;
           }
       }
   }
 
   @media screen and (min-width: 769px) {
       .container-img img {
-          width: 80%;
+          width: 75%;
       }
   }
 
