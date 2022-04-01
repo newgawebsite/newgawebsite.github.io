@@ -1840,6 +1840,20 @@ body {
       text-shadow: var(--Black) 2px 2px 2px;
   }
 
+  @media screen and (min-width: 1px) {
+      @media screen and (max-width: 768px) {
+          .container-img img {
+              width: 96%;
+          }
+      }
+  }
+
+  @media screen and (min-width: 769px) {
+      .container-img img {
+          width: 83%;
+      }
+  }
+
   .coh-ul {
       font-weight: bold;
       font-variant: small-caps;
