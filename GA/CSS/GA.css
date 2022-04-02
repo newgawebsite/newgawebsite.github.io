@@ -531,7 +531,7 @@ body {
     background-size: 0% 100%;
     /*box-shadow: var(--bsb);*/
     vertical-align: bottom;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
@@ -615,7 +615,7 @@ body {
    /* padding: 5px;*/
     font-weight: bold;
     text-decoration: underline;
-    font-variant: small-caps;
+   /* font-variant: small-caps;*/
 }
 
 @media screen and (min-width: 1px) {
@@ -677,7 +677,7 @@ body {
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
     font-weight: bold;
-    font-variant: small-caps;
+   /* font-variant: small-caps; */
 }
 
 .ws {
@@ -689,7 +689,7 @@ body {
     color: var(--White);
     text-shadow: 1px 2px var(--Black);
     font-weight: bold;
-    font-variant: small-caps;
+  /*  font-variant: small-caps;*/
 }
 
 @media screen and (min-width: 1px) {
@@ -1251,7 +1251,7 @@ body {
    /* border-radius: 36%; */
    /* padding: 4px;*/
    /* background-color: var(--SilverChalice); */
-    font-variant: small-caps;
+  /*  font-variant: small-caps; */
 }
 
 
@@ -1856,7 +1856,7 @@ body {
 
   .coh-ul {
       font-weight: bold;
-      font-variant: small-caps;
+    /*  font-variant: small-caps; */
   }
 
   .coh-ul a {
