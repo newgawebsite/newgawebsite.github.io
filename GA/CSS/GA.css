@@ -1915,7 +1915,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
-    text-shadow: 1px 2px var(--bsb);
+   /* text-shadow: 1px 2px var(--bsb); */
     text-align: center;
     color: var(--White);
     /*font-variant: small-caps;*/
