@@ -1896,7 +1896,7 @@ body {
     /*text-shadow: 1px 2px var(--bsb);*/
     text-align: center;
     color: var(--White);
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
 }
 
 .centered-text-voice {
@@ -1922,7 +1922,7 @@ body {
         }
 
         .centered-text h1 {
-            font-size: 30px;
+            font-size: 33px;
         }
     }
 }
@@ -1934,7 +1934,7 @@ body {
         }
 
         .centered-text h1 {
-            font-size: 45px;
+            font-size: 48px;
         }
     }
 }
@@ -1945,7 +1945,7 @@ body {
     }
 
     .centered-text h1 {
-        font-size: 53px;
+        font-size: 56px;
     }
 }
 
