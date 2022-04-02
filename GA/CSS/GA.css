@@ -1254,6 +1254,28 @@ body {
   /*  font-variant: small-caps; */
 }
 
+.easter-egg-hunt {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    box-shadow: 1px 1px 1px 1px var(--bsb);
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .easter-egg-hunt {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .easter-egg-hunt {
+        width: 75%;
+    }
+}
+
 
 .ministries-img {
     display: inline-block;
