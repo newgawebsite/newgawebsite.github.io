@@ -1970,12 +1970,25 @@ body {
 }
 
 @media screen and (min-width: 825px) {
+    @media screen and (max-width: 110px) {
+        .centered-text {
+            font-size: 27px;
+        }
+    
+        .centered-text h1 {
+            font-size: 54px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1101px) {
     .centered-text {
         font-size: 31px;
     }
 
     .centered-text h1 {
-        font-size: 66px;
+        font-size: 68px;
     }
 }
 
