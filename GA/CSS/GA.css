@@ -1914,6 +1914,7 @@ body {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
+      text-shadow: 1px 2px var(--bsb);
   }
 
   .centered-text {
