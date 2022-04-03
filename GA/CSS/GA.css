@@ -1191,7 +1191,7 @@ body {
     transition: all .25s;
     border: 3px solid var(--NewGWYellow);
     border-radius: 10px;
-    list-style: ;
+  /*  list-style: ; */
 }
 
 .horizontal-scroll-menu-button {
@@ -1390,6 +1390,9 @@ body {
         .hz-modal-map {
             width: 80%;
         }
+        .map-spacing {
+            display: block;
+        }
     }
 }
 
@@ -1399,6 +1402,9 @@ body {
     }
     .hz-modal-map {
         width: 99.5%;
+    }
+    .map-spacing {
+        display: none;
     }
 }
 
@@ -1964,7 +1970,7 @@ body {
         }
 
         .centered-text h1 {
-            font-size: 45px;
+            font-size: 40px;
         }
     }
 }
@@ -1976,7 +1982,7 @@ body {
         }
     
         .centered-text h1 {
-            font-size: 54px;
+            font-size: 50px;
         }
     }
     
