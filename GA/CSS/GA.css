@@ -1392,7 +1392,7 @@ body {
         }
         .map-spacing {
             display: block;
-            height: 10%;
+            /*height: 10%;*/
         }
     }
 }
