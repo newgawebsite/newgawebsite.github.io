@@ -1392,6 +1392,7 @@ body {
         }
         .map-spacing {
             display: block;
+            height: 5%;
         }
     }
 }
