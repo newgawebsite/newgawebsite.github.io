@@ -1879,7 +1879,7 @@ body {
 
   @media screen and (min-width: 769px) {
       .container-img img {
-          width: 80%;
+          width: 75%;
       }
   }
 
