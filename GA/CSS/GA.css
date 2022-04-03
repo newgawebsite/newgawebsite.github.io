@@ -1921,7 +1921,7 @@ body {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      text-shadow: 3px 3px var(--bsb);
+      text-shadow: 4px 4px var(--bsb);
       font-weight: bold;
   }
 
