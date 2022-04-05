@@ -2675,6 +2675,44 @@ body {
     }
 }
 
+/* What we believe accordion settings */
+.accordion {
+    background-color: var(--SilverChalice);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: var(--MeteorJSPurple);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: var(--White);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 /* For desktop, tablets, and anything bigger than 768px */
 .col-1 {
     width: 8.33%;
