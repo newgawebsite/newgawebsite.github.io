@@ -2684,7 +2684,7 @@ body {
 
 .accordion {
     background-color: var(--SilverChalice);
-    color: #444;
+    color: var(--White);
     cursor: pointer;
     padding: 18px;
     width: 75%;
@@ -2718,6 +2718,7 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
+    width: 75%;
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
