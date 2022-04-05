@@ -2677,7 +2677,9 @@ body {
 
 /* What we believe accordion settings */
 .acc-box {
-    float: right;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .accordion {
