@@ -2686,10 +2686,10 @@ body {
     background-color: var(--SilverChalice);
     color: var(--White);
     cursor: pointer;
-    padding: 18px;
+    padding: 28px;
     width: 75%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 18px;
     transition: 0.4s;
