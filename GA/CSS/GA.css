@@ -2676,12 +2676,16 @@ body {
 }
 
 /* What we believe accordion settings */
+.acc-box {
+    float: right;
+}
+
 .accordion {
     background-color: var(--SilverChalice);
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 1000%;
     border: none;
     text-align: left;
     outline: none;
