@@ -1272,7 +1272,7 @@ body {
 
 @media screen and (min-width: 769px) {
     .easter-egg-hunt {
-        width: 51%;
+        width: 50%;
     }
 }
 
@@ -1966,19 +1966,19 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-    @media screen and (max-width: 825px) {
+    @media screen and (max-width: 800px) {
         .centered-text {
             font-size: 23px;
         }
 
         .centered-text h1 {
-            font-size: 40px;
+            font-size: 37px;
         }
     }
 }
 
-@media screen and (min-width: 825px) {
-    @media screen and (max-width: 110px) {
+@media screen and (min-width: 801px) {
+    @media screen and (max-width: 1100px) {
         .centered-text {
             font-size: 27px;
         }
