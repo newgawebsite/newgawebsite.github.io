@@ -2720,6 +2720,8 @@ body {
     transition: max-height 0.2s ease-out;
     text-align: center;
     width: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
