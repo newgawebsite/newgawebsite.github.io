@@ -2696,7 +2696,7 @@ body {
     font-weight: bold;
 }
 
-.active, .accordion:hover {
+.active-acc, .accordion:hover {
     background-color: var(--MeteorJSPurple);
 }
 
@@ -2708,7 +2708,7 @@ body {
     margin-left: 5px;
 }
 
-.active:after {
+.active-acc:after {
     content: "\2212";
 }
 
