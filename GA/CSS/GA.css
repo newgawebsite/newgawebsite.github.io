@@ -1991,8 +1991,20 @@ body {
 }
 
 @media screen and (min-width: 1101px) {
+    @media screen  and (max-width: 1300px) {  
+        .centered-text {
+            font-size: 31px;
+        }
+
+        .centered-text h1 {
+            font-size: 65px;
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) {
     .centered-text {
-        font-size: 31px;
+        font-size: 41px;
     }
 
     .centered-text h1 {
