@@ -1943,6 +1943,7 @@ body {
    /*text-shadow: 1px 2px var(--bsb);*/
    text-align: center;
    color: var(--Black);
+   font-weight: bold;
 }
 
 
