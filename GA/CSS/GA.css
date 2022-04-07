@@ -1254,6 +1254,8 @@ body {
   /*  font-variant: small-caps; */
 }
 
+
+
 .easter-egg-hunt {
     margin-left: auto;
     margin-right: auto;
@@ -2705,7 +2707,7 @@ body {
     color: var(--White);
     cursor: pointer;
     padding: 28px;
-    width: 75%;
+    width: 78%;
     border: none;
     text-align: center;
     outline: none;
@@ -2737,9 +2739,39 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
-    width: 75%;
+    width: 78%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.believe {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    /* background-color: var(--NewGWBlue); */
+    /*background: linear-gradient(-45deg, var(--NewGWYellow),var(--NewGWBlue)); */
+    color: var(--MeteorJSPurple);
+    text-shadow: 1px 1px var(--Black);
+   /* border-radius: 36%; */
+   /* padding: 4px;*/
+   /* background-color: var(--SilverChalice); */
+  /*  font-variant: small-caps; */
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .believe {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .believe {
+        font-size: 26px;
+    }
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
