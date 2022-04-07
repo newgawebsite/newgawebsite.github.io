@@ -1885,6 +1885,9 @@ body {
 
   .coh-ul {
       font-weight: bold;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     /*  font-variant: small-caps; */
   }
 
@@ -1900,6 +1903,7 @@ body {
       @media screen and (max-width: 768px) {
           .coh-ul {
               width: 97.5%;
+              font-size: 15px;
           }
       }
   }
@@ -1907,6 +1911,7 @@ body {
   @media screen and (min-width: 769px) {
       .coh-ul {
           width: 96%;
+          font-size: 20px;
       }
   }
 
