@@ -2707,7 +2707,7 @@ body {
     color: var(--White);
     cursor: pointer;
     padding: 28px;
-    width: 78%;
+    width: 81%;
     border: none;
     text-align: center;
     outline: none;
@@ -2739,7 +2739,7 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
-    width: 78%;
+    width: 81%;
     margin-right: auto;
     margin-left: auto;
 }
