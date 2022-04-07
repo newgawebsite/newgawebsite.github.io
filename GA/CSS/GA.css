@@ -1903,7 +1903,7 @@ body {
       @media screen and (max-width: 768px) {
           .coh-ul {
               width: 97.5%;
-              font-size: 21px;
+              font-size: 23px;
           }
       }
   }
@@ -1911,7 +1911,7 @@ body {
   @media screen and (min-width: 769px) {
       .coh-ul {
           width: 96%;
-          font-size: 26px;
+          font-size: 28px;
       }
   }
 
