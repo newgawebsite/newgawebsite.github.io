@@ -1953,6 +1953,12 @@ body {
   /* font-weight: bold; */
 }
 
+.centered-text-voice a {
+    text-decoration: none;
+    color: var(--MeteorJSPurple);
+    text-shadow: var(--Black) 2px 2px 2px;
+}
+
 
 .centered-text a {
     text-decoration: none;
