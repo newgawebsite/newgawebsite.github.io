@@ -2518,7 +2518,7 @@ body {
     color: var(--White);
   }
 
-  .logo-display:hover {
+  .logo-display img:hover {
       width: 24%;
       transition: all .25s;
   }
@@ -2539,7 +2539,7 @@ body {
     }
 }
 
-    .logo-display:hover {
+    .logo-display img:hover {
         width: 37%;
         transition: all .25s;
     }
