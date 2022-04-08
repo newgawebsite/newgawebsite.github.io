@@ -1954,7 +1954,7 @@ body {
 }
 
 .centered-text-voice a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--MeteorJSPurple);
     text-shadow: var(--Black) 2px 2px 2px;
 }
