@@ -2031,6 +2031,10 @@ body {
         .centered-text-voice {
             font-size: 17px;
         }
+
+        .centered-text-voice a {
+            font-size: 17px;
+        }
     }
 }
 
@@ -2039,11 +2043,17 @@ body {
         .centered-text-voice {
             font-size: 22px;
         }
+        .centered-text-voice a {
+            font-size: 22px;
+        }
     }
 }
 
 @media screen and (min-width: 825px) {
     .centered-text-voice {
+        font-size: 30px;
+    }
+    .centered-text-voice a {
         font-size: 30px;
     }
 }
