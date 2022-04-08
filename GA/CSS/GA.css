@@ -2570,7 +2570,7 @@ body {
         }
     }
 
-    .logo-display:hover {
+    .logo-display img:hover {
         width: 34%;
         transition: all .25s;
     }
@@ -2591,7 +2591,7 @@ body {
         }
     }
 
-    .logo-display:hover {
+    .logo-display img:hover {
         width: 32%;
         transition: all .25s;
     }
