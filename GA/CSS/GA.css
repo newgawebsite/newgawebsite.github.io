@@ -2728,14 +2728,17 @@ body {
     border: none;
     text-align: center;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.4s;
     font-weight: bold;
     border-bottom:3px solid var(--MeteorJSPurple);
+    font-weight: bold;
 }
 
 .active-acc, .accordion:hover {
     background-color: var(--MeteorJSPurple);
+    color: var(--White);
+    font-size: 22px;
 }
 
 .accordion:after {
