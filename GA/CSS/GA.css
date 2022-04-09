@@ -44,6 +44,7 @@
     --MeteorJSOrange: #ff6a3e;
     --SilverChalice: #ABABAB;
     --TithelyGreen: #5cd2a4;
+    --WestSideFCBlue: #a8dcf3;
 }
 
 /* Make scroll behavior smooth */
@@ -2719,8 +2720,8 @@ body {
 }
 
 .accordion {
-    background-color: var(--SilverChalice);
-    color: var(--White);
+    background-color: var(--White);
+    color: var(--Black);
     cursor: pointer;
     padding: 28px;
     width: 81%;
@@ -2730,10 +2731,11 @@ body {
     font-size: 18px;
     transition: 0.4s;
     font-weight: bold;
+    border-bottom: var(--WestSideFCBlue);
 }
 
 .active-acc, .accordion:hover {
-    background-color: var(--MeteorJSPurple);
+    background-color: var(--WestSideFCBlue);
 }
 
 .accordion:after {
