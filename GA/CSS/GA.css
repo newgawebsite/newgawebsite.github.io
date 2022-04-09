@@ -2724,7 +2724,7 @@ body {
     color: var(--Black);
     cursor: pointer;
     padding: 28px;
-    /*width: 81%;*/
+    width: 91%;
     border: none;
     text-align: center;
     outline: none;
@@ -2757,7 +2757,7 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
-    /*width: 81%*/;
+    width: 91%;
     margin-right: auto;
     margin-left: auto;
 }
