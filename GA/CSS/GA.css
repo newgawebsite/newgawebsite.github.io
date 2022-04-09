@@ -2724,18 +2724,18 @@ body {
     color: var(--Black);
     cursor: pointer;
     padding: 28px;
-    width: 81%;
+    /*width: 81%;*/
     border: none;
     text-align: center;
     outline: none;
     font-size: 18px;
     transition: 0.4s;
     font-weight: bold;
-    border-bottom:2px solid var(--WestSideFCBlue);
+    border-bottom:3px solid var(--MeteorJSPurple);
 }
 
 .active-acc, .accordion:hover {
-    background-color: var(--WestSideFCBlue);
+    background-color: var(--MeteorJSPurple);
 }
 
 .accordion:after {
@@ -2757,7 +2757,7 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
-    width: 81%;
+    /*width: 81%*/;
     margin-right: auto;
     margin-left: auto;
 }
