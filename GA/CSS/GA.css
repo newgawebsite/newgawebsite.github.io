@@ -2806,7 +2806,7 @@ body {
 
 .accordion:after {
     content: '\002B';
-    color: #777;
+    color: var(--Black);
     font-weight: bold;
     float: right;
     margin-left: 5px;
