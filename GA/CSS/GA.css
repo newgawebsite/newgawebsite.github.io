@@ -2519,7 +2519,18 @@ body {
     color: var(--White);
   }
 
-  .logo-display img:hover {
+  .logo-display-img {
+    border-radius: 7px;
+    height: auto;
+    float: left;
+    width: 22%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--White);
+  }
+
+  .logo-display-img:hover {
       width: 24%;
       transition: all .25s;
   }
@@ -2538,12 +2549,26 @@ body {
             border-radius: 3px;
             position: relative;
     }
-}
 
-    .logo-display img:hover {
+    .logo-display-img {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        text-align: center;
+        display: inline-block;
+        width: 35%;
+        float: none;
+        border-radius: 3px;
+        position: relative;
+    }
+
+    .logo-display-img:hover {
         width: 37%;
         transition: all .25s;
     }
+}
+
+    
 /*
     .active {
         margin-left: auto;
@@ -2569,12 +2594,26 @@ body {
             border-radius: 3px;
             position: relative;
         }
+
+        .logo-display-img {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 32%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .logo-display-img:hover {
+            width: 34%;
+            transition: all .25s;
+        }
     }
 
-    .logo-display img:hover {
-        width: 34%;
-        transition: all .25s;
-    }
+    
 }
 
 @media screen and (min-width: 700px) {
@@ -2590,11 +2629,23 @@ body {
             border-radius: 3px;
             position: relative;
         }
-    }
 
-    .logo-display img:hover {
-        width: 32%;
-        transition: all .25s;
+        .logo-display-img {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 30%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .logo-display-img:hover {
+            width: 32%;
+            transition: all .25s;
+        }
     }
 }
 
@@ -2611,11 +2662,23 @@ body {
             border-radius: 3px;
             position: relative;
         }
-    }
 
-    .logo-display:hover {
-        width: 28%;
-        transition: all .25s;
+        .logo-display-img {
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            text-align: center;
+            display: inline-block;
+            width: 26%;
+            float: none;
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .logo-display-img:hover {
+            width: 28%;
+            transition: all .25s;
+        }
     }
 }
 
