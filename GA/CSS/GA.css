@@ -2731,7 +2731,7 @@ body {
     font-size: 18px;
     transition: 0.4s;
     font-weight: bold;
-    border-bottom: var(--WestSideFCBlue);
+    border-bottom:2px solid var(--WestSideFCBlue);
 }
 
 .active-acc, .accordion:hover {
