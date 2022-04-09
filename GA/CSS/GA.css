@@ -2814,6 +2814,7 @@ body {
 
 .active-acc:after {
     content: "\2212";
+    color: var(--White);
 }
 
 .panel {
@@ -2826,6 +2827,7 @@ body {
     width: 91%;
     margin-right: auto;
     margin-left: auto;
+    font-size: 18px;
 }
 
 .believe {
