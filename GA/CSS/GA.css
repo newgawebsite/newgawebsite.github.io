@@ -1662,7 +1662,7 @@ body {
 }
 
 @media screen and (min-height: 401px) {
-    @media screen and (max-height: 500px) {
+    @media screen and (max-height: 600px) {
         .hz-modal-map {
             height: 145px;
         }
@@ -1671,8 +1671,8 @@ body {
         
 }
 
-@media screen and (min-height: 501px) {
-    @media screen and (max-height: 600px) {
+@media screen and (min-height: 601px) {
+    @media screen and (max-height: 800px) {
         .hz-modal-map {
             height: 165px;
         }
@@ -1681,8 +1681,8 @@ body {
         
 }
 
-@media screen and (min-height: 601px) {
-    @media screen and (max-height: 700px) {
+@media screen and (min-height: 801px) {
+    @media screen and (max-height: 1000px) {
         .hz-modal-map {
             height: 175px;
         }
@@ -1691,8 +1691,8 @@ body {
         
 }
 
-@media screen and (min-height: 701px) {
-    @media screen and (max-height: 800px) {
+@media screen and (min-height: 1001px) {
+    @media screen and (max-height: 1200px) {
         .hz-modal-map {
             height: 195px;
         }
@@ -1701,8 +1701,8 @@ body {
         
 }
 
-@media screen and (min-height: 801px) {
-    @media screen and (max-height: 900px) {
+@media screen and (min-height: 1201px) {
+    @media screen and (max-height: 1400px) {
         .hz-modal-map {
             height: 240px;
         }
@@ -1711,8 +1711,8 @@ body {
         
 }
 
-@media screen and (min-height: 901px) {
-    @media screen and (max-height: 1000px) {
+@media screen and (min-height: 1401px) {
+    @media screen and (max-height: 1600px) {
         .hz-modal-map {
             height: 285px;
         }
@@ -1721,8 +1721,8 @@ body {
         
 }
 
-@media screen and (min-height: 1001px) {
-    @media screen and (max-height: 1100px) {
+@media screen and (min-height: 1601px) {
+    @media screen and (max-height: 1800px) {
         .hz-modal-map {
             height: 330px;
         }
@@ -1731,8 +1731,8 @@ body {
         
 }
 
-@media screen and (min-height: 1101px) {
-    @media screen and (max-height: 1200px) {
+@media screen and (min-height: 1801px) {
+    @media screen and (max-height: 2000px) {
         .hz-modal-map {
             height: 375px;
         }
@@ -1741,8 +1741,8 @@ body {
         
 }
 
-@media screen and (min-height: 1201px) {
-    @media screen and (max-height: 1300px) {
+@media screen and (min-height: 2001px) {
+    @media screen and (max-height: 2200px) {
         .hz-modal-map {
             height: 415px;
         }
@@ -1751,8 +1751,8 @@ body {
         
 }
 
-@media screen and (min-height: 1301px) {
-    @media screen and (max-height: 1400px) {
+@media screen and (min-height: 2201px) {
+    @media screen and (max-height: 2400px) {
         .hz-modal-map {
             height: 465px;
         }
