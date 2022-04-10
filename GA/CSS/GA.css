@@ -1432,10 +1432,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .hz-modal-sun {
-            width: 90.5%
+            width: 85.5%
         } 
         .underline {
-            width: 87.5%;
+            width: 82.5%;
         }
     }
 }
