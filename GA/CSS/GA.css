@@ -1929,9 +1929,38 @@ body {
       text-align: center;
       margin-left: auto;
       margin-right: auto;
-      text-shadow: 4px 4px var(--bsb);
       font-weight: bold;
   }
+
+  @media screen and (min-width: 1px) {
+      @media screen and (max-width: 768px) {
+          .main-title {
+            text-shadow: 1px 1px var(--bsb);
+          }
+      }
+  }
+
+  @media screen and (min-width: 769px) {
+    @media screen and (max-width: 1000px) {
+        .main-title {
+          text-shadow: 2px 2px var(--bsb);
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    @media screen and (max-width: 1300px) {
+        .main-title {
+          text-shadow: 3px 3px var(--bsb);
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .main-title {
+        text-shadow: 4px 4px var(--bsb);
+      }
+}
 
   .centered-text {
     position: absolute;
