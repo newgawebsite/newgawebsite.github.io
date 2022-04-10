@@ -1,7 +1,12 @@
 /* Enforce HTTPS */
 if (window.location.protocol === "http:") {
     window.location.href = window.location.href.replace(window.location.protocol,"https:");
- }   
+ }
+ 
+ /* Redirect from the old website to the new one */
+ if (window.location.href == "http://www.galenaassembly.org" || window.location.href == "https://www.galenaassembly.org") {
+     window.location.replace("https://www.galenaassembly.com");
+ }
 
 /* Responsive menu function */
 /*function Condense() {
