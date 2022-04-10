@@ -1642,7 +1642,7 @@ body {
 }
 
 @media screen and (min-height: 1px) {
-    @media screen and (max-height: 175px) {
+    @media screen and (max-height: 200px) {
         .hz-modal-map {
             height: 65px;
         }
@@ -1651,8 +1651,8 @@ body {
         
 }
 
-@media screen and (min-height: 176px) {
-    @media screen and (max-height: 350px) {
+@media screen and (min-height: 201px) {
+    @media screen and (max-height: 400px) {
         .hz-modal-map {
             height: 115px;
         }
@@ -1661,8 +1661,8 @@ body {
         
 }
 
-@media screen and (min-height: 351px) {
-    @media screen and (max-height: 425px) {
+@media screen and (min-height: 401px) {
+    @media screen and (max-height: 500px) {
         .hz-modal-map {
             height: 145px;
         }
@@ -1671,8 +1671,8 @@ body {
         
 }
 
-@media screen and (min-height: 426px) {
-    @media screen and (max-height: 500px) {
+@media screen and (min-height: 501px) {
+    @media screen and (max-height: 600px) {
         .hz-modal-map {
             height: 165px;
         }
@@ -1681,8 +1681,8 @@ body {
         
 }
 
-@media screen and (min-height: 501px) {
-    @media screen and (max-height: 575px) {
+@media screen and (min-height: 601px) {
+    @media screen and (max-height: 700px) {
         .hz-modal-map {
             height: 175px;
         }
@@ -1691,8 +1691,8 @@ body {
         
 }
 
-@media screen and (min-height: 576px) {
-    @media screen and (max-height: 650px) {
+@media screen and (min-height: 701px) {
+    @media screen and (max-height: 800px) {
         .hz-modal-map {
             height: 195px;
         }
@@ -1701,8 +1701,8 @@ body {
         
 }
 
-@media screen and (min-height: 651px) {
-    @media screen and (max-height: 725px) {
+@media screen and (min-height: 801px) {
+    @media screen and (max-height: 900px) {
         .hz-modal-map {
             height: 240px;
         }
@@ -1711,8 +1711,8 @@ body {
         
 }
 
-@media screen and (min-height: 726px) {
-    @media screen and (max-height: 800px) {
+@media screen and (min-height: 901px) {
+    @media screen and (max-height: 1000px) {
         .hz-modal-map {
             height: 285px;
         }
@@ -1721,8 +1721,8 @@ body {
         
 }
 
-@media screen and (min-height: 801px) {
-    @media screen and (max-height: 875px) {
+@media screen and (min-height: 1001px) {
+    @media screen and (max-height: 1100px) {
         .hz-modal-map {
             height: 330px;
         }
@@ -1731,8 +1731,8 @@ body {
         
 }
 
-@media screen and (min-height: 876px) {
-    @media screen and (max-height: 950px) {
+@media screen and (min-height: 1101px) {
+    @media screen and (max-height: 1200px) {
         .hz-modal-map {
             height: 375px;
         }
@@ -1741,8 +1741,8 @@ body {
         
 }
 
-@media screen and (min-height: 951px) {
-    @media screen and (max-height: 1025px) {
+@media screen and (min-height: 1201px) {
+    @media screen and (max-height: 1300px) {
         .hz-modal-map {
             height: 415px;
         }
@@ -1751,8 +1751,8 @@ body {
         
 }
 
-@media screen and (min-height: 1026px) {
-    @media screen and (max-height: 1100px) {
+@media screen and (min-height: 1301px) {
+    @media screen and (max-height: 1400px) {
         .hz-modal-map {
             height: 465px;
         }
@@ -2904,6 +2904,42 @@ body {
 @media screen and (min-width: 769px) {
     .believe {
         font-size: 26px;
+    }
+}
+
+/* Connect/ Location settings*/
+.connect {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    /* background-color: var(--NewGWBlue); */
+    /*background: linear-gradient(-45deg, var(--NewGWYellow),var(--NewGWBlue)); */
+    color: var(--MeteorJSPurple);
+    text-shadow: 1px 1px var(--Black);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .connect {
+            font-size: 38px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    @media screen and (max-width: 1000px) {
+        .connect {
+            font-size: 42px;
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .connect {
+        font-size: 44px;
     }
 }
 
