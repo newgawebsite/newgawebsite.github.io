@@ -2921,10 +2921,28 @@ body {
     font-weight: bold;
 }
 
+/* Copyright settings*/
+
+.copyright {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    color: var(--MeteorJSPurple);
+    text-shadow: 1px 1px var(--Black);
+    font-weight: bold;
+
+}
+
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .connect {
-            font-size: 38px;
+            font-size: 48px;
+        }
+
+        .copyright {
+            font-size: 28px;
         }
     }
 }
@@ -2932,14 +2950,22 @@ body {
 @media screen and (min-width: 769px) {
     @media screen and (max-width: 1000px) {
         .connect {
-            font-size: 42px;
+            font-size: 52px;
+        }
+
+        .copyright {
+            font-size: 34px;
         }
     }
 }
 
 @media screen and (min-width: 1001px) {
     .connect {
-        font-size: 44px;
+        font-size: 54px;
+    }
+
+    .copyright {
+        font-size: 38px;
     }
 }
 
