@@ -2813,7 +2813,6 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    font-size: 25px;
 }
 
 @media screen and (max-width: 1000px) {
