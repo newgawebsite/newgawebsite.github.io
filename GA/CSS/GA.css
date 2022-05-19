@@ -436,7 +436,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     font-size: 24px;
 }
 
@@ -515,7 +515,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     font-size: 20px;
 }
 
@@ -544,7 +544,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     font-size: 33px;
 }
 
@@ -893,7 +893,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     font-size: 19px;
 }
 
@@ -1218,7 +1218,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     font-size: 19px;
     border: 2px solid var(--NewGWYellow);
 }
@@ -1293,7 +1293,7 @@ body {
 
   .ministries-img:hover {
     border-radius: 22%;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
   }
 
 
@@ -2512,7 +2512,7 @@ body {
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
     /*border: 2px solid var(--NewKRYellow);
     border-radius: 15px;*/
     }
@@ -2816,7 +2816,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .35s ease-out;
+    transition: all .25s ease-out;
 }
 
 @media screen and (max-width: 1000px) {
