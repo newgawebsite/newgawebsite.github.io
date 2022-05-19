@@ -438,7 +438,7 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 24px;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 .navbar-container {
@@ -518,7 +518,7 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 20px;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 
@@ -548,7 +548,7 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 33px;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 .bottom-navbar-items-fb span {
@@ -898,7 +898,7 @@ body {
     background-repeat: no-repeat;
     transition: all .25s;
     font-size: 19px;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 #myNav {
@@ -1225,7 +1225,7 @@ body {
     transition: all .25s;
     font-size: 19px;
     border: 2px solid var(--NewGWYellow);
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 .horizontal-scroll-img {
@@ -1299,7 +1299,7 @@ body {
   .ministries-img:hover {
     border-radius: 22%;
     transition: all .25s;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
   }
 
 
@@ -2519,7 +2519,7 @@ body {
     background-position: 100%;
     background-repeat: no-repeat;
     transition: all .25s;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
     /*border: 2px solid var(--NewKRYellow);
     border-radius: 15px;*/
     }
@@ -2824,7 +2824,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     transition: all .25s;
-    transition-timing-function: ease-out;
+    transition-timing-function: 0.5s ease-out;
 }
 
 @media screen and (max-width: 1000px) {
