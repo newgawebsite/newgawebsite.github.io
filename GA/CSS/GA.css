@@ -1694,7 +1694,7 @@ body {
 @media screen and (min-height: 1001px) {
     @media screen and (max-height: 1200px) {
         .hz-modal-map {
-            height: 370px;
+            height: 375px;
         }
 
     }
