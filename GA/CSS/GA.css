@@ -436,9 +436,9 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
+    transition: all .35s;
     font-size: 24px;
-    transition-timing-function: 0.5s ease-out;
+    transition-timing-function: ease-out;
 }
 
 .navbar-container {
@@ -516,9 +516,9 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
+    transition: all .35s;
     font-size: 20px;
-    transition-timing-function: 0.5s ease-out;
+    transition-timing-function: ease-out;
 }
 
 
@@ -546,9 +546,9 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
+    transition: all .35s;
     font-size: 33px;
-    transition-timing-function: 0.5s ease-out;
+    transition-timing-function: ease-out;
 }
 
 .bottom-navbar-items-fb span {
@@ -896,9 +896,9 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
+    transition: all .35s;
     font-size: 19px;
-    transition-timing-function: 0.5s ease-out;
+    transition-timing-function: ease-out;
 }
 
 #myNav {
@@ -1222,10 +1222,10 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
+    transition: all .35s;
     font-size: 19px;
     border: 2px solid var(--NewGWYellow);
-    transition-timing-function: 0.5s ease-out;
+    transition-timing-function: ease-out;
 }
 
 .horizontal-scroll-img {
@@ -1298,8 +1298,8 @@ body {
 
   .ministries-img:hover {
     border-radius: 22%;
-    transition: all .25s;
-    transition-timing-function: 0.5s ease-out;
+    transition: all .35s;
+    transition-timing-function: ease-out;
   }
 
 
@@ -2518,8 +2518,8 @@ body {
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
-    transition: all .25s;
-    transition-timing-function: 0.5s ease-out;
+    transition: all .35s;
+    transition-timing-function: ease-out;
     /*border: 2px solid var(--NewKRYellow);
     border-radius: 15px;*/
     }
@@ -2823,8 +2823,8 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .25s;
-    transition-timing-function: 0.5s ease-out;
+    transition: all .35s;
+    transition-timing-function: ease-out;
 }
 
 @media screen and (max-width: 1000px) {
