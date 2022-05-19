@@ -1294,6 +1294,7 @@ body {
   .ministries-img:hover {
     border-radius: 22%;
     transition: all .25s;
+    transition-timing-function: ease-out;
   }
 
 
