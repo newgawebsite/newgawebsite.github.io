@@ -1397,9 +1397,11 @@ body {
         .hz-modal-map {
             width: 80%;
         }
+        /*
         .map-spacing {
             display: block;
-            /*height: 10%;*/
+            height: 10%;
+            */
         }
     }
 }
@@ -1411,8 +1413,10 @@ body {
     .hz-modal-map {
         width: 99.5%;
     }
+    /*
     .map-spacing {
         display: none;
+        */
     }
 }
 
