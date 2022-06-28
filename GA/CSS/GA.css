@@ -3098,7 +3098,7 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .vbs-text {
-            font-size: 35px;
+            font-size: 40px;
         }
     }
 }
@@ -3106,7 +3106,7 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 768px) {
         .vbs-text {
-            font-size: 39px;
+            font-size: 45px;
         }
     }
 }
@@ -3114,7 +3114,7 @@ body {
 @media screen and (min-width: 768px) {
     @media screen and (max-width: 1000px) {
         .vbs-text {
-            font-size: 45px;
+            font-size: 50px;
         }
     }
 }
@@ -3122,14 +3122,14 @@ body {
 @media screen and (min-width: 1000px) {
     @media screen and (max-width: 1300px) {
         .vbs-text {
-            font-size: 51px;
+            font-size: 55px;
         }
     }
 }
 
 @media screen and (min-width: 1300px) {
     .vbs-text {
-        font-size: 58px;
+        font-size: 68px;
     }
 }
 
