@@ -3107,7 +3107,7 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 768px) {
         .vbs-text {
-            font-size: 45px;
+            font-size: 55px;
             text-align: center;
         }
     }
@@ -3116,7 +3116,7 @@ body {
 @media screen and (min-width: 768px) {
     @media screen and (max-width: 1000px) {
         .vbs-text {
-            font-size: 50px;
+            font-size: 60px;
             text-align: right;
         }
     }
@@ -3125,7 +3125,7 @@ body {
 @media screen and (min-width: 1000px) {
     @media screen and (max-width: 1300px) {
         .vbs-text {
-            font-size: 55px;
+            font-size: 65px;
             text-align: right;
         }
     }
@@ -3133,7 +3133,7 @@ body {
 
 @media screen and (min-width: 1300px) {
     .vbs-text {
-        font-size: 98px;
+        font-size: 108px;
         text-align: right;
     }
 }
