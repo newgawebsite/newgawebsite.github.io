@@ -3145,6 +3145,13 @@ body {
     display: inline-block;
 }
 
+.vbs-img-text {
+    margin: 0 auto;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+}
+
 .float-left-img {
     float: left;
     height: auto;
