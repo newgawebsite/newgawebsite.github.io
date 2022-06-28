@@ -3061,7 +3061,7 @@ body {
 
 /* VBS/Float Settings*/
 .page-display-float {
-    margin: 10 auto;
+    margin: 0 auto;
     height: auto;
     text-align: center;
     color: var(--White);
