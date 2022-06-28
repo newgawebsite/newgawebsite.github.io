@@ -45,6 +45,8 @@
     --SilverChalice: #ABABAB;
     --TithelyGreen: #5cd2a4;
     --WestSideFCBlue: #a8dcf3;
+    --VBSRed: #ca1e14;
+    --VBSYellow: #ffd800;
 }
 
 /* Make scroll behavior smooth */
@@ -1402,7 +1404,7 @@ body {
             display: block;
             height: 10%;
             */
-        }
+        
     }
 }
 
@@ -1417,7 +1419,7 @@ body {
     .map-spacing {
         display: none;
         */
-    }
+    
 }
 
 
@@ -3055,4 +3057,61 @@ body {
     text-align: center;
     text-decoration: none;
     box-shadow: var(--bsb);
+}
+
+/* VBS/Float Settings*/
+.page-display-float {
+    margin: 10 auto;
+    height: auto;
+    text-align: center;
+    color: var(--White);
+    text-shadow: var(--bl) 2px 2px 2px;
+    overflow: hidden;
+}
+
+.page-display-container-relative {
+    /*position: relative;*/
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
+
+.float-right-img {
+    float: right;
+    height: auto;
+    overflow: hidden;
+}
+
+.vbs-text {
+    color: var(--VBSRed);
+    text-shadow: 1px 2px var(--VBSYellow);
+    font-weight: bold;
+}
+
+.vbs-img {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.float-left-img {
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+
+.page-display-container {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
 }
