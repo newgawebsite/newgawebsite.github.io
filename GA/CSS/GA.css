@@ -3095,8 +3095,46 @@ body {
     font-weight: bold;
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 600px) {
+        .vbs-text {
+            font-size: 26px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    @media screen and (max-width: 768px) {
+        .vbs-text {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    @media screen and (max-width: 1000px) {
+        .vbs-text {
+            font-size: 36px;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    @media screen and (max-width: 1300px) {
+        .vbs-text {
+            font-size: 42px;
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .vbs-text {
+        font-size: 48px;
+    }
+}
+
 .vbs-img {
-    margin: 0 auto;
+    margin: 10 auto;
     height: auto;
     text-align: center;
     display: inline-block;
