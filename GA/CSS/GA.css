@@ -3059,6 +3059,20 @@ body {
     box-shadow: var(--bsb);
 }
 
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 768px) {
+        .div-spacing {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .div-spacing {
+        display: inline-block;
+    }
+}
+
 /* VBS/Float Settings*/
 .page-display-float {
     margin: 0 auto;
@@ -3101,6 +3115,8 @@ body {
         .vbs-text {
             font-size: 40px;
             text-align: center;
+            display:inline-block;
+            width: 30%;
         }
     }
 }
@@ -3110,6 +3126,8 @@ body {
         .vbs-text {
             font-size: 55px;
             text-align: center;
+            display:inline-block;
+            width: 30%;
         }
     }
 }
@@ -3119,6 +3137,8 @@ body {
         .vbs-text {
             font-size: 60px;
             text-align: right;
+            display:inline-block;
+            width: 51%;
         }
     }
 }
@@ -3128,6 +3148,8 @@ body {
         .vbs-text {
             font-size: 65px;
             text-align: right;
+            display:inline-block;
+            width: 51%;
         }
     }
 }
@@ -3136,6 +3158,8 @@ body {
     .vbs-text {
         font-size: 90px;
         text-align: right;
+        display:inline-block;
+        width: 51%;
     }
 }
 
