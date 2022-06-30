@@ -3124,7 +3124,7 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 768px) {
         .vbs-text {
-            font-size: 48px;
+            font-size: 45px;
             text-align: center;
             display:inline-block;
             width: 30%;
