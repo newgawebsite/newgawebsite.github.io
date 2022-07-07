@@ -3113,10 +3113,10 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 600px) {
         .vbs-text {
-            font-size: 33px;
+            font-size: 30px;
             text-align: center;
             display:inline-block;
-            width: 25%;
+            width: 20%;
         }
     }
 }
@@ -3124,10 +3124,10 @@ body {
 @media screen and (min-width: 600px) {
     @media screen and (max-width: 768px) {
         .vbs-text {
-            font-size: 40px;
+            font-size: 37px;
             text-align: center;
             display:inline-block;
-            width: 30%;
+            width: 23%;
         }
     }
 }
@@ -3135,7 +3135,7 @@ body {
 @media screen and (min-width: 768px) {
     @media screen and (max-width: 868px) {
         .vbs-text {
-            font-size: 51px;
+            font-size: 48px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3146,7 +3146,7 @@ body {
 @media screen and (min-width: 868px) {
     @media screen and (max-width: 968px) {
         .vbs-text {
-            font-size: 55px;
+            font-size: 52px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3157,7 +3157,7 @@ body {
 @media screen and (min-width: 968px) {
     @media screen and (max-width: 1068px) {
         .vbs-text {
-            font-size: 60px;
+            font-size: 57px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3168,7 +3168,7 @@ body {
 @media screen and (min-width: 1068px) {
     @media screen and (max-width: 1168px) {
         .vbs-text {
-            font-size: 65px;
+            font-size: 62px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3179,7 +3179,7 @@ body {
 @media screen and (min-width: 1168px) {
     @media screen and (max-width: 1268px) {
         .vbs-text {
-            font-size: 70px;
+            font-size: 67px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3190,7 +3190,7 @@ body {
 @media screen and (min-width: 1268px) {
     @media screen and (max-width: 1368px) {
         .vbs-text {
-            font-size: 75px;
+            font-size: 72px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3201,7 +3201,7 @@ body {
 @media screen and (min-width: 1368px) {
     @media screen and (max-width: 1500px) {
         .vbs-text {
-            font-size: 80px;
+            font-size: 77px;
             text-align: right;
             display:inline-block;
             width: 51%;
@@ -3211,7 +3211,7 @@ body {
 
 @media screen and (min-width: 1500px) {
     .vbs-text {
-        font-size: 90px;
+        font-size: 87px;
         text-align: right;
         display:inline-block;
         width: 51%;
