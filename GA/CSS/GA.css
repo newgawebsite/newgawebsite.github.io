@@ -1063,6 +1063,137 @@ body {
     }
 }
 
+/* Horizontal Scroll Menu 2 */
+.horizontal-scroll-menu-2 {
+    /*background-color: var(--NewGWBlue);*/
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 650px) {
+    .horizontal-scroll-menu-2 {
+        overflow: hidden;
+        white-space: normal;
+        background-repeat: space;
+        padding: 10px;
+    }
+
+    @media screen and (min-width: 1px) {
+        @media screen and (max-width: 650px) {
+            .horizontal-scroll-menu-2 div {
+                display: block;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 651px) {
+        .horizontal-scroll-menu-2 div {
+            display: inline-block;
+        }
+    }
+
+    .hz-container {
+        width: 69%;
+    }
+
+    .horizontal-scroll-img {
+        width: 69%;
+    }
+
+    .horizontal-scroll-img:hover {
+        width: 71%;
+    }
+
+    
+}
+
+@media screen and (min-width: 1px) {
+    @media screen and (max-width: 400px) {
+        .horizontal-scroll-menu-2 a {
+            font-size: 22px;
+        }
+        .horizontal-scroll-menu-2 a:hover {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 401px) {
+    @media screen and (max-width: 600px) {
+        .horizontal-scroll-menu-2 a {
+            font-size: 24px;
+        }
+        .horizontal-scroll-menu-2 a:hover {
+            font-size: 26px;
+        }
+    }
+}
+
+@media screen and (min-width: 601px) {
+    @media screen and (max-width: 800px) {
+        .horizontal-scroll-menu-2 a {
+            font-size: 26px;
+        }
+        .horizontal-scroll-menu-2 a:hover {
+            font-size: 28px;
+        }
+    }
+}
+
+@media screen and (min-width: 801px) {
+    @media screen and (max-width: 1000px) {
+        .horizontal-scroll-menu-2 a {
+            font-size: 28px;
+        }
+        .horizontal-scroll-menu-2 a:hover {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .horizontal-scroll-menu-2 a {
+        font-size: 30px;
+    }
+    .horizontal-scroll-menu-2 a:hover {
+        font-size: 32px;
+    }
+}
+
+.horizontal-scroll-menu-2 a {
+    font-variant: small-caps;
+    text-align: center;
+    color: var(--White);
+    padding: 10px;
+    text-decoration: underline;
+    background-size: 0% 100%;
+    box-shadow: var(--bsb);
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid var(--White);
+    border-radius: 8px;
+    background-color: var(--MeteorJSPurple);
+    font-weight: bold;
+}
+
+.horizontal-scroll-menu-2 a:hover {
+    background-color: var(--MeteorJSPurple);
+    color: var(--NewGWYellow);
+    /*background-image: linear-gradient(transparent calc(100% - 2px), var(--NewGWYellow) 1px);*/
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .25s;
+    border: 3px solid var(--NewGWYellow);
+    border-radius: 10px;
+  /*  list-style: ; */
+}
+
 /* Horizontal Scroll Menu */
 .horizontal-scroll-menu {
     /*background-color: var(--NewGWBlue);*/
