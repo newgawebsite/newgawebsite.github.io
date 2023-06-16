@@ -3062,14 +3062,14 @@ body {
 @media screen and (min-width: 1px) {
     @media screen and (max-width: 768px) {
         .div-spacing {
-            display: none;
+            display: inline-block;
         }
     }
 }
 
 @media screen and (min-width: 768px) {
     .div-spacing {
-        display: inline-block;
+        display: none;
     }
 }
 
