@@ -1070,7 +1070,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    padding: 5px;
 }
 
 @media screen and (max-width: 650px) {
@@ -1177,6 +1177,7 @@ body {
     border-radius: 8px;
     background-color: var(--MeteorJSPurple);
     font-weight: bold;
+    margin-top: 0;
 }
 
 .horizontal-scroll-menu-2 a:hover {
