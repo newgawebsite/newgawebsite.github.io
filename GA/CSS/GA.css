@@ -1177,8 +1177,6 @@ body {
     border-radius: 8px;
     background-color: var(--MeteorJSPurple);
     font-weight: bold;
-    margin-top: 0;
-    top: 0;
 }
 
 .horizontal-scroll-menu-2 a:hover {
