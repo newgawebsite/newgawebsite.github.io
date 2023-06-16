@@ -1167,7 +1167,7 @@ body {
     font-variant: small-caps;
     text-align: center;
     color: var(--White);
-    padding: 10px;
+    padding: 15px;
     text-decoration: underline;
     background-size: 0% 100%;
     box-shadow: var(--bsb);
@@ -3207,7 +3207,9 @@ body {
 
 /* VBS 2023 Settings */
 .vbs-2023 {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     height:auto;
     text-align: center;
     text-shadow: var(--bl) 2px 2px 2px;
